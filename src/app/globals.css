@@ -1,0 +1,308 @@
+@import "tailwindcss";
+
+/*
+ * White-label IVF design system as Tailwind v4 theme tokens. Components style
+ * themselves with utility classes; this file only holds tokens, keyframes,
+ * element defaults and a few gradient utilities too long to inline.
+ *
+ * Motion follows ivf-website: CSS `animate-rise*` for above-the-fold hero
+ * content (paints before hydration), `motion` for everything scroll-driven.
+ */
+@theme {
+  /*
+   * White-label palette. A hospital supplies two brand colours (hospital.config.ts
+   * -> theme.primary / theme.accent, injected on :root by the root layout); every
+   * other shade below is derived from them with color-mix, so one config edit
+   * re-themes the whole site. Defaults: sapphire blue + warm coral.
+   */
+  --color-*: initial;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-primary: #1d4e89;
+  --color-accent: #d14a32;
+  --color-primary-700: color-mix(in oklab, var(--color-primary) 78%, black);
+  --color-primary-800: color-mix(in oklab, var(--color-primary) 62%, black);
+  --color-primary-900: color-mix(in oklab, var(--color-primary) 44%, black);
+  --color-ink: color-mix(in oklab, var(--color-primary) 26%, black);
+  --color-primary-soft: color-mix(in oklab, var(--color-primary) 80%, #6b7a90);
+  --color-accent-50: color-mix(in oklab, var(--color-accent) 9%, white);
+  --color-accent-100: color-mix(in oklab, var(--color-accent) 18%, white);
+  --color-accent-700: color-mix(in oklab, var(--color-accent) 78%, black);
+  --color-accent-800: color-mix(in oklab, var(--color-accent) 68%, black);
+  --color-accent-ink: color-mix(in oklab, var(--color-accent) 22%, black);
+  --color-accent-900: color-mix(in oklab, var(--color-accent) 40%, black);
+  --color-accent-light: color-mix(in oklab, var(--color-accent) 45%, white);
+  --color-tint-50: color-mix(in oklab, var(--color-primary) 3%, white);
+  --color-tint-100: color-mix(in oklab, var(--color-primary) 6%, white);
+  --color-tint-200: color-mix(in oklab, var(--color-primary) 10%, white);
+  --color-line: color-mix(in oklab, var(--color-primary) 13%, white);
+  --color-line-strong: color-mix(in oklab, var(--color-primary) 19%, white);
+  --color-line-soft: color-mix(in oklab, var(--color-primary) 8%, white);
+  --color-amber-50: #fbf1e4;
+  --color-amber: #8a4b12;
+  --color-star: #e0a526;
+  --color-body: color-mix(in oklab, var(--color-primary) 10%, #111);
+  --color-body-soft: color-mix(in oklab, var(--color-primary) 18%, #4a4f57);
+  --color-label: color-mix(in oklab, var(--color-primary) 14%, #2a2d33);
+  --color-heading: var(--color-primary-900);
+  --color-muted: color-mix(in oklab, var(--color-primary) 14%, #5b6068);
+  --color-on-dark: color-mix(in oklab, var(--color-primary) 12%, white);
+  --color-on-dark-2: color-mix(in oklab, var(--color-primary) 22%, white);
+  --color-on-dark-3: color-mix(in oklab, var(--color-primary) 16%, white);
+  --color-on-dark-muted: color-mix(in oklab, var(--color-primary) 34%, white);
+  --color-on-primary: color-mix(in oklab, var(--color-primary) 12%, white);
+  --color-footer-line: color-mix(in oklab, var(--color-primary) 55%, black);
+  --color-footer-field: color-mix(in oklab, var(--color-primary) 40%, black);
+  --color-footer-field-line: color-mix(in oklab, var(--color-primary) 62%, black);
+  --color-footer-placeholder: color-mix(in oklab, var(--color-primary) 40%, white);
+  --color-whatsapp: #1c8c4e;
+  --color-danger: #c0392b;
+  --color-danger-50: #fdecea;
+  --color-danger-700: #9b2c1f;
+
+  --font-sans: var(--font-figtree), "Nunito Sans", "Segoe UI", system-ui, sans-serif;
+  --font-display: var(--font-fraunces), Georgia, serif;
+
+  /* Design breakpoints (the static design used max-width 720 / 1100 / 1260 / 1500 / 1560). */
+  --breakpoint-*: initial;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 721px;
+  --breakpoint-lg: 1101px;
+  --breakpoint-xl: 1261px;
+  --breakpoint-2xl: 1501px;
+  --breakpoint-3xl: 1561px;
+
+  --container-shell: 1200px;
+  --container-wide: 1480px;
+
+  --radius-sm: 12px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+
+  --shadow-sm: 0 1px 3px color-mix(in srgb, var(--color-primary-900) 8%, transparent), 0 1px 2px color-mix(in srgb, var(--color-primary-900) 5%, transparent);
+  --shadow-md: 0 18px 40px -18px color-mix(in srgb, var(--color-primary-900) 25%, transparent);
+  --shadow-lg: 0 30px 60px -20px color-mix(in srgb, var(--color-primary-900) 35%, transparent);
+  --shadow-primary: 0 12px 24px -8px color-mix(in srgb, var(--color-primary) 45%, transparent);
+  --shadow-accent: 0 12px 24px -8px color-mix(in srgb, var(--color-accent) 55%, transparent);
+  --shadow-float: 0 20px 40px -12px rgb(0 0 0 / 0.45);
+  --shadow-mega: 0 30px 70px -20px color-mix(in srgb, var(--color-primary-900) 30%, transparent);
+  --shadow-header: 0 10px 30px -18px color-mix(in srgb, var(--color-primary-900) 35%, transparent);
+
+  --ease-out-expo: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --animate-marquee: marquee var(--marquee-duration, 38s) linear infinite;
+  --animate-spin-slow: spin 28s linear infinite;
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-pulse-ring: pulse-ring 2.2s ease-out infinite;
+  --animate-rise: rise 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-rise-x: rise-x 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(24px); }
+    to { opacity: 1; transform: none; }
+  }
+  @keyframes rise-x {
+    from { opacity: 0; transform: translateX(var(--rise-x, -24px)); }
+    to { opacity: 1; transform: none; }
+  }
+  @keyframes marquee {
+    to { transform: translateX(-50%); }
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+  }
+  @keyframes pulse-ring {
+    from { transform: scale(0.9); opacity: 1; }
+    to { transform: scale(1.35); opacity: 0; }
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: var(--color-white);
+    color: var(--color-body);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    overflow-x: clip;
+    -webkit-font-smoothing: antialiased;
+  }
+  /* Fraunces at regular weight, as on ivf-website. */
+  h1, h2, h3 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    color: var(--color-heading);
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+  }
+  ::selection {
+    background: var(--color-tint-200);
+    color: var(--color-primary-900);
+  }
+
+  /*
+   * Page scrollbar: primary thumb on a tint track, no arrow buttons. Chrome uses
+   * the ::-webkit rules only while `scrollbar-color` is unset, so the standard
+   * properties are for browsers without ::-webkit-scrollbar (Firefox).
+   */
+  html::-webkit-scrollbar {
+    width: 12px;
+  }
+  html::-webkit-scrollbar-track {
+    background: var(--color-tint-100);
+  }
+  html::-webkit-scrollbar-thumb {
+    border: 3px solid var(--color-tint-100);
+    border-radius: 9999px;
+    background: linear-gradient(var(--color-primary), var(--color-primary-700));
+  }
+  html::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary-700);
+  }
+  html::-webkit-scrollbar-button {
+    display: none;
+  }
+  @supports not selector(::-webkit-scrollbar) {
+    html {
+      scrollbar-color: var(--color-primary) var(--color-tint-100);
+    }
+  }
+}
+
+/*
+ * <RichText> content (descriptions, FAQ answers, notes): paragraphs, bold,
+ * lists and links from the CMS rich-text editor. `.rt-light` is for dark panels.
+ */
+.rt p {
+  margin: 0 0 0.75em;
+}
+.rt p:last-child {
+  margin-bottom: 0;
+}
+.rt ul,
+.rt ol {
+  margin: 0 0 0.75em;
+  padding-left: 1.25em;
+}
+.rt ul {
+  list-style: disc;
+}
+.rt ol {
+  list-style: decimal;
+}
+.rt li + li {
+  margin-top: 0.25em;
+}
+.rt strong,
+.rt b {
+  font-weight: 700;
+}
+.rt blockquote {
+  margin: 0 0 0.75em;
+  padding-left: 1em;
+  border-left: 3px solid var(--color-tint-200);
+  font-style: italic;
+}
+.rt h3,
+.rt h4 {
+  margin: 0 0 0.5em;
+  font-weight: 700;
+  color: var(--color-heading);
+}
+.rt-link {
+  color: var(--color-primary);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.rt-link:hover {
+  color: var(--color-primary-700);
+}
+.rt-light .rt-link,
+.rt-light .rt-link:hover {
+  color: inherit;
+}
+.rt-light h3,
+.rt-light h4 {
+  color: inherit;
+}
+
+/* Layered radial glows behind dark/accent sections. */
+@utility glow-hero {
+  background:
+    radial-gradient(45% 55% at 88% 12%, color-mix(in srgb, var(--color-accent) 28%, transparent), transparent 70%),
+    radial-gradient(40% 50% at 0% 100%, color-mix(in srgb, var(--color-primary) 75%, transparent), transparent 70%),
+    radial-gradient(30% 35% at 45% 30%, color-mix(in srgb, var(--color-accent-light) 7%, transparent), transparent 70%);
+}
+@utility glow-doctor {
+  background:
+    radial-gradient(50% 60% at 0% 0%, color-mix(in srgb, var(--color-primary) 70%, transparent), transparent 70%),
+    radial-gradient(40% 50% at 70% 100%, color-mix(in srgb, var(--color-accent) 22%, transparent), transparent 70%);
+}
+@utility glow-stats {
+  background:
+    radial-gradient(40% 120% at 100% 50%, rgb(255 255 255 / 0.22), transparent 70%),
+    radial-gradient(30% 100% at 0% 0%, color-mix(in srgb, var(--color-accent-700) 50%, transparent), transparent 70%);
+}
+@utility glow-why {
+  background:
+    radial-gradient(35% 45% at 0% 0%, color-mix(in srgb, var(--color-primary) 80%, transparent), transparent 70%),
+    radial-gradient(35% 45% at 100% 100%, color-mix(in srgb, var(--color-accent) 18%, transparent), transparent 70%);
+}
+@utility glow-book {
+  background:
+    radial-gradient(60% 50% at 0% 100%, color-mix(in srgb, var(--color-primary) 90%, transparent), transparent 70%),
+    radial-gradient(50% 40% at 100% 0%, color-mix(in srgb, var(--color-accent) 25%, transparent), transparent 70%);
+}
+@utility glow-footer {
+  background: radial-gradient(40% 60% at 100% 0%, color-mix(in srgb, var(--color-primary) 35%, transparent), transparent 70%);
+}
+
+/* Thin primary scrollbar for scrollable strips and lists (playlist, tab rows). */
+@utility scrollbar-soft {
+  @supports not selector(::-webkit-scrollbar) {
+    scrollbar-width: thin;
+    scrollbar-color: color-mix(in srgb, var(--color-primary) 35%, transparent) transparent;
+  }
+  &::-webkit-scrollbar-button {
+    display: none;
+  }
+  &::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 9999px;
+    background: color-mix(in srgb, var(--color-primary) 35%, transparent);
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: color-mix(in srgb, var(--color-primary) 60%, transparent);
+  }
+}
+
+/* Marquee tracks pause on hover so people can read a review. */
+@utility marquee-pause {
+  &:hover .animate-marquee {
+    animation-play-state: paused;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

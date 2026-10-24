@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 800" role="img" aria-label="Illustration of a doctor">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e3ecf7"/><stop offset="1" stop-color="#c3d6ee"/></linearGradient>
+<linearGradient id="coat" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e8eef6"/></linearGradient>
+</defs>
+<rect width="640" height="800" fill="url(#bg)"/>
+<circle cx="524.8" cy="144.0" r="140.8" fill="#fff" opacity=".35"/>
+<circle cx="64.0" cy="600.0" r="192.0" fill="#fff" opacity=".25"/>
+<path d="M64.0 800 C64.0 496.0 179.20000000000002 416.0 320.0 416.0 C460.79999999999995 416.0 576.0 496.0 576.0 800 Z" fill="url(#coat)"/>
+<path d="M211.2 420.0 L320.0 576.0 L428.8 420.0 L384.0 408.0 L320.0 464.0 L256.0 408.0 Z" fill="#cfdbea"/>
+<path d="M256.0 424.0 L320.0 576.0 L384.0 424.0 L320.0 472.0 Z" fill="#1d4e89"/>
+<path d="M236.8 440.0 C230.39999999999998 592.0 307.2 624.0 320.0 576.0" fill="none" stroke="#33415c" stroke-width="7.68" stroke-linecap="round"/>
+<circle cx="307.2" cy="588.0" r="14.079999999999998" fill="#33415c"/>
+<rect x="294.4" y="348.8" width="51.2" height="80.0" rx="19.2" fill="#e9b999"/>
+<path d="M206.72 310.4 C195.2 118.39999999999998 444.8 118.39999999999998 433.28 339.2 C435.2 425.6 406.4 473.6 387.2 473.6 L252.8 473.6 C233.6 473.6 204.8 406.4 206.72 310.4 Z" fill="#2a1d1a"/>
+<ellipse cx="320.0" cy="296.0" rx="88.32000000000001" ry="105.60000000000001" fill="#f1c9a8"/>
+<path d="M228.8 262.4 C272.0 166.39999999999998 358.4 156.8 411.2 262.4 C368.0 219.2 281.6 224.0 228.8 262.4 Z" fill="#2a1d1a"/>
+<circle cx="285.44" cy="298.88" r="6.720000000000001" fill="#2a1d1a"/>
+<circle cx="354.56" cy="298.88" r="6.720000000000001" fill="#2a1d1a"/>
+<path d="M289.28 341.12 Q320.0 366.08 350.72 341.12" fill="none" stroke="#b5654f" stroke-width="6.720000000000001" stroke-linecap="round"/>
+<rect x="0" y="720.0" width="640" height="80.0" fill="#a9876a"/><rect x="396.8" y="656.0" width="140.8" height="72.0" rx="6" fill="#fff"/>
+</svg>

@@ -1,0 +1,660 @@
+{
+ "header": {
+  "logo": {
+   "id": 500,
+   "filename": "logo.svg",
+   "url": "{{logo}}",
+   "alt": "{{name}}",
+   "mime_type": "image/png",
+   "width": 180,
+   "height": 176
+  },
+  "menu": {
+   "id": 9,
+   "name": "Main Menu",
+   "slug": "main-menu",
+   "items": [
+    {
+     "id": 505,
+     "title": "Home",
+     "url": "",
+     "target": "",
+     "mega": "",
+     "children": []
+    },
+    {
+     "id": 506,
+     "title": "About",
+     "url": "/about",
+     "target": "",
+     "mega": "",
+     "children": []
+    },
+    {
+     "id": 507,
+     "title": "Doctors",
+     "url": "/doctor",
+     "target": "",
+     "mega": "doctors",
+     "children": []
+    },
+    {
+     "id": 508,
+     "title": "Treatments",
+     "url": "#",
+     "target": "",
+     "mega": "treatments",
+     "children": []
+    },
+    {
+     "id": 510,
+     "title": "Success Stories",
+     "url": "/success-stories",
+     "target": "",
+     "mega": "",
+     "children": []
+    },
+    {
+     "id": 511,
+     "title": "Blog",
+     "url": "/blogs",
+     "target": "",
+     "mega": "",
+     "children": []
+    },
+    {
+     "id": 512,
+     "title": "Contact",
+     "url": "/contact-us",
+     "target": "",
+     "mega": "",
+     "children": []
+    }
+   ]
+  },
+  "appointment_text": "Book Appointment",
+  "appointment_link": "#book",
+  "announcement_badge": "NEW",
+  "announcement_text": "Now offering Needle-Free IVF at {{shortName}} —",
+  "announcement_link_text": "ask us how",
+  "announcement_link": "#book",
+  "brand_name": "{{wordmark.line1}}",
+  "brand_tagline": "{{wordmark.line2}}",
+  "phone_label": "Call us",
+  "mega_treatments": {
+   "columns": [
+    {
+     "title": "IVF & ART",
+     "icon": "flask",
+     "links": [
+      {
+       "label": "IVF Treatment",
+       "link": "",
+       "badge": ""
+      },
+      {
+       "label": "ICSI Treatment",
+       "link": "",
+       "badge": ""
+      },
+      {
+       "label": "IUI Treatment",
+       "link": "",
+       "badge": ""
+      },
+      {
+       "label": "Needle-Free IVF",
+       "link": "",
+       "badge": "Popular"
+      },
+      {
+       "label": "Donor Programs",
+       "link": "",
+       "badge": ""
+      }
+     ]
+    },
+    {
+     "title": "Infertility Care",
+     "icon": "heart",
+     "links": [
+      {
+       "label": "Infertility Treatment",
+       "link": "",
+       "badge": ""
+      },
+      {
+       "label": "Female Infertility",
+       "link": "",
+       "badge": ""
+      },
+      {
+       "label": "Male Infertility",
+       "link": "",
+       "badge": ""
+      },
+      {
+       "label": "Fertility Testing",
+       "link": "",
+       "badge": ""
+      }
+     ]
+    },
+    {
+     "title": "Preservation",
+     "icon": "snowflake",
+     "links": [
+      {
+       "label": "Egg Freezing",
+       "link": "",
+       "badge": ""
+      },
+      {
+       "label": "Embryo Freezing",
+       "link": "",
+       "badge": ""
+      },
+      {
+       "label": "Fertility Preservation",
+       "link": "",
+       "badge": ""
+      }
+     ]
+    },
+    {
+     "title": "Gynecology",
+     "icon": "stethoscope",
+     "links": [
+      {
+       "label": "Gynecological Consultation",
+       "link": "",
+       "badge": ""
+      },
+      {
+       "label": "PCOS / PCOD",
+       "link": "",
+       "badge": ""
+      },
+      {
+       "label": "Menstrual Disorders",
+       "link": "",
+       "badge": ""
+      },
+      {
+       "label": "Pregnancy Care",
+       "link": "",
+       "badge": ""
+      },
+      {
+       "label": "High-Risk Pregnancy",
+       "link": "",
+       "badge": ""
+      },
+      {
+       "label": "Women’s Health",
+       "link": "",
+       "badge": ""
+      }
+     ]
+    }
+   ],
+   "promo": {
+    "eyebrow": "Not sure where to start?",
+    "title": "Book a fertility assessment with {{doctor.name}}",
+    "text": "One visit to review your history, tests and the options that fit you.",
+    "button_text": "Book assessment",
+    "button_link": "#book"
+   },
+   "footer_note": "Every plan is personalised after consultation. Results vary from person to person.",
+   "footer_links": [
+    {
+     "label": "View all treatments →",
+     "link_type": "url",
+     "phone": "",
+     "email": "",
+     "link": "#treatments",
+     "href": "#treatments"
+    },
+    {
+     "label": "Call {{phone}}",
+     "link_type": "phone",
+     "phone": "{{phone}}",
+     "email": "",
+     "link": "",
+     "href": "{{phoneHref}}"
+    }
+   ]
+  },
+  "mega_doctors": {
+   "eyebrow": "Lead Specialist",
+   "doctor": {
+    "id": 541,
+    "slug": "{{doctor.slug}}",
+    "path": "/doctors/{{doctor.slug}}",
+    "name": "{{doctor.name}}",
+    "role": "Gynecologist & Fertility Specialist",
+    "qualifications": "{{doctor.qualifications}}",
+    "short_intro": "Known for her calm, reassuring approach, {{doctor.name}} personally guides each couple through diagnosis, treatment and pregnancy. Her focus is simple: the right treatment, explained honestly, delivered gently.",
+    "photo": {
+     "id": 501,
+     "filename": "{{doctor.slug}}.jpg",
+     "url": "{{doctor.photo}}",
+     "alt": "{{doctor.name}}",
+     "mime_type": "image/jpeg",
+     "width": 670,
+     "height": 720
+    }
+   },
+   "chips": [
+    {
+     "text": "IVF / ICSI"
+    },
+    {
+     "text": "PCOS"
+    },
+    {
+     "text": "High-risk pregnancy"
+    }
+   ],
+   "primary_text": "Book with Dr. {{doctor.first}}",
+   "primary_link": "#book",
+   "secondary_text": "Profile",
+   "secondary_link": "#doctor",
+   "checklist_title": "Consult Dr. {{doctor.first}} for",
+   "checklist_links": [
+    {
+     "label": "IVF, ICSI & IUI",
+     "link": ""
+    },
+    {
+     "label": "Recurrent pregnancy loss",
+     "link": ""
+    },
+    {
+     "label": "PCOS / PCOD",
+     "link": ""
+    },
+    {
+     "label": "Menstrual disorders",
+     "link": ""
+    },
+    {
+     "label": "High-risk pregnancy",
+     "link": ""
+    },
+    {
+     "label": "Egg & embryo freezing",
+     "link": ""
+    }
+   ],
+   "team_title": "Our Care Team",
+   "team_members": [
+    {
+     "name": "Embryology Team",
+     "note": "Embryology & IVF laboratory team",
+     "link": ""
+    },
+    {
+     "name": "Andrology & Semen Lab",
+     "note": "Anaesthesia & procedure team",
+     "link": ""
+    },
+    {
+     "name": "Fertility Counsellors",
+     "note": "Emotional & financial guidance",
+     "link": ""
+    }
+   ],
+   "opd_label": "OPD Timings"
+  },
+  "back_link_text": "Back to home page",
+  "back_link": "/"
+ },
+ "footer": {
+  "copyright": "© {{year}} {{name}}, {{city}}",
+  "credit": "",
+  "credit_link": "",
+  "credit_link_text": "",
+  "credit_nofollow": false,
+  "credit_rel": "noopener",
+  "disclaimer": "For awareness only; not a substitute for medical advice. Treatment outcomes vary from person to person.",
+  "legal_links": [
+   {
+    "label": "Privacy Policy",
+    "link": ""
+   },
+   {
+    "label": "Terms",
+    "link": ""
+   }
+  ],
+  "menu_columns": [
+   {
+    "show": true,
+    "heading": "Quick Links",
+    "menu": {
+     "id": 10,
+     "name": "Footer – Quick Links",
+     "slug": "footer-quick-links",
+     "items": [
+      {
+       "id": 513,
+       "title": "About {{shortName}}",
+       "url": "/about",
+       "target": "",
+       "mega": "",
+       "children": []
+      },
+      {
+       "id": 514,
+       "title": "Our Doctors",
+       "url": "/doctors/{{doctor.slug}}",
+       "target": "",
+       "mega": "",
+       "children": []
+      },
+      {
+       "id": 515,
+       "title": "{{doctor.name}}",
+       "url": "/doctors/{{doctor.slug}}",
+       "target": "",
+       "mega": "",
+       "children": []
+      },
+      {
+       "id": 517,
+       "title": "Why Choose Us",
+       "url": "#why-choose-us",
+       "target": "",
+       "mega": "",
+       "children": []
+      },
+      {
+       "id": 518,
+       "title": "Facilities",
+       "url": "#facilities",
+       "target": "",
+       "mega": "",
+       "children": []
+      },
+      {
+       "id": 734,
+       "title": "Gallery",
+       "url": "/gallery",
+       "target": "",
+       "mega": "",
+       "children": []
+      },
+      {
+       "id": 519,
+       "title": "Success Stories",
+       "url": "#success-stories",
+       "target": "",
+       "mega": "",
+       "children": []
+      },
+      {
+       "id": 520,
+       "title": "Health Blog",
+       "url": "/blogs",
+       "target": "",
+       "mega": "",
+       "children": []
+      },
+      {
+       "id": 521,
+       "title": "FAQs",
+       "url": "#faq",
+       "target": "",
+       "mega": "",
+       "children": []
+      },
+      {
+       "id": 522,
+       "title": "Contact Us",
+       "url": "/contact-us",
+       "target": "",
+       "mega": "",
+       "children": []
+      },
+      {
+       "id": 523,
+       "title": "Book an Appointment",
+       "url": "#book",
+       "target": "",
+       "mega": "",
+       "children": []
+      }
+     ]
+    }
+   },
+   {
+    "show": true,
+    "heading": "Treatments",
+    "menu": {
+     "id": 11,
+     "name": "Footer – Treatments",
+     "slug": "footer-treatments",
+     "items": [
+      {
+       "id": 524,
+       "title": "IVF Treatment",
+       "url": "#",
+       "target": "",
+       "mega": "",
+       "children": []
+      },
+      {
+       "id": 525,
+       "title": "IUI Treatment",
+       "url": "#",
+       "target": "",
+       "mega": "",
+       "children": []
+      },
+      {
+       "id": 526,
+       "title": "ICSI Treatment",
+       "url": "#",
+       "target": "",
+       "mega": "",
+       "children": []
+      },
+      {
+       "id": 527,
+       "title": "Infertility Treatment",
+       "url": "#",
+       "target": "",
+       "mega": "",
+       "children": []
+      },
+      {
+       "id": 528,
+       "title": "Male Infertility",
+       "url": "#",
+       "target": "",
+       "mega": "",
+       "children": []
+      },
+      {
+       "id": 529,
+       "title": "Female Infertility",
+       "url": "#",
+       "target": "",
+       "mega": "",
+       "children": []
+      },
+      {
+       "id": 530,
+       "title": "Fertility Testing",
+       "url": "#",
+       "target": "",
+       "mega": "",
+       "children": []
+      },
+      {
+       "id": 531,
+       "title": "Egg Freezing",
+       "url": "#",
+       "target": "",
+       "mega": "",
+       "children": []
+      },
+      {
+       "id": 532,
+       "title": "Embryo Freezing",
+       "url": "#",
+       "target": "",
+       "mega": "",
+       "children": []
+      },
+      {
+       "id": 533,
+       "title": "Donor Programs",
+       "url": "#",
+       "target": "",
+       "mega": "",
+       "children": []
+      },
+      {
+       "id": 534,
+       "title": "Fertility Preservation",
+       "url": "#",
+       "target": "",
+       "mega": "",
+       "children": []
+      }
+     ]
+    }
+   },
+   {
+    "show": true,
+    "heading": "Gynecology",
+    "menu": {
+     "id": 12,
+     "name": "Footer – Gynecology",
+     "slug": "footer-gynecology",
+     "items": [
+      {
+       "id": 535,
+       "title": "Gynecological Consultation",
+       "url": "#",
+       "target": "",
+       "mega": "",
+       "children": []
+      },
+      {
+       "id": 536,
+       "title": "PCOS / PCOD",
+       "url": "#",
+       "target": "",
+       "mega": "",
+       "children": []
+      },
+      {
+       "id": 537,
+       "title": "Menstrual Disorders",
+       "url": "#",
+       "target": "",
+       "mega": "",
+       "children": []
+      },
+      {
+       "id": 538,
+       "title": "Pregnancy Care",
+       "url": "#",
+       "target": "",
+       "mega": "",
+       "children": []
+      },
+      {
+       "id": 539,
+       "title": "High-Risk Pregnancy",
+       "url": "#",
+       "target": "",
+       "mega": "",
+       "children": []
+      },
+      {
+       "id": 540,
+       "title": "Women’s Health",
+       "url": "#",
+       "target": "",
+       "mega": "",
+       "children": []
+      }
+     ]
+    }
+   }
+  ],
+  "newsletter_form": {
+   "id": 504,
+   "title": "Newsletter",
+   "fields": [
+    {
+     "name": "your-email",
+     "type": "email",
+     "required": true,
+     "placeholder": "Your email address",
+     "autocomplete": "email",
+     "label": ""
+    }
+   ],
+   "submit_label": "Subscribe",
+   "submit_url": "/wp-json/contact-form-7/v1/contact-forms/504/feedback",
+   "hidden": {
+    "_wpcf7": 504,
+    "_wpcf7_version": "6.1.7",
+    "_wpcf7_locale": "en_US",
+    "_wpcf7_unit_tag": "wpcf7-f504-p0-o1",
+    "_wpcf7_container_post": 0
+   }
+  },
+  "newsletter_text": "Monthly advice from {{doctor.name}}. No spam.",
+  "newsletter_title": "Fertility tips, in your inbox",
+  "social": [
+   {
+    "icon": false,
+    "label": "Instagram",
+    "link": "{{social.instagram}}"
+   },
+   {
+    "icon": false,
+    "label": "YouTube",
+    "link": "{{social.youtube}}"
+   },
+   {
+    "icon": false,
+    "label": "Facebook",
+    "link": "{{social.facebook}}"
+   }
+  ],
+  "tagline": "IVF, fertility and gynaecology care in {{city}}, led by {{doctor.name}}, Gynecologist & Fertility Specialist."
+ },
+ "seo": {
+  "site_noindex": "{{noindex}}",
+  "public_base": "{{siteUrl}}",
+  "default_share_image": null
+ },
+ "site": {
+  "address": "{{address}}",
+  "email": "{{email}}",
+  "hours": "{{hours}}",
+  "logo": {
+   "id": 500,
+   "filename": "logo.svg",
+   "url": "{{logo}}",
+   "alt": "{{name}}",
+   "mime_type": "image/png",
+   "width": 180,
+   "height": 176
+  },
+  "map_embed_url": "https://www.google.com/maps?q={{mapQuery}}&output=embed",
+  "map_link": "https://www.google.com/maps/search/?api=1&query={{mapSearch}}",
+  "name": "{{name}}",
+  "phone": "{{phone}}",
+  "whatsapp_link": "https://wa.me/{{whatsappNumber}}",
+  "phone_href": "{{phoneHref}}",
+  "email_href": "mailto:{{email}}"
+ }
+}

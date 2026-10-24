@@ -1,0 +1,3040 @@
+[
+ {
+  "id": 952,
+  "modified": "2026-10-05T05:46:20",
+  "slug": "contact-us",
+  "title": {
+   "rendered": "Contact Us"
+  },
+  "acf": {
+   "home_sections": [
+    {
+     "acf_fc_layout": "contact",
+     "badge": "",
+     "title": "We're here *to help*",
+     "description": "Talk to our fertility team about IVF, IUI, PCOS or booking a consultation with {{doctor.name}}. We reply in {{languages}}.",
+     "address_label": "",
+     "phone_label": "Call for appointments",
+     "email_label": "Email us",
+     "hours_label": "",
+     "form_title": "Request a call back",
+     "form_subtitle": "Free, no-obligation call from our team within one working day.",
+     "form": {
+      "id": 932,
+      "title": "Request a Call Back",
+      "fields": [
+       {
+        "name": "your-name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Your name",
+        "autocomplete": "name",
+        "label": "Full name"
+       },
+       {
+        "name": "your-phone",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10-digit mobile",
+        "autocomplete": "tel",
+        "label": "Mobile number"
+       },
+       {
+        "name": "topic",
+        "type": "select",
+        "required": false,
+        "placeholder": "",
+        "autocomplete": "",
+        "options": [
+         "Book a consultation",
+         "Ask about IVF / IUI",
+         "Know treatment cost",
+         "Get a second opinion",
+         "Collect or ask about reports",
+         "Something else"
+        ],
+        "label": "I want to"
+       },
+       {
+        "name": "call-time",
+        "type": "select",
+        "required": false,
+        "placeholder": "",
+        "autocomplete": "",
+        "options": [
+         "Any time",
+         "Morning (9 AM – 12 PM)",
+         "Afternoon (12 – 4 PM)",
+         "Evening (4 – 7 PM)"
+        ],
+        "label": "Preferred time to call"
+       },
+       {
+        "name": "city",
+        "type": "text",
+        "required": false,
+        "placeholder": "e.g. {{city}}, {{nearbyTown}}",
+        "autocomplete": "address-level2",
+        "label": "City / town"
+       },
+       {
+        "name": "your-message",
+        "type": "textarea",
+        "required": false,
+        "placeholder": "Tell us briefly how we can help",
+        "autocomplete": "",
+        "label": "Your message"
+       },
+       {
+        "name": "consent",
+        "type": "acceptance",
+        "required": true,
+        "placeholder": "",
+        "autocomplete": "",
+        "label": "I agree to be contacted by {{hospitalName}} by phone or WhatsApp about my enquiry."
+       }
+      ],
+      "submit_label": "Send enquiry",
+      "submit_url": "/wp-json/contact-form-7/v1/contact-forms/932/feedback",
+      "hidden": {
+       "_wpcf7": 932,
+       "_wpcf7_version": "6.1.7",
+       "_wpcf7_locale": "en_US",
+       "_wpcf7_unit_tag": "wpcf7-f932-p952-o1",
+       "_wpcf7_container_post": 952
+      }
+     },
+     "breadcrumb": "Contact Us",
+     "whatsapp_label": "Chat on WhatsApp",
+     "whatsapp_button_text": "Send on WhatsApp",
+     "form_note": "Your details are kept private and used only to respond to your enquiry."
+    },
+    {
+     "acf_fc_layout": "contact_info",
+     "address_title": "Address",
+     "directions_text": "Get directions",
+     "directions_link": "https://www.google.com/maps/dir/?api=1&destination={{mapDest}}",
+     "hours_title": "Timings",
+     "hours": [
+      {
+       "label": "OPD, Monday – Saturday",
+       "value": "9:00 AM – 7:00 PM"
+      },
+      {
+       "label": "Sunday",
+       "value": "By appointment"
+      },
+      {
+       "label": "Diagnostic centre",
+       "value": "8:00 AM – 8:00 PM"
+      },
+      {
+       "label": "Emergency",
+       "value": "Open 24 hours"
+      }
+     ],
+     "emergency_title": "Emergency, 24 hours",
+     "emergency_text": "For bleeding, severe pain or breathlessness during treatment or pregnancy, call now or come straight to the hospital."
+    },
+    {
+     "acf_fc_layout": "directions",
+     "title": "Get directions to *{{hospitalName}}*",
+     "description": "Choose where you're starting from, and Google Maps will show you the best route.",
+     "routes": [
+      {
+       "title": "From my location",
+       "text": "Uses your phone's GPS",
+       "button_text": "Go",
+       "link": "https://www.google.com/maps/dir/?api=1&destination={{mapDest}}"
+      },
+      {
+       "title": "{{city}} Railway Station",
+       "text": "Open in Google Maps",
+       "button_text": "Route",
+       "link": "https://www.google.com/maps/dir/?api=1&origin={{cityPlus}}+Railway+Station&destination={{mapDest}}"
+      },
+      {
+       "title": "{{city}} bus station",
+       "text": "Open in Google Maps",
+       "button_text": "Route",
+       "link": "https://www.google.com/maps/dir/?api=1&origin={{cityPlus}}+Bus+Station&destination={{mapDest}}"
+      },
+      {
+       "title": "{{city}} airport",
+       "text": "Open in Google Maps",
+       "button_text": "Route",
+       "link": "https://www.google.com/maps/dir/?api=1&origin={{cityPlus}}+Airport&destination={{mapDest}}"
+      },
+      {
+       "title": "From {{nearbyTown}}",
+       "text": "By road",
+       "button_text": "Route",
+       "link": "https://www.google.com/maps/dir/?api=1&origin={{nearbyTownPlus}}&destination={{mapDest}}"
+      },
+      {
+       "title": "From {{nearbyTown2}}",
+       "text": "By road",
+       "button_text": "Route",
+       "link": "https://www.google.com/maps/dir/?api=1&origin={{nearbyTownPlus}}&destination={{mapDest}}"
+      }
+     ],
+     "note": "Landmark: {{landmark}}. Free patient parking is available."
+    },
+    {
+     "acf_fc_layout": "image_text",
+     "image": {
+      "id": 820,
+      "filename": "{{doctor.slug}}-desk.jpg",
+      "url": "{{doctor.photoDesk}}",
+      "alt": "{{doctor.name}}, Senior IVF and Infertility Specialist at {{hospitalName}}",
+      "mime_type": "image/jpeg",
+      "width": 640,
+      "height": 800
+     },
+     "title": "Coming for your *first consultation?*",
+     "description": "{{doctor.name}} recommends both partners attend. Please bring:",
+     "points": [
+      {
+       "text": "Previous fertility reports and scans"
+      },
+      {
+       "text": "Semen analysis report, if done"
+      },
+      {
+       "text": "Current prescriptions and medicines"
+      },
+      {
+       "text": "ID proof for both partners"
+      }
+     ],
+     "primary_text": "Book a Consultation",
+     "primary_link": "#book",
+     "call_text": "Call"
+    },
+    {
+     "acf_fc_layout": "social_links",
+     "title": "Follow {{hospitalName}}",
+     "links": [
+      {
+       "label": "Instagram",
+       "link": "{{social.instagram}}"
+      },
+      {
+       "label": "YouTube",
+       "link": "{{social.youtube}}"
+      },
+      {
+       "label": "Facebook",
+       "link": "{{social.facebook}}"
+      }
+     ]
+    }
+   ]
+  },
+  "yoast_head_json": {
+   "title": "Contact Us | {{hospitalName}} {{city}} | Call, WhatsApp & Directions",
+   "description": "Contact {{hospitalName}}, {{city}}: call or WhatsApp, request a call back, see timings and get directions.",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Contact Us | {{hospitalName}} {{city}} | Call, WhatsApp & Directions",
+   "og_description": "Contact {{hospitalName}}, {{city}}: call or WhatsApp, request a call back, see timings and get directions.",
+   "og_url": "{{siteUrl}}/contact-us",
+   "og_site_name": "IVF API",
+   "article_modified_time": "2026-10-05T05:46:20+00:00",
+   "twitter_card": "summary_large_image"
+  },
+  "schema": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ContactPage",
+     "@id": "{{siteUrl}}/contact-us#webpage",
+     "url": "{{siteUrl}}/contact-us",
+     "name": "Contact Us | {{hospitalName}} {{city}} | Call, WhatsApp & Directions",
+     "description": "Contact {{hospitalName}}, {{city}}: call or WhatsApp, request a call back, see timings and get directions.",
+     "inLanguage": "en-IN",
+     "isPartOf": {
+      "@id": "{{siteUrl}}/#website"
+     },
+     "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "url": "{{doctor.photoDesk}}"
+     },
+     "breadcrumb": {
+      "@id": "{{siteUrl}}/contact-us#breadcrumb"
+     },
+     "about": {
+      "@id": "{{siteUrl}}/#organization"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "{{siteUrl}}/#website",
+     "url": "{{siteUrl}}/",
+     "name": "{{name}}",
+     "publisher": {
+      "@id": "{{siteUrl}}/#organization"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "{{siteUrl}}/contact-us#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "{{siteUrl}}/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Contact Us",
+       "item": "{{siteUrl}}/contact-us"
+      }
+     ]
+    },
+    {
+     "@type": "MedicalClinic",
+     "@id": "{{siteUrl}}/#organization",
+     "name": "{{name}}",
+     "alternateName": "{{legalName}}",
+     "description": "IVF, fertility and gynaecology care in {{city}}, led by {{doctor.name}}, Gynecologist & Fertility Specialist.",
+     "url": "{{siteUrl}}/",
+     "logo": "{{logo}}",
+     "image": "/images/stock/hospital-exterior.jpg",
+     "telephone": "{{phone}}",
+     "medicalSpecialty": "Reproductive medicine",
+     "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{addressShort}}",
+      "addressLocality": "{{city}}",
+      "addressRegion": "{{region}}",
+      "postalCode": "224001",
+      "addressCountry": "IN"
+     },
+     "hasMap": "https://www.google.com/maps/search/?api=1&query={{mapSearch}}",
+     "sameAs": [
+      "{{social.instagram}}",
+      "{{social.youtube}}",
+      "{{social.facebook}}"
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": 951,
+  "modified": "2026-10-05T05:46:20",
+  "slug": "blogs",
+  "title": {
+   "rendered": "Health Blog"
+  },
+  "acf": {
+   "home_sections": [
+    {
+     "acf_fc_layout": "page_hero",
+     "breadcrumb": "Health Blog",
+     "title": "Fertility & Women’s *Health Blog*",
+     "description": "Trusted, easy-to-understand advice on IVF, fertility, PCOS, pregnancy and gynaecology — written and medically reviewed by {{doctor.name}}.",
+     "points": false,
+     "primary_text": "",
+     "primary_link": "",
+     "secondary_text": "",
+     "secondary_link": "",
+     "image": false,
+     "image_title": "",
+     "image_text": "",
+     "badge": "",
+     "stats": false,
+     "more_photos": false,
+     "search_placeholder": "Search e.g. PCOS, IVF, AMH test…",
+     "search_button_text": "Search",
+     "note": "Every article is medically reviewed by {{doctor.name}}, Gynecologist & Fertility Specialist",
+     "note_image": {
+      "id": 501,
+      "filename": "{{doctor.slug}}.jpg",
+      "url": "{{doctor.photo}}",
+      "alt": "{{doctor.name}}",
+      "mime_type": "image/jpeg",
+      "width": 670,
+      "height": 720
+     }
+    },
+    {
+     "acf_fc_layout": "blog_list",
+     "featured_post": {
+      "id": 710,
+      "slug": "needle-free-ivf-how-it-works",
+      "path": "/blog/needle-free-ivf-how-it-works",
+      "title": "Needle-Free IVF: how it works and who it is right for",
+      "date": "2026-09-12T10:00:00+00:00",
+      "excerpt": "Afraid of daily injections? {{doctor.name}} explains gentler IVF protocols, what the process involves, the trade-offs and who may benefit most.",
+      "category": {
+       "id": 7,
+       "name": "IVF",
+       "slug": "ivf"
+      },
+      "image": {
+       "id": 731,
+       "filename": "needle-free-ivf-how-it-works.jpg",
+       "url": "/images/blog/needle-free-ivf-how-it-works.jpg",
+       "alt": "Couple holding ultrasound scan photos",
+       "mime_type": "image/jpeg",
+       "width": 1200,
+       "height": 1600
+      },
+      "doctor": {
+       "id": 541,
+       "name": "{{doctor.name}}",
+       "path": "/doctors/{{doctor.slug}}"
+      },
+      "read_time": "6 min read"
+     },
+     "featured_label": "Featured",
+     "read_article_text": "Read article",
+     "all_text": "All",
+     "read_more_text": "Read more",
+     "doctor": {
+      "id": 541,
+      "slug": "{{doctor.slug}}",
+      "path": "/doctors/{{doctor.slug}}",
+      "name": "{{doctor.name}}",
+      "role": "Gynecologist & Fertility Specialist",
+      "qualifications": "{{doctor.qualifications}}",
+      "short_intro": "Known for her calm, reassuring approach, {{doctor.name}} personally guides each couple through diagnosis, treatment and pregnancy. Her focus is simple: the right treatment, explained honestly, delivered gently.",
+      "photo": {
+       "id": 501,
+       "filename": "{{doctor.slug}}.jpg",
+       "url": "{{doctor.photo}}",
+       "alt": "{{doctor.name}}",
+       "mime_type": "image/jpeg",
+       "width": 670,
+       "height": 720
+      }
+     },
+     "ask_title": "Have a question for Dr. {{doctor.first}}?",
+     "ask_text": "Get personal advice for your situation — in person or on a call.",
+     "ask_primary_text": "Book an Appointment",
+     "ask_primary_link": "#book",
+     "ask_call_text": "Call",
+     "categories_title": "Categories",
+     "most_read_title": "Most read",
+     "most_read": [
+      {
+       "id": 710,
+       "slug": "needle-free-ivf-how-it-works",
+       "path": "/blog/needle-free-ivf-how-it-works",
+       "title": "Needle-Free IVF: how it works and who it is right for",
+       "date": "2026-09-12T10:00:00+00:00",
+       "excerpt": "Afraid of daily injections? {{doctor.name}} explains gentler IVF protocols, what the process involves, the trade-offs and who may benefit most.",
+       "category": {
+        "id": 7,
+        "name": "IVF",
+        "slug": "ivf"
+       },
+       "image": {
+        "id": 731,
+        "filename": "needle-free-ivf-how-it-works.jpg",
+        "url": "/images/blog/needle-free-ivf-how-it-works.jpg",
+        "alt": "Couple holding ultrasound scan photos",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 1600
+       },
+       "doctor": {
+        "id": 541,
+        "name": "{{doctor.name}}",
+        "path": "/doctors/{{doctor.slug}}"
+       },
+       "read_time": "6 min read"
+      },
+      {
+       "id": 711,
+       "slug": "can-you-get-pregnant-with-pcos",
+       "path": "/blog/can-you-get-pregnant-with-pcos",
+       "title": "Can you get pregnant with PCOS? A doctor explains",
+       "date": "2026-08-28T10:00:00+00:00",
+       "excerpt": "PCOS is one of the most common causes of irregular ovulation — and most women with PCOS can conceive with the right care.",
+       "category": {
+        "id": 13,
+        "name": "PCOS",
+        "slug": "pcos"
+       },
+       "image": {
+        "id": 732,
+        "filename": "can-you-get-pregnant-with-pcos.jpg",
+        "url": "/images/blog/can-you-get-pregnant-with-pcos.jpg",
+        "alt": "Couple with hands on a pregnant belly",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 800
+       },
+       "doctor": {
+        "id": 541,
+        "name": "{{doctor.name}}",
+        "path": "/doctors/{{doctor.slug}}"
+       },
+       "read_time": "5 min read"
+      },
+      {
+       "id": 936,
+       "slug": "ivf-vs-iui-which-is-right-for-you",
+       "path": "/blog/ivf-vs-iui-which-is-right-for-you",
+       "title": "IVF vs IUI: which treatment is right for you?",
+       "date": "2026-07-30T10:00:00+00:00",
+       "excerpt": "Both help couples conceive, but they work very differently. Here is how doctors decide which to try first.",
+       "category": {
+        "id": 7,
+        "name": "IVF",
+        "slug": "ivf"
+       },
+       "image": {
+        "id": 937,
+        "filename": "ivf-vs-iui-which-is-right-for-you.jpg",
+        "url": "/images/blog/ivf-vs-iui-which-is-right-for-you.jpg",
+        "alt": "Doctor consulting a patient at his desk",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 675
+       },
+       "doctor": {
+        "id": 541,
+        "name": "{{doctor.name}}",
+        "path": "/doctors/{{doctor.slug}}"
+       },
+       "read_time": "5 min read"
+      },
+      {
+       "id": 940,
+       "slug": "amh-test-explained",
+       "path": "/blog/amh-test-explained",
+       "title": "AMH test explained: what your ovarian reserve means",
+       "date": "2026-07-02T10:00:00+00:00",
+       "excerpt": "A simple blood test that estimates egg reserve — and why a low number is not the end of the road.",
+       "category": {
+        "id": 16,
+        "name": "Fertility Tests",
+        "slug": "fertility-tests"
+       },
+       "image": {
+        "id": 941,
+        "filename": "amh-test-explained.jpg",
+        "url": "/images/blog/amh-test-explained.jpg",
+        "alt": "Gloved hand holding a blood sample tube",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 800
+       },
+       "doctor": {
+        "id": 541,
+        "name": "{{doctor.name}}",
+        "path": "/doctors/{{doctor.slug}}"
+       },
+       "read_time": "4 min read"
+      }
+     ],
+     "newsletter_title": "Fertility tips in your inbox",
+     "newsletter_text": "One helpful email a month. No spam.",
+     "topics_title": "Popular topics",
+     "topics": [
+      {
+       "label": "#IVF",
+       "search": "IVF"
+      },
+      {
+       "label": "#PCOS",
+       "search": "PCOS"
+      },
+      {
+       "label": "#AMH",
+       "search": "AMH"
+      },
+      {
+       "label": "#IUI",
+       "search": "IUI"
+      },
+      {
+       "label": "#Egg Freezing",
+       "search": "Egg Freezing"
+      },
+      {
+       "label": "#Male Infertility",
+       "search": "Male Infertility"
+      },
+      {
+       "label": "#Pregnancy",
+       "search": "Pregnancy"
+      },
+      {
+       "label": "#Endometriosis",
+       "search": "Endometriosis"
+      },
+      {
+       "label": "#Fertility Diet",
+       "search": "Fertility Diet"
+      },
+      {
+       "label": "#Needle-Free IVF",
+       "search": "Needle-Free IVF"
+      }
+     ],
+     "posts": [
+      {
+       "id": 711,
+       "slug": "can-you-get-pregnant-with-pcos",
+       "path": "/blog/can-you-get-pregnant-with-pcos",
+       "title": "Can you get pregnant with PCOS? A doctor explains",
+       "date": "2026-08-28T10:00:00+00:00",
+       "excerpt": "PCOS is one of the most common causes of irregular ovulation — and most women with PCOS can conceive with the right care.",
+       "category": {
+        "id": 13,
+        "name": "PCOS",
+        "slug": "pcos"
+       },
+       "image": {
+        "id": 732,
+        "filename": "can-you-get-pregnant-with-pcos.jpg",
+        "url": "/images/blog/can-you-get-pregnant-with-pcos.jpg",
+        "alt": "Couple with hands on a pregnant belly",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 800
+       },
+       "doctor": {
+        "id": 541,
+        "name": "{{doctor.name}}",
+        "path": "/doctors/{{doctor.slug}}"
+       },
+       "read_time": "5 min read"
+      },
+      {
+       "id": 712,
+       "slug": "low-sperm-count-causes-tests-treatment",
+       "path": "/blog/low-sperm-count-causes-tests-treatment",
+       "title": "Low sperm count: causes, tests and treatment",
+       "date": "2026-08-14T10:00:00+00:00",
+       "excerpt": "Male factors contribute to many cases of infertility. Learn what a semen analysis shows and the options available.",
+       "category": {
+        "id": 14,
+        "name": "Male Fertility",
+        "slug": "male-fertility"
+       },
+       "image": {
+        "id": 733,
+        "filename": "low-sperm-count-causes-tests-treatment.jpg",
+        "url": "/images/blog/low-sperm-count-causes-tests-treatment.jpg",
+        "alt": "Doctor discussing test results with a male patient",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 675
+       },
+       "doctor": {
+        "id": 541,
+        "name": "{{doctor.name}}",
+        "path": "/doctors/{{doctor.slug}}"
+       },
+       "read_time": "4 min read"
+      },
+      {
+       "id": 936,
+       "slug": "ivf-vs-iui-which-is-right-for-you",
+       "path": "/blog/ivf-vs-iui-which-is-right-for-you",
+       "title": "IVF vs IUI: which treatment is right for you?",
+       "date": "2026-07-30T10:00:00+00:00",
+       "excerpt": "Both help couples conceive, but they work very differently. Here is how doctors decide which to try first.",
+       "category": {
+        "id": 7,
+        "name": "IVF",
+        "slug": "ivf"
+       },
+       "image": {
+        "id": 937,
+        "filename": "ivf-vs-iui-which-is-right-for-you.jpg",
+        "url": "/images/blog/ivf-vs-iui-which-is-right-for-you.jpg",
+        "alt": "Doctor consulting a patient at his desk",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 675
+       },
+       "doctor": {
+        "id": 541,
+        "name": "{{doctor.name}}",
+        "path": "/doctors/{{doctor.slug}}"
+       },
+       "read_time": "5 min read"
+      },
+      {
+       "id": 938,
+       "slug": "egg-freezing-right-age",
+       "path": "/blog/egg-freezing-right-age",
+       "title": "Egg freezing: the right age and what to expect",
+       "date": "2026-07-16T10:00:00+00:00",
+       "excerpt": "Thinking of preserving your fertility? What the process involves, how long eggs last and when to start.",
+       "category": {
+        "id": 15,
+        "name": "Egg Freezing",
+        "slug": "egg-freezing"
+       },
+       "image": {
+        "id": 939,
+        "filename": "egg-freezing-right-age.jpg",
+        "url": "/images/blog/egg-freezing-right-age.jpg",
+        "alt": "Pipette filling sample tubes in a laboratory",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 800
+       },
+       "doctor": {
+        "id": 541,
+        "name": "{{doctor.name}}",
+        "path": "/doctors/{{doctor.slug}}"
+       },
+       "read_time": "6 min read"
+      },
+      {
+       "id": 940,
+       "slug": "amh-test-explained",
+       "path": "/blog/amh-test-explained",
+       "title": "AMH test explained: what your ovarian reserve means",
+       "date": "2026-07-02T10:00:00+00:00",
+       "excerpt": "A simple blood test that estimates egg reserve — and why a low number is not the end of the road.",
+       "category": {
+        "id": 16,
+        "name": "Fertility Tests",
+        "slug": "fertility-tests"
+       },
+       "image": {
+        "id": 941,
+        "filename": "amh-test-explained.jpg",
+        "url": "/images/blog/amh-test-explained.jpg",
+        "alt": "Gloved hand holding a blood sample tube",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 800
+       },
+       "doctor": {
+        "id": 541,
+        "name": "{{doctor.name}}",
+        "path": "/doctors/{{doctor.slug}}"
+       },
+       "read_time": "4 min read"
+      },
+      {
+       "id": 942,
+       "slug": "first-trimester-care",
+       "path": "/blog/first-trimester-care",
+       "title": "First trimester care: what to do and what to avoid",
+       "date": "2026-06-18T10:00:00+00:00",
+       "excerpt": "Scans, supplements, diet and warning signs — a practical guide to the first 12 weeks of pregnancy.",
+       "category": {
+        "id": 17,
+        "name": "Pregnancy",
+        "slug": "pregnancy"
+       },
+       "image": {
+        "id": 943,
+        "filename": "first-trimester-care.jpg",
+        "url": "/images/blog/first-trimester-care.jpg",
+        "alt": "Pregnant woman holding ultrasound photos",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 1800
+       },
+       "doctor": {
+        "id": 541,
+        "name": "{{doctor.name}}",
+        "path": "/doctors/{{doctor.slug}}"
+       },
+       "read_time": "7 min read"
+      },
+      {
+       "id": 944,
+       "slug": "irregular-periods-when-to-see-a-gynecologist",
+       "path": "/blog/irregular-periods-when-to-see-a-gynecologist",
+       "title": "Irregular periods: when should you see a gynecologist?",
+       "date": "2026-06-04T10:00:00+00:00",
+       "excerpt": "Occasional changes are common, but some patterns need a check-up. Here is when to book a visit.",
+       "category": {
+        "id": 18,
+        "name": "Women’s Health",
+        "slug": "womens-health"
+       },
+       "image": {
+        "id": 945,
+        "filename": "irregular-periods-when-to-see-a-gynecologist.jpg",
+        "url": "/images/blog/irregular-periods-when-to-see-a-gynecologist.jpg",
+        "alt": "Two people holding hands across a table for comfort",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 1800
+       },
+       "doctor": {
+        "id": 541,
+        "name": "{{doctor.name}}",
+        "path": "/doctors/{{doctor.slug}}"
+       },
+       "read_time": "4 min read"
+      },
+      {
+       "id": 946,
+       "slug": "diet-and-lifestyle-for-fertility",
+       "path": "/blog/diet-and-lifestyle-for-fertility",
+       "title": "Diet and lifestyle changes that support fertility",
+       "date": "2026-05-21T10:00:00+00:00",
+       "excerpt": "Weight, sleep, stress and nutrition all play a role. Small, practical changes for both partners.",
+       "category": {
+        "id": 19,
+        "name": "Fertility Tips",
+        "slug": "fertility-tips"
+       },
+       "image": {
+        "id": 947,
+        "filename": "diet-and-lifestyle-for-fertility.jpg",
+        "url": "/images/blog/diet-and-lifestyle-for-fertility.jpg",
+        "alt": "Bowl of fresh vegetable salad",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 800
+       },
+       "doctor": {
+        "id": 541,
+        "name": "{{doctor.name}}",
+        "path": "/doctors/{{doctor.slug}}"
+       },
+       "read_time": "5 min read"
+      },
+      {
+       "id": 948,
+       "slug": "high-risk-pregnancy-signs-causes-care",
+       "path": "/blog/high-risk-pregnancy-signs-causes-care",
+       "title": "High-risk pregnancy: signs, causes and care",
+       "date": "2026-05-07T10:00:00+00:00",
+       "excerpt": "Age, diabetes, blood pressure or IVF conception can raise risk. How close monitoring keeps mother and baby safe.",
+       "category": {
+        "id": 17,
+        "name": "Pregnancy",
+        "slug": "pregnancy"
+       },
+       "image": {
+        "id": 949,
+        "filename": "high-risk-pregnancy-signs-causes-care.jpg",
+        "url": "/images/blog/high-risk-pregnancy-signs-causes-care.jpg",
+        "alt": "Silhouette of a pregnant woman",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 1396
+       },
+       "doctor": {
+        "id": 541,
+        "name": "{{doctor.name}}",
+        "path": "/doctors/{{doctor.slug}}"
+       },
+       "read_time": "6 min read"
+      }
+     ],
+     "categories": [
+      {
+       "id": 7,
+       "name": "IVF",
+       "slug": "ivf",
+       "count": 2
+      },
+      {
+       "id": 13,
+       "name": "PCOS",
+       "slug": "pcos",
+       "count": 1
+      },
+      {
+       "id": 14,
+       "name": "Male Fertility",
+       "slug": "male-fertility",
+       "count": 1
+      },
+      {
+       "id": 15,
+       "name": "Egg Freezing",
+       "slug": "egg-freezing",
+       "count": 1
+      },
+      {
+       "id": 16,
+       "name": "Fertility Tests",
+       "slug": "fertility-tests",
+       "count": 1
+      },
+      {
+       "id": 17,
+       "name": "Pregnancy",
+       "slug": "pregnancy",
+       "count": 2
+      },
+      {
+       "id": 18,
+       "name": "Women’s Health",
+       "slug": "womens-health",
+       "count": 1
+      },
+      {
+       "id": 19,
+       "name": "Fertility Tips",
+       "slug": "fertility-tips",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "acf_fc_layout": "cta",
+     "title": "Reading is a great start. *Talking to a specialist is better.*",
+     "description": "Book a private consultation with {{doctor.name}} at {{name}}, {{city}}.",
+     "primary_text": "Book Appointment",
+     "primary_link": "#book",
+     "call_text": "",
+     "whatsapp_text": "WhatsApp us"
+    }
+   ]
+  },
+  "yoast_head_json": {
+   "title": "Fertility & Women’s Health Blog | {{name}}, {{city}}",
+   "description": "Expert articles on IVF, IUI, PCOS, male infertility, egg freezing, pregnancy and gynaecology by {{doctor.name}}, {{name}}, {{city}}.",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Fertility & Women’s Health Blog | {{name}}, {{city}}",
+   "og_description": "Expert articles on IVF, IUI, PCOS, male infertility, egg freezing, pregnancy and gynaecology by {{doctor.name}}, {{name}}, {{city}}.",
+   "og_url": "{{siteUrl}}/blogs",
+   "og_site_name": "IVF API",
+   "article_modified_time": "2026-10-05T05:46:20+00:00",
+   "twitter_card": "summary_large_image"
+  },
+  "schema": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "CollectionPage",
+     "@id": "{{siteUrl}}/blogs#webpage",
+     "url": "{{siteUrl}}/blogs",
+     "name": "Fertility & Women’s Health Blog | {{name}}, {{city}}",
+     "description": "Expert articles on IVF, IUI, PCOS, male infertility, egg freezing, pregnancy and gynaecology by {{doctor.name}}, {{name}}, {{city}}.",
+     "inLanguage": "en-IN",
+     "isPartOf": {
+      "@id": "{{siteUrl}}/#website"
+     },
+     "breadcrumb": {
+      "@id": "{{siteUrl}}/blogs#breadcrumb"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "{{siteUrl}}/#website",
+     "url": "{{siteUrl}}/",
+     "name": "{{name}}"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "{{siteUrl}}/blogs#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "{{siteUrl}}/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Health Blog",
+       "item": "{{siteUrl}}/blogs"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": 950,
+  "modified": "2026-10-05T05:31:59",
+  "slug": "success-stories",
+  "title": {
+   "rendered": "Success Stories"
+  },
+  "acf": {
+   "home_sections": [
+    {
+     "acf_fc_layout": "page_hero",
+     "breadcrumb": "Gallery",
+     "title": "A look inside *{{name}}*",
+     "description": "See where your care happens — our hospital, IVF laboratory and team — and hear from {{doctor.name}} and the families we have helped.",
+     "points": false,
+     "primary_text": "View photos",
+     "primary_link": "#photos",
+     "secondary_text": "Watch videos",
+     "secondary_link": "#videos",
+     "image": {
+      "id": 725,
+      "filename": "reception-welcome.jpg",
+      "url": "/images/about/reception-lounge.svg",
+      "alt": "Reception and waiting lounge at {{name}}",
+      "mime_type": "image/jpeg",
+      "width": 1400,
+      "height": 1050
+     },
+     "image_title": "Led by {{doctor.name}}",
+     "image_text": "",
+     "badge": "Photo & Video Gallery",
+     "stats": [
+      {
+       "value": "10+",
+       "label": "Years experience"
+      },
+      {
+       "value": "1000+",
+       "label": "Families treated"
+      },
+      {
+       "value": "4.9★",
+       "label": "Google rating"
+      }
+     ],
+     "more_photos": [
+      {
+       "id": 820,
+       "filename": "{{doctor.slug}}-desk.jpg",
+       "url": "{{doctor.photoDesk}}",
+       "alt": "{{doctor.name}}, Senior IVF and Infertility Specialist at {{hospitalName}}",
+       "mime_type": "image/jpeg",
+       "width": 640,
+       "height": 800
+      },
+      {
+       "id": 501,
+       "filename": "{{doctor.slug}}.jpg",
+       "url": "{{doctor.photo}}",
+       "alt": "{{doctor.name}}",
+       "mime_type": "image/jpeg",
+       "width": 670,
+       "height": 720
+      }
+     ],
+     "search_placeholder": "",
+     "search_button_text": "",
+     "note": "",
+     "note_image": false
+    },
+    {
+     "acf_fc_layout": "gallery",
+     "photos_tab_text": "Photos",
+     "photos_hint": "Tap any photo to view it full-screen",
+     "all_photos_text": "All photos",
+     "albums": [
+      {
+       "name": "Hospital",
+       "photos": [
+        {
+         "image": {
+          "id": 725,
+          "filename": "reception-welcome.jpg",
+          "url": "/images/about/reception-lounge.svg",
+          "alt": "Reception and waiting lounge at {{name}}",
+          "mime_type": "image/jpeg",
+          "width": 1400,
+          "height": 1050
+         },
+         "title": "Reception & waiting lounge",
+         "note": "{{addressShort}}",
+         "tag": "Hospital"
+        }
+       ]
+      },
+      {
+       "name": "Our Doctor",
+       "photos": [
+        {
+         "image": {
+          "id": 820,
+          "filename": "{{doctor.slug}}-desk.jpg",
+          "url": "{{doctor.photoDesk}}",
+          "alt": "{{doctor.name}}, Senior IVF and Infertility Specialist at {{hospitalName}}",
+          "mime_type": "image/jpeg",
+          "width": 640,
+          "height": 800
+         },
+         "title": "{{doctor.name}}",
+         "note": "Gynecologist & Fertility Specialist",
+         "tag": "Doctor"
+        },
+        {
+         "image": {
+          "id": 501,
+          "filename": "{{doctor.slug}}.jpg",
+          "url": "{{doctor.photo}}",
+          "alt": "{{doctor.name}}",
+          "mime_type": "image/jpeg",
+          "width": 670,
+          "height": 720
+         },
+         "title": "Consultation with {{doctor.name}}",
+         "note": "Unhurried, one-to-one consultations",
+         "tag": "Doctor"
+        }
+       ]
+      },
+      {
+       "name": "Awards",
+       "photos": [
+        {
+         "image": {
+          "id": 828,
+          "filename": "certificate-diploma.jpg",
+          "url": "/images/stock/certificate-diploma.jpg",
+          "alt": "Annual conference certificate",
+          "mime_type": "image/jpeg",
+          "width": 490,
+          "height": 415
+         },
+         "title": "Annual conference certificate",
+         "note": "Awarded to {{doctor.name}}",
+         "tag": "Awards"
+        }
+       ]
+      }
+     ],
+     "visit_title": "See it for yourself",
+     "visit_text": "Visit us at {{addressShort}} — our team will happily show you around.",
+     "visit_directions_text": "Get directions",
+     "visit_button_text": "Book a visit",
+     "visit_button_link": "#book",
+     "videos_tab_text": "Videos",
+     "playlist_text": "Playlist",
+     "all_videos_text": "All",
+     "video_groups": [],
+     "videos_credit": "",
+     "channel_text": "More videos on YouTube",
+     "channel_link": "{{social.youtube}}"
+    },
+    {
+     "acf_fc_layout": "highlights",
+     "items": [
+      {
+       "icon": "lock",
+       "title": "Privacy first",
+       "text": "Patient photos and videos are shared only with written consent."
+      },
+      {
+       "icon": "heart",
+       "title": "Real people, real care",
+       "text": "Every image is from our own hospital and team. Results vary from person to person."
+      },
+      {
+       "icon": "star",
+       "title": "Rated 4.9 on Google",
+       "text": "By patients from {{city}}, {{city}} and nearby districts."
+      }
+     ]
+    },
+    {
+     "acf_fc_layout": "cta",
+     "title": "Like what you see? *Come and meet us.*",
+     "description": "Book a consultation with {{doctor.name}} at {{name}}, {{city}}.",
+     "primary_text": "Book Appointment",
+     "primary_link": "#book",
+     "call_text": "Call",
+     "whatsapp_text": ""
+    }
+   ]
+  },
+  "yoast_head_json": {
+   "title": "Photo & Video Gallery | {{name}}, {{city}}",
+   "description": "See inside {{name}}, {{city}} – hospital, IVF & embryology lab, facilities, care team and events. Watch interviews with {{doctor.name}} and news coverage of the hospital.",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Photo & Video Gallery | {{name}}, {{city}}",
+   "og_description": "See inside {{name}}, {{city}} – hospital, IVF & embryology lab, facilities, care team and events. Watch interviews with {{doctor.name}} and news coverage of the hospital.",
+   "og_url": "{{siteUrl}}/gallery",
+   "og_site_name": "IVF API",
+   "twitter_card": "summary_large_image"
+  },
+  "schema": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "CollectionPage",
+     "@id": "{{siteUrl}}/success-stories#webpage",
+     "url": "{{siteUrl}}/success-stories",
+     "name": "Photo & Video Gallery | {{name}}, {{city}}",
+     "description": "See inside {{name}}, {{city}} – hospital, IVF & embryology lab, facilities, care team and events. Watch interviews with {{doctor.name}} and news coverage of the hospital.",
+     "inLanguage": "en-IN",
+     "isPartOf": {
+      "@id": "{{siteUrl}}/#website"
+     },
+     "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "url": "/images/about/reception-lounge.svg"
+     },
+     "breadcrumb": {
+      "@id": "{{siteUrl}}/success-stories#breadcrumb"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "{{siteUrl}}/#website",
+     "url": "{{siteUrl}}/",
+     "name": "{{name}}"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "{{siteUrl}}/success-stories#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "{{siteUrl}}/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Gallery",
+       "item": "{{siteUrl}}/success-stories"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": 833,
+  "modified": "2026-10-05T06:37:09",
+  "slug": "about",
+  "title": {
+   "rendered": "About Us"
+  },
+  "acf": {
+   "home_sections": [
+    {
+     "acf_fc_layout": "page_hero",
+     "breadcrumb": "About Us",
+     "title": "About *{{hospitalName}}*",
+     "description": "We are a fertility and women's health hospital in {{city}}. For over a decade, we have helped families from {{city}} and nearby districts become parents with honest advice, specialist care and a team that treats every patient like family.",
+     "points": [
+      {
+       "text": "IVF, ICSI, IUI and women's health under one roof"
+      },
+      {
+       "text": "Led by Senior IVF & Infertility Specialist {{doctor.name}}"
+      },
+      {
+       "text": "In-house diagnostic centre for scans and tests"
+      }
+     ],
+     "primary_text": "Book a Consultation",
+     "primary_link": "#book",
+     "secondary_text": "Meet our doctor",
+     "secondary_link": "/doctors/{{doctor.slug}}",
+     "image": {
+      "id": 725,
+      "filename": "reception-welcome.jpg",
+      "url": "/images/about/reception-lounge.svg",
+      "alt": "Reception and waiting lounge at {{name}}",
+      "mime_type": "image/jpeg",
+      "width": 1400,
+      "height": 1050
+     },
+     "image_title": "You trust, we care",
+     "image_text": "{{addressShort}}",
+     "badge": "",
+     "stats": false,
+     "more_photos": false,
+     "search_placeholder": "",
+     "search_button_text": "",
+     "note": "",
+     "note_image": false
+    },
+    {
+     "acf_fc_layout": "stats",
+     "items": [
+      {
+       "value": "15,000+",
+       "label": "families helped"
+      },
+      {
+       "value": "10+ years",
+       "label": "of trusted, ethical care"
+      },
+      {
+       "value": "5+ years",
+       "label": "of IVF expertise, {{doctor.name}}"
+      },
+      {
+       "value": "24×7",
+       "label": "hospital support"
+      }
+     ]
+    },
+    {
+     "acf_fc_layout": "story",
+     "title": "Who we are",
+     "lead": "We started with one belief: families in {{city}} should not have to travel to a big city to get good fertility care.",
+     "text": "{{legalName}} was founded in {{city}} in {{foundedYear}} to bring specialist fertility, pregnancy and women's health care close to home. Today, couples come to us from across {{region}} for IVF, ICSI, IUI and PCOS treatment.\r\n\r\nConsultations, ultrasound and lab tests, the fertility laboratory and pregnancy care are all in one building. That means fewer trips, faster answers and one team that knows your whole story.\r\n\r\nWe take time to explain, tell you honestly what your chances are, and never recommend treatment you don't need.",
+     "video_url": "",
+     "video_length": "",
+     "video_title": "",
+     "video_text": "",
+     "video_points": [],
+     "video_button_text": ""
+    },
+    {
+     "acf_fc_layout": "values",
+     "title": "Our mission, vision and values",
+     "description": "The principles that guide every consultation, test and treatment at {{shortName}}.",
+     "cards": [
+      {
+       "title": "Our mission",
+       "text": "To provide ethical, affordable and specialist fertility and women's health care in {{city}}, with honesty and compassion at every step."
+      },
+      {
+       "title": "Our vision",
+       "text": "To be the most trusted fertility hospital in {{region}}, where every family feels heard, informed and cared for."
+      }
+     ],
+     "values": [
+      {
+       "title": "Compassion",
+       "text": "We listen first and treat you with warmth and patience."
+      },
+      {
+       "title": "Honesty",
+       "text": "Clear facts about your chances, options and costs."
+      },
+      {
+       "title": "Ethics",
+       "text": "Only the treatment you need, as per medical guidelines."
+      },
+      {
+       "title": "Privacy",
+       "text": "Your reports and your story stay confidential."
+      },
+      {
+       "title": "Excellence",
+       "text": "Careful, up-to-date medical and laboratory practice."
+      }
+     ]
+    },
+    {
+     "acf_fc_layout": "doctor_profile",
+     "doctor": {
+      "id": 541,
+      "slug": "{{doctor.slug}}",
+      "path": "/doctors/{{doctor.slug}}",
+      "name": "{{doctor.name}}",
+      "role": "Gynecologist & Fertility Specialist",
+      "qualifications": "{{doctor.qualifications}}",
+      "short_intro": "Known for her calm, reassuring approach, {{doctor.name}} personally guides each couple through diagnosis, treatment and pregnancy. Her focus is simple: the right treatment, explained honestly, delivered gently.",
+      "photo": {
+       "id": 501,
+       "filename": "{{doctor.slug}}.jpg",
+       "url": "{{doctor.photo}}",
+       "alt": "{{doctor.name}}",
+       "mime_type": "image/jpeg",
+       "width": 670,
+       "height": 720
+      }
+     },
+     "photo": {
+      "id": 820,
+      "filename": "{{doctor.slug}}-desk.jpg",
+      "url": "{{doctor.photoDesk}}",
+      "alt": "{{doctor.name}}, Senior IVF and Infertility Specialist at {{hospitalName}}",
+      "mime_type": "image/jpeg",
+      "width": 640,
+      "height": 800
+     },
+     "role": "Senior IVF & Infertility Specialist",
+     "description": "{{doctor.name}} leads fertility care at {{hospitalName}}. Patients describe her as positive and encouraging, a doctor who explains every report in simple language and helps couples make confident decisions.",
+     "message": "Every couple who walks in carries a story and a hope. My promise is simple: I will listen, explain every step in plain language, and recommend only what you truly need.",
+     "facts": [
+      {
+       "label": "Qualifications",
+       "value": "MBBS, MS (Obs & Gynae)"
+      },
+      {
+       "label": "Experience",
+       "value": "5+ years in IVF & infertility"
+      }
+     ],
+     "button_text": "Book Consultation with {{doctor.name}}",
+     "button_link": "#book"
+    },
+    {
+     "acf_fc_layout": "medical_team",
+     "title": "Our medical team",
+     "description": "{{doctor.name}} is supported by specialists who look after you at every stage of treatment, from the laboratory to the procedure room.",
+     "members": [
+      {
+       "photo": {
+        "id": 821,
+        "filename": "team-embryologist.jpg",
+        "url": "/images/stock/team-embryologist.jpg",
+        "alt": "Clinical Embryologist (representative image)",
+        "mime_type": "image/jpeg",
+        "width": 1000,
+        "height": 667
+       },
+       "representative": true,
+       "role": "Clinical Embryologist",
+       "name": "{{team.embryologist}}",
+       "qualifications": "MSc, Clinical Embryology",
+       "description": "Handles eggs, sperm and embryos in our IVF laboratory: fertilisation, ICSI, embryo culture and freezing.",
+       "facts": [
+        {
+         "label": "Experience",
+         "value": "8+ years"
+        },
+        {
+         "label": "Focus",
+         "value": "IVF lab, ICSI, embryo culture"
+        }
+       ]
+      },
+      {
+       "photo": {
+        "id": 822,
+        "filename": "team-anaesthesiologist.jpg",
+        "url": "/images/stock/team-anaesthesiologist.jpg",
+        "alt": "Anaesthesiologist (representative image)",
+        "mime_type": "image/jpeg",
+        "width": 1000,
+        "height": 667
+       },
+       "representative": true,
+       "role": "Anaesthesiologist",
+       "name": "{{team.anaesthetist}}",
+       "qualifications": "MD, Anaesthesiology",
+       "description": "Keeps you safe and comfortable during egg retrieval and other procedures, and monitors your recovery.",
+       "facts": [
+        {
+         "label": "Experience",
+         "value": "10+ years"
+        },
+        {
+         "label": "Focus",
+         "value": "Procedure safety, pain-free care"
+        }
+       ]
+      },
+      {
+       "photo": {
+        "id": 823,
+        "filename": "team-medical-officer.jpg",
+        "url": "/images/stock/team-medical-officer.jpg",
+        "alt": "Medical Officer (representative image)",
+        "mime_type": "image/jpeg",
+        "width": 1000,
+        "height": 563
+       },
+       "representative": true,
+       "role": "Medical Officer",
+       "name": "{{team.medicalOfficer}}",
+       "qualifications": "MBBS, DGO",
+       "description": "Looks after patients day to day, reviews progress and supports the team in wards and emergencies.",
+       "facts": [
+        {
+         "label": "Experience",
+         "value": "6+ years"
+        },
+        {
+         "label": "Focus",
+         "value": "Patient care, monitoring, follow-up"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "acf_fc_layout": "facilities",
+     "badge": "",
+     "title": "Modern infrastructure",
+     "description": "Every department your treatment needs, designed for safety, privacy and comfort, in one building on {{area}} Road.",
+     "tour_text": "",
+     "tour_link": "",
+     "items": [
+      {
+       "image": {
+        "id": 725,
+        "filename": "reception-welcome.jpg",
+        "url": "/images/about/reception-lounge.svg",
+        "alt": "Reception and waiting lounge at {{name}}",
+        "mime_type": "image/jpeg",
+        "width": 1400,
+        "height": 1050
+       },
+       "title": "Reception & Waiting Lounge",
+       "description": "A calm, welcoming space for patients and families",
+       "representative": false
+      },
+      {
+       "image": {
+        "id": 726,
+        "filename": "embryology-lab.jpg",
+        "url": "/images/stock/embryology-lab.jpg",
+        "alt": "IVF and embryology laboratory (representative image)",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 1644
+       },
+       "title": "IVF & Embryology Laboratory",
+       "description": "Controlled conditions for fertilisation and embryo culture",
+       "representative": true
+      },
+      {
+       "image": {
+        "id": 727,
+        "filename": "andrology-lab.jpg",
+        "url": "/images/stock/andrology-lab.jpg",
+        "alt": "Andrology Lab (representative image)",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 1800
+       },
+       "title": "Andrology Laboratory",
+       "description": "Semen analysis and sperm preparation",
+       "representative": true
+      },
+      {
+       "image": {
+        "id": 728,
+        "filename": "operation-theatre.jpg",
+        "url": "/images/stock/operation-theatre.jpg",
+        "alt": "Procedure Theatre (representative image)",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 800
+       },
+       "title": "Operation Theatre",
+       "description": "For egg retrieval and gynaecological procedures",
+       "representative": true
+      },
+      {
+       "image": {
+        "id": 824,
+        "filename": "ultrasound.jpg",
+        "url": "/images/stock/ultrasound.jpg",
+        "alt": "Ultrasound & Diagnostic Centre (representative image)",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 800
+       },
+       "title": "Ultrasound & Diagnostic Centre",
+       "description": "Follicle scans, pregnancy scans and more",
+       "representative": true
+      },
+      {
+       "image": {
+        "id": 825,
+        "filename": "pathology-lab.jpg",
+        "url": "/images/stock/pathology-lab.jpg",
+        "alt": "Pathology Laboratory (representative image)",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 753
+       },
+       "title": "Pathology Laboratory",
+       "description": "Hormone and blood tests in-house",
+       "representative": true
+      },
+      {
+       "image": {
+        "id": 729,
+        "filename": "consultation-room.jpg",
+        "url": "/images/stock/consultation-room.jpg",
+        "alt": "Consultation Suites (representative image)",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 675
+       },
+       "title": "Consultation Rooms",
+       "description": "Private space to talk with your doctor",
+       "representative": true
+      },
+      {
+       "image": {
+        "id": 826,
+        "filename": "patient-rooms.jpg",
+        "url": "/images/stock/patient-rooms.jpg",
+        "alt": "Patient Rooms & Recovery (representative image)",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 800
+       },
+       "title": "Patient Rooms & Recovery",
+       "description": "Comfortable rest after procedures",
+       "representative": true
+      },
+      {
+       "image": {
+        "id": 827,
+        "filename": "embryo-freezing.jpg",
+        "url": "/images/stock/embryo-freezing.jpg",
+        "alt": "Embryo Freezing & Storage (representative image)",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 800
+       },
+       "title": "Embryo Freezing & Storage",
+       "description": "Safe long-term storage of embryos",
+       "representative": true
+      }
+     ]
+    },
+    {
+     "acf_fc_layout": "recognition",
+     "title": "Awards, accreditations & memberships",
+     "description": "Recognition for our care, and the registrations that keep our treatment safe, legal and ethical.",
+     "tab_all": "All",
+     "tab_awards": "Awards",
+     "tab_registrations": "Registrations & accreditations",
+     "tab_certificates": "Certificates & memberships",
+     "items": [
+      {
+       "image": {
+        "id": 828,
+        "filename": "certificate-diploma.jpg",
+        "url": "/images/stock/certificate-diploma.jpg",
+        "alt": "Annual conference certificate",
+        "mime_type": "image/jpeg",
+        "width": 490,
+        "height": 415
+       },
+       "representative": false,
+       "tab": "certificates",
+       "tag": "Certificate",
+       "title": "Annual conference certificate",
+       "details": "{{doctor.name}} · 2017 · Conference certificate"
+      },
+      {
+       "image": {
+        "id": 829,
+        "filename": "registration-certificate.jpg",
+        "url": "/images/stock/registration-certificate.jpg",
+        "alt": "Registration certificate (representative image)",
+        "mime_type": "image/jpeg",
+        "width": 1000,
+        "height": 1500
+       },
+       "representative": true,
+       "tab": "registrations",
+       "tag": "Registration",
+       "title": "ART Clinic Registration",
+       "details": "Under the ART (Regulation) Act, 2021 · Reg. no. on request"
+      },
+      {
+       "image": {
+        "id": 829,
+        "filename": "registration-certificate.jpg",
+        "url": "/images/stock/registration-certificate.jpg",
+        "alt": "Registration certificate (representative image)",
+        "mime_type": "image/jpeg",
+        "width": 1000,
+        "height": 1500
+       },
+       "representative": true,
+       "tab": "registrations",
+       "tag": "Registration",
+       "title": "PCPNDT Registration",
+       "details": "Reg. no. on request"
+      },
+      {
+       "image": {
+        "id": 830,
+        "filename": "certificate-diploma.jpg",
+        "url": "/images/stock/certificate-diploma.jpg",
+        "alt": "Certificate (representative image)",
+        "mime_type": "image/jpeg",
+        "width": 1000,
+        "height": 667
+       },
+       "representative": true,
+       "tab": "registrations",
+       "tag": "Accreditation",
+       "title": "Quality & safety accreditation",
+       "details": "Sample entry · add your issuing body and year"
+      },
+      {
+       "image": {
+        "id": 831,
+        "filename": "award-trophies.jpg",
+        "url": "/images/stock/award-trophies.jpg",
+        "alt": "Award trophies (representative image)",
+        "mime_type": "image/jpeg",
+        "width": 1000,
+        "height": 667
+       },
+       "representative": true,
+       "tab": "awards",
+       "tag": "Award",
+       "title": "Excellence in Patient Care",
+       "details": "Sample entry · add the awarding body and year"
+      },
+      {
+       "image": {
+        "id": 832,
+        "filename": "award-trophy.jpg",
+        "url": "/images/stock/award-trophy.jpg",
+        "alt": "Award trophy (representative image)",
+        "mime_type": "image/jpeg",
+        "width": 1000,
+        "height": 1777
+       },
+       "representative": true,
+       "tab": "awards",
+       "tag": "Award",
+       "title": "Excellence in Patient Care",
+       "details": "Sample entry · add the awarding body and year"
+      },
+      {
+       "image": {
+        "id": 830,
+        "filename": "certificate-diploma.jpg",
+        "url": "/images/stock/certificate-diploma.jpg",
+        "alt": "Certificate (representative image)",
+        "mime_type": "image/jpeg",
+        "width": 1000,
+        "height": 667
+       },
+       "representative": true,
+       "tab": "certificates",
+       "tag": "Membership",
+       "title": "FOGSI membership",
+       "details": "Sample entry · add member-since year"
+      },
+      {
+       "image": {
+        "id": 830,
+        "filename": "certificate-diploma.jpg",
+        "url": "/images/stock/certificate-diploma.jpg",
+        "alt": "Certificate (representative image)",
+        "mime_type": "image/jpeg",
+        "width": 1000,
+        "height": 667
+       },
+       "representative": true,
+       "tab": "certificates",
+       "tag": "Membership",
+       "title": "ISAR membership",
+       "details": "Sample entry · add member-since year"
+      }
+     ]
+    },
+    {
+     "acf_fc_layout": "reviews",
+     "badge": "Google reviews",
+     "title": "What our patients say",
+     "description": "Reviews shared by patients and families on the {{hospitalName}} Google profile.",
+     "read_text": "Read all reviews",
+     "read_link": "https://www.google.com/maps/search/?api=1&query={{mapSearch}}",
+     "write_text": "Write a review",
+     "write_link": "https://www.google.com/maps/search/?api=1&query={{mapSearch}}",
+     "rating_value": "4.9",
+     "rating_text": "out of 5 · Google",
+     "reviews": [
+      {
+       "name": "Priya & Rohan S.",
+       "time": "2 weeks ago",
+       "rating": "5",
+       "text": "After two years of trying, the team here explained every report in simple words. We never felt rushed, and the care at every visit was warm and honest. Grateful beyond words."
+      },
+      {
+       "name": "Kavita M.",
+       "time": "1 month ago",
+       "rating": "5",
+       "text": "Clear advice, no unnecessary tests, and a doctor who truly listens. The staff made each scan and procedure comfortable. Highly recommended for anyone starting their fertility journey."
+      },
+      {
+       "name": "Neha & Amit P.",
+       "time": "1 month ago",
+       "rating": "5",
+       "text": "We were nervous about IVF, but the step-by-step guidance and regular updates kept us calm. A wonderful, professional and kind team."
+      },
+      {
+       "name": "Sunita R.",
+       "time": "2 months ago",
+       "rating": "5",
+       "text": "Transparent costs, a spotless hospital and very supportive nurses. The doctor took time to answer all our questions."
+      },
+      {
+       "name": "Meenal D.",
+       "time": "3 months ago",
+       "rating": "5",
+       "text": "I came for PCOS treatment and felt cared for from day one. Practical advice on diet and lifestyle made a real difference."
+      },
+      {
+       "name": "Farhan & Zoya K.",
+       "time": "3 months ago",
+       "rating": "5",
+       "text": "Respectful, patient and genuinely caring. Even on busy days the team found time for our questions. Thank you for everything."
+      }
+     ]
+    },
+    {
+     "acf_fc_layout": "location",
+     "badge": "Our location",
+     "title": "Find us in {{city}}",
+     "areas_title": "Areas we serve",
+     "areas": [
+      {
+       "text": "{{city}}"
+      },
+      {
+       "text": "{{area}}"
+      },
+      {
+       "text": "{{nearbyTown}}"
+      },
+      {
+       "text": "{{nearbyTown2}}"
+      },
+      {
+       "text": "Sanand"
+      },
+      {
+       "text": "Kalol"
+      }
+     ],
+     "features": [
+      {
+       "title": "Easy Access",
+       "text": "{{landmarkLine}}"
+      },
+      {
+       "title": "Lift Available",
+       "text": "Inside the hospital"
+      },
+      {
+       "title": "Parking",
+       "text": "Free patient parking"
+      }
+     ],
+     "points": [
+      {
+       "text": "{{landmarkLine}}"
+      },
+      {
+       "text": "Lift access inside the hospital"
+      },
+      {
+       "text": "Free patient parking available"
+      }
+     ],
+     "directions_text": "Get directions",
+     "image": {
+      "id": 724,
+      "filename": "hospital-exterior.jpg",
+      "url": "/images/stock/hospital-exterior.jpg",
+      "alt": "{{name}} building exterior, {{area}}, {{city}}",
+      "mime_type": "image/jpeg",
+      "width": 1200,
+      "height": 800
+     }
+    },
+    {
+     "acf_fc_layout": "cta",
+     "title": "Begin Your Parenthood Journey *With Us*",
+     "description": "Meet {{doctor.name}} and our team, and get honest guidance for your next step.",
+     "primary_text": "Book Consultation",
+     "primary_link": "#book",
+     "call_text": "Call Now:",
+     "whatsapp_text": "WhatsApp Us"
+    }
+   ]
+  },
+  "yoast_head_json": {
+   "title": "About Us | {{hospitalName}}, IVF & Fertility Centre, {{city}}",
+   "description": "{{hospitalName}} is a fertility and women's health hospital on {{addressShort}}, led by {{doctor.name}}. Learn about our story, values, team and facilities.",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "About Us | {{hospitalName}}, IVF & Fertility Centre, {{city}}",
+   "og_description": "{{hospitalName}} is a fertility and women's health hospital on {{addressShort}}, led by {{doctor.name}}. Learn about our story, values, team and facilities.",
+   "og_url": "{{siteUrl}}/about",
+   "og_site_name": "IVF API",
+   "article_modified_time": "2026-10-05T06:37:09+00:00",
+   "twitter_card": "summary_large_image"
+  },
+  "schema": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "AboutPage",
+     "@id": "{{siteUrl}}/about#webpage",
+     "url": "{{siteUrl}}/about",
+     "name": "About Us | {{hospitalName}}, IVF & Fertility Centre, {{city}}",
+     "description": "{{hospitalName}} is a fertility and women's health hospital on {{addressShort}}, led by {{doctor.name}}. Learn about our story, values, team and facilities.",
+     "inLanguage": "en-IN",
+     "isPartOf": {
+      "@id": "{{siteUrl}}/#website"
+     },
+     "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "url": "/images/about/reception-lounge.svg"
+     },
+     "breadcrumb": {
+      "@id": "{{siteUrl}}/about#breadcrumb"
+     },
+     "about": {
+      "@id": "{{siteUrl}}/#organization"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "{{siteUrl}}/#website",
+     "url": "{{siteUrl}}/",
+     "name": "{{name}}",
+     "publisher": {
+      "@id": "{{siteUrl}}/#organization"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "{{siteUrl}}/about#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "{{siteUrl}}/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "About Us",
+       "item": "{{siteUrl}}/about"
+      }
+     ]
+    },
+    {
+     "@type": "MedicalClinic",
+     "@id": "{{siteUrl}}/#organization",
+     "name": "{{name}}",
+     "alternateName": "{{legalName}}",
+     "description": "IVF, fertility and gynaecology care in {{city}}, led by {{doctor.name}}, Gynecologist & Fertility Specialist.",
+     "url": "{{siteUrl}}/",
+     "logo": "{{logo}}",
+     "image": "/images/stock/hospital-exterior.jpg",
+     "telephone": "{{phone}}",
+     "medicalSpecialty": "Reproductive medicine",
+     "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{addressShort}}",
+      "addressLocality": "{{city}}",
+      "addressRegion": "{{region}}",
+      "postalCode": "224001",
+      "addressCountry": "IN"
+     },
+     "hasMap": "https://www.google.com/maps/search/?api=1&query={{mapSearch}}",
+     "sameAs": [
+      "{{social.instagram}}",
+      "{{social.youtube}}",
+      "{{social.facebook}}"
+     ]
+    },
+    {
+     "@type": "Physician",
+     "@id": "{{siteUrl}}/doctors/{{doctor.slug}}#physician",
+     "name": "{{doctor.name}}",
+     "url": "{{siteUrl}}/doctors/{{doctor.slug}}",
+     "image": "{{doctor.photo}}",
+     "description": "Known for her calm, reassuring approach, {{doctor.name}} personally guides each couple through diagnosis, treatment and pregnancy. Her focus is simple: the right treatment, explained honestly, delivered gently.",
+     "medicalSpecialty": "Gynecologist & Fertility Specialist",
+     "parentOrganization": {
+      "@id": "{{siteUrl}}/#organization"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": 132,
+  "modified": "2026-10-01T12:13:46",
+  "slug": "home-page",
+  "title": {
+   "rendered": "Home Page"
+  },
+  "acf": {
+   "home_sections": [
+    {
+     "acf_fc_layout": "hero",
+     "badge": "{{city}}’s dedicated IVF & fertility centre",
+     "title": "Your family begins with the *right care.*",
+     "description": "Personalised IVF, ICSI, IUI and complete gynaecology care by {{doctor.name}} — with gentler options like Needle-Free IVF for eligible patients.",
+     "primary_text": "Book Free Callback",
+     "primary_link": "#book",
+     "video_text": "Watch patient stories",
+     "video_link": "#success-stories",
+     "stats": [
+      {
+       "icon": "award",
+       "value": "10+",
+       "label": "Years experience"
+      },
+      {
+       "icon": "heart",
+       "value": "1000+",
+       "label": "Families treated"
+      },
+      {
+       "icon": "star",
+       "value": "4.9",
+       "label": "Google rating"
+      }
+     ],
+     "image": {
+      "id": 501,
+      "filename": "{{doctor.slug}}.jpg",
+      "url": "{{doctor.photo}}",
+      "alt": "{{doctor.name}}",
+      "mime_type": "image/jpeg",
+      "width": 670,
+      "height": 720
+     },
+     "feature_card": {
+      "icon": "drop",
+      "title": "Needle-Free IVF",
+      "text": "For eligible patients"
+     },
+     "rating_card": {
+      "stars": "5",
+      "label": "4.9 Google rating"
+     },
+     "doctor": {
+      "id": 541,
+      "slug": "{{doctor.slug}}",
+      "path": "/doctors/{{doctor.slug}}",
+      "name": "{{doctor.name}}",
+      "role": "Gynecologist & Fertility Specialist",
+      "qualifications": "{{doctor.qualifications}}",
+      "short_intro": "Known for her calm, reassuring approach, {{doctor.name}} personally guides each couple through diagnosis, treatment and pregnancy. Her focus is simple: the right treatment, explained honestly, delivered gently.",
+      "photo": {
+       "id": 501,
+       "filename": "{{doctor.slug}}.jpg",
+       "url": "{{doctor.photo}}",
+       "alt": "{{doctor.name}}",
+       "mime_type": "image/jpeg",
+       "width": 670,
+       "height": 720
+      }
+     },
+     "quick_actions": [
+      {
+       "icon": "calendar",
+       "colour": "plum",
+       "title": "Book Appointment",
+       "text": "Pick a convenient slot",
+       "link": "#book"
+      },
+      {
+       "icon": "search",
+       "colour": "teal",
+       "title": "Fertility Check-up",
+       "text": "Tests for both partners",
+       "link": "#treatments"
+      },
+      {
+       "icon": "message",
+       "colour": "amber",
+       "title": "Talk to a Counsellor",
+       "text": "Private WhatsApp chat",
+       "link": "https://wa.me/{{whatsappNumber}}"
+      },
+      {
+       "icon": "map-pin",
+       "colour": "plum",
+       "title": "Visit the Center",
+       "text": "{{area}}, {{city}}",
+       "link": "#book"
+      }
+     ],
+     "marquee_items": [
+      {
+       "text": "IVF Treatment"
+      },
+      {
+       "text": "ICSI Treatment"
+      },
+      {
+       "text": "IUI Treatment"
+      },
+      {
+       "text": "Needle-Free IVF"
+      },
+      {
+       "text": "Egg Freezing"
+      },
+      {
+       "text": "Embryo Freezing"
+      },
+      {
+       "text": "Fertility Testing"
+      },
+      {
+       "text": "Donor Programs"
+      },
+      {
+       "text": "PCOS / PCOD"
+      },
+      {
+       "text": "High-Risk Pregnancy"
+      }
+     ]
+    },
+    {
+     "acf_fc_layout": "treatments",
+     "badge": "Treatments & Services",
+     "title": "Everything you need, *under one roof*",
+     "description": "Choose a category to explore our fertility, preservation and gynaecology services.",
+     "tabs": [
+      {
+       "label": "IVF & ART",
+       "services": [
+        {
+         "title": "IVF Treatment",
+         "link": "",
+         "description": "Eggs and sperm are combined in the lab and the best embryo is transferred to the uterus."
+        },
+        {
+         "title": "ICSI Treatment",
+         "link": "",
+         "description": "A single sperm injected into each egg — often advised for male-factor infertility."
+        },
+        {
+         "title": "IUI Treatment",
+         "link": "",
+         "description": "Washed sperm placed in the uterus at ovulation — a simpler first step for many couples."
+        },
+        {
+         "title": "Needle-Free IVF",
+         "link": "",
+         "description": "Gentler protocols that reduce or replace daily injections, where medically suitable."
+        }
+       ],
+       "feature": {
+        "icon": "flask",
+        "eyebrow": "Assisted reproduction",
+        "title": "Advanced IVF, planned around you",
+        "text": "Personalised stimulation, careful monitoring and embryo culture — with Needle-Free IVF for eligible patients.",
+        "primary_text": "Book a consultation",
+        "primary_link": "#book",
+        "secondary_text": "View all treatments",
+        "secondary_link": ""
+       }
+      },
+      {
+       "label": "Infertility",
+       "services": [
+        {
+         "title": "Infertility Treatment",
+         "link": "",
+         "description": "A structured work-up and a clear, stepwise treatment plan for couples."
+        },
+        {
+         "title": "Female Infertility",
+         "link": "",
+         "description": "Ovulation problems, tubal blocks, endometriosis, PCOS and uterine factors."
+        },
+        {
+         "title": "Male Infertility",
+         "link": "",
+         "description": "Evaluation and treatment for low sperm count, motility or morphology."
+        },
+        {
+         "title": "Fertility Testing",
+         "link": "",
+         "description": "Hormone tests, ultrasound scans and semen analysis for a complete picture."
+        }
+       ],
+       "feature": {
+        "icon": "heart",
+        "eyebrow": "Diagnosis first",
+        "title": "Find the cause, then the cure",
+        "text": "Both partners are evaluated together so that treatment addresses the real reason behind infertility.",
+        "primary_text": "Book a consultation",
+        "primary_link": "#book",
+        "secondary_text": "View all treatments",
+        "secondary_link": ""
+       }
+      },
+      {
+       "label": "Preservation & Donor",
+       "services": [
+        {
+         "title": "Egg Freezing",
+         "link": "",
+         "description": "Freeze eggs at a younger age to keep future options open."
+        },
+        {
+         "title": "Embryo Freezing",
+         "link": "",
+         "description": "Vitrify surplus embryos for future frozen embryo transfers."
+        },
+        {
+         "title": "Fertility Preservation",
+         "link": "",
+         "description": "Options before cancer treatment or other therapies that affect fertility."
+        },
+        {
+         "title": "Donor Programs",
+         "link": "",
+         "description": "Confidential egg, sperm and embryo donor programmes."
+        }
+       ],
+       "feature": {
+        "icon": "snowflake",
+        "eyebrow": "Plan for tomorrow",
+        "title": "Preserve your fertility, on your timeline",
+        "text": "Freezing and donor options delivered confidentially and in line with ART (Regulation) Act guidelines.",
+        "primary_text": "Book a consultation",
+        "primary_link": "#book",
+        "secondary_text": "View all treatments",
+        "secondary_link": ""
+       }
+      },
+      {
+       "label": "Gynecology",
+       "services": [
+        {
+         "title": "Gynecological Consultation",
+         "link": "",
+         "description": "Routine check-ups, screenings and expert advice."
+        },
+        {
+         "title": "PCOS / PCOD",
+         "link": "",
+         "description": "Diagnosis, lifestyle guidance and fertility-focused treatment."
+        },
+        {
+         "title": "Menstrual Disorders",
+         "link": "",
+         "description": "Care for irregular, painful or heavy periods."
+        },
+        {
+         "title": "Pregnancy Care",
+         "link": "",
+         "description": "Antenatal visits, scans and birth planning."
+        },
+        {
+         "title": "High-Risk Pregnancy",
+         "link": "",
+         "description": "Close monitoring for complex and IVF pregnancies."
+        },
+        {
+         "title": "Women’s Health",
+         "link": "",
+         "description": "Menopause, infections, contraception and wellness."
+        }
+       ],
+       "feature": {
+        "icon": "stethoscope",
+        "eyebrow": "Women’s health",
+        "title": "Care for every stage of life",
+        "text": "From periods to pregnancy to menopause — expert gynaecology by the same trusted team.",
+        "primary_text": "Book a consultation",
+        "primary_link": "#book",
+        "secondary_text": "View all treatments",
+        "secondary_link": ""
+       }
+      }
+     ]
+    },
+    {
+     "acf_fc_layout": "about",
+     "images": [
+      {
+       "image": {
+        "id": 724,
+        "filename": "hospital-exterior.jpg",
+        "url": "/images/stock/hospital-exterior.jpg",
+        "alt": "{{name}} building exterior, {{area}}, {{city}}",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 800
+       },
+       "caption": "Hospital exterior",
+       "representative": true
+      },
+      {
+       "image": {
+        "id": 725,
+        "filename": "reception-welcome.jpg",
+        "url": "/images/about/reception-lounge.svg",
+        "alt": "Reception and waiting lounge at {{name}}",
+        "mime_type": "image/jpeg",
+        "width": 1400,
+        "height": 1050
+       },
+       "caption": "Reception & lounge",
+       "representative": false
+      }
+     ],
+     "highlight_value": "1000+",
+     "highlight_label": "families treated with care",
+     "badge": "About {{shortName}}",
+     "title": "World-class fertility care, *close to home* in {{city}}",
+     "description": "{{name}} was created so that couples in {{city}} and the surrounding region can access advanced fertility treatment without leaving home. We combine modern reproductive technology with the personal attention of a specialist who follows your case from the first test to the first heartbeat.",
+     "points": [
+      {
+       "title": "Our Mission",
+       "text": "Ethical, affordable and compassionate fertility care for every family."
+      },
+      {
+       "title": "Our Promise",
+       "text": "Honest advice, clear costs and support you can count on."
+      }
+     ],
+     "button_text": "About {{shortName}}",
+     "button_link": "/about"
+    },
+    {
+     "acf_fc_layout": "doctor",
+     "badge": "Our Doctor",
+     "doctor": {
+      "id": 541,
+      "slug": "{{doctor.slug}}",
+      "path": "/doctors/{{doctor.slug}}",
+      "name": "{{doctor.name}}",
+      "role": "Gynecologist & Fertility Specialist",
+      "qualifications": "{{doctor.qualifications}}",
+      "short_intro": "Known for her calm, reassuring approach, {{doctor.name}} personally guides each couple through diagnosis, treatment and pregnancy. Her focus is simple: the right treatment, explained honestly, delivered gently.",
+      "photo": {
+       "id": 501,
+       "filename": "{{doctor.slug}}.jpg",
+       "url": "{{doctor.photo}}",
+       "alt": "{{doctor.name}}",
+       "mime_type": "image/jpeg",
+       "width": 670,
+       "height": 720
+      }
+     },
+     "stats": [
+      {
+       "value": "10+",
+       "label": "Years experience"
+      },
+      {
+       "value": "1000+",
+       "label": "Families treated"
+      },
+      {
+       "value": "{{languagesShort}}",
+       "label": "Languages"
+      }
+     ],
+     "specialties": [
+      {
+       "text": "IVF & ICSI"
+      },
+      {
+       "text": "IUI"
+      },
+      {
+       "text": "PCOS / PCOD"
+      },
+      {
+       "text": "High-risk pregnancy"
+      },
+      {
+       "text": "Fertility preservation"
+      },
+      {
+       "text": "Menstrual disorders"
+      }
+     ],
+     "primary_text": "Book with Dr. {{doctor.first}}",
+     "primary_link": "#book",
+     "secondary_text": "Full profile",
+     "secondary_link": "/doctors/{{doctor.slug}}",
+     "opd_label": "OPD timings"
+    },
+    {
+     "acf_fc_layout": "stats",
+     "items": [
+      {
+       "value": "10+",
+       "label": "Years of experience"
+      },
+      {
+       "value": "1000+",
+       "label": "Families treated"
+      },
+      {
+       "value": "4.9★",
+       "label": "Google rating"
+      },
+      {
+       "value": "17",
+       "label": "Fertility & gynae services"
+      }
+     ]
+    },
+    {
+     "acf_fc_layout": "journey",
+     "badge": "How IVF Works",
+     "title": "Your IVF journey, *step by step*",
+     "description": "Knowing what comes next takes away much of the stress. Here is how a typical cycle at {{shortName}} unfolds.",
+     "guide_text": "Download IVF guide (PDF)",
+     "guide_file": false,
+     "note": "A typical cycle takes about 4–6 weeks from stimulation to pregnancy test. Your exact timeline is shared at your planning visit.",
+     "steps": [
+      {
+       "title": "Consultation",
+       "tag": "First visit",
+       "description": "History, examination and a relaxed first conversation."
+      },
+      {
+       "title": "Fertility Tests",
+       "tag": "Both partners",
+       "description": "Scans, hormones and semen analysis for both partners."
+      },
+      {
+       "title": "Personal Plan",
+       "tag": "Clear costs",
+       "description": "Your protocol, timeline and costs explained clearly."
+      },
+      {
+       "title": "Stimulation & Retrieval",
+       "tag": "Monitored",
+       "description": "Monitored stimulation and egg pick-up under anaesthesia."
+      },
+      {
+       "title": "Embryo Transfer",
+       "tag": "Gentle transfer",
+       "description": "Fertilisation, embryo culture and a gentle transfer."
+      },
+      {
+       "title": "Pregnancy & Beyond",
+       "tag": "Ongoing care",
+       "description": "Pregnancy test, early scans and continued care."
+      }
+     ]
+    },
+    {
+     "acf_fc_layout": "gynecology",
+     "badge": "Gynecology & Women’s Health",
+     "title": "Beyond fertility — care for *every stage* of womanhood",
+     "all_text": "All gynecology services",
+     "all_link": "",
+     "cards": [
+      {
+       "title": "Gynecological Consultation",
+       "link": "",
+       "description": "Routine check-ups, screenings and expert advice."
+      },
+      {
+       "title": "PCOS / PCOD",
+       "link": "",
+       "description": "Diagnosis, lifestyle guidance and fertility-focused treatment."
+      },
+      {
+       "title": "Menstrual Disorders",
+       "link": "",
+       "description": "Care for irregular, painful or heavy periods."
+      },
+      {
+       "title": "Pregnancy Care",
+       "link": "",
+       "description": "Antenatal check-ups, scans and birth planning."
+      },
+      {
+       "title": "High-Risk Pregnancy",
+       "link": "",
+       "description": "Close monitoring for complex or IVF pregnancies."
+      },
+      {
+       "title": "Women’s Health",
+       "link": "",
+       "description": "Menopause, infections, contraception and wellness."
+      }
+     ],
+     "note_title": "From conception to delivery — one trusted team.",
+     "note_text": "Pregnancy care and high-risk pregnancy management by the doctor who knows your history.",
+     "note_button_text": "Book pregnancy consultation",
+     "note_button_link": "#book"
+    },
+    {
+     "acf_fc_layout": "why_choose",
+     "badge": "Why Choose Us",
+     "title": "Six reasons couples *trust* {{shortName}}",
+     "button_text": "Talk to our team",
+     "button_link": "#book",
+     "reasons": [
+      {
+       "title": "Specialist-led",
+       "description": "Every case is planned and followed personally by {{doctor.name}}."
+      },
+      {
+       "title": "Gentler protocols",
+       "description": "Needle-Free IVF and patient-friendly stimulation where suitable."
+      },
+      {
+       "title": "Transparent costs",
+       "description": "A written estimate before you begin, with EMI options."
+      },
+      {
+       "title": "Complete care",
+       "description": "Fertility, gynaecology and pregnancy care under one roof."
+      },
+      {
+       "title": "Privacy first",
+       "description": "Confidential consultations and discreet communication."
+      },
+      {
+       "title": "Close to home",
+       "description": "Advanced treatment in {{city}} — no long trips to metro cities."
+      }
+     ]
+    },
+    {
+     "acf_fc_layout": "facilities",
+     "badge": "Facilities",
+     "title": "Inside *{{shortName}}* IVF Center",
+     "description": "",
+     "tour_text": "Take a virtual tour",
+     "tour_link": "/gallery",
+     "items": [
+      {
+       "image": {
+        "id": 726,
+        "filename": "embryology-lab.jpg",
+        "url": "/images/stock/embryology-lab.jpg",
+        "alt": "IVF and embryology laboratory (representative image)",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 1644
+       },
+       "title": "IVF & Embryology Lab",
+       "description": "Controlled conditions for eggs, sperm and embryos.",
+       "representative": true
+      },
+      {
+       "image": {
+        "id": 727,
+        "filename": "andrology-lab.jpg",
+        "url": "/images/stock/andrology-lab.jpg",
+        "alt": "Andrology Lab (representative image)",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 1800
+       },
+       "title": "Andrology Lab",
+       "description": "",
+       "representative": true
+      },
+      {
+       "image": {
+        "id": 728,
+        "filename": "operation-theatre.jpg",
+        "url": "/images/stock/operation-theatre.jpg",
+        "alt": "Procedure Theatre (representative image)",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 800
+       },
+       "title": "Procedure Theatre",
+       "description": "",
+       "representative": true
+      },
+      {
+       "image": {
+        "id": 729,
+        "filename": "consultation-room.jpg",
+        "url": "/images/stock/consultation-room.jpg",
+        "alt": "Consultation Suites (representative image)",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 675
+       },
+       "title": "Consultation Suites",
+       "description": "",
+       "representative": true
+      },
+      {
+       "image": {
+        "id": 730,
+        "filename": "recovery-room.jpg",
+        "url": "/images/stock/recovery-room.jpg",
+        "alt": "Recovery Rooms (representative image)",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 900
+       },
+       "title": "Recovery Rooms",
+       "description": "",
+       "representative": true
+      }
+     ]
+    },
+    {
+     "acf_fc_layout": "reviews",
+     "badge": "Patient Reviews",
+     "title": "What patients say *on Google*",
+     "description": "",
+     "read_text": "Read all reviews",
+     "read_link": "https://www.google.com/maps/search/?api=1&query={{mapSearch}}",
+     "write_text": "Write a review",
+     "write_link": "https://www.google.com/maps/search/?api=1&query={{mapSearch}}",
+     "rating_value": "4.9",
+     "rating_text": "out of 5 · Google",
+     "reviews": [
+      {
+       "name": "Priya & Rohan S.",
+       "time": "2 weeks ago",
+       "rating": "5",
+       "text": "After two years of trying, the team here explained every report in simple words. We never felt rushed, and the care at every visit was warm and honest. Grateful beyond words."
+      },
+      {
+       "name": "Kavita M.",
+       "time": "1 month ago",
+       "rating": "5",
+       "text": "Clear advice, no unnecessary tests, and a doctor who truly listens. The staff made each scan and procedure comfortable. Highly recommended for anyone starting their fertility journey."
+      },
+      {
+       "name": "Neha & Amit P.",
+       "time": "1 month ago",
+       "rating": "5",
+       "text": "We were nervous about IVF, but the step-by-step guidance and regular updates kept us calm. A wonderful, professional and kind team."
+      },
+      {
+       "name": "Sunita R.",
+       "time": "2 months ago",
+       "rating": "5",
+       "text": "Transparent costs, a spotless hospital and very supportive nurses. The doctor took time to answer all our questions."
+      },
+      {
+       "name": "Meenal D.",
+       "time": "3 months ago",
+       "rating": "5",
+       "text": "I came for PCOS treatment and felt cared for from day one. Practical advice on diet and lifestyle made a real difference."
+      },
+      {
+       "name": "Farhan & Zoya K.",
+       "time": "3 months ago",
+       "rating": "5",
+       "text": "Respectful, patient and genuinely caring. Even on busy days the team found time for our questions. Thank you for everything."
+      }
+     ]
+    },
+    {
+     "acf_fc_layout": "latest_blog",
+     "badge": "Health Blog",
+     "title": "Expert advice from *{{doctor.name}}*",
+     "view_all_text": "Read all articles",
+     "view_all_link": "/blogs",
+     "posts": [
+      {
+       "id": 710,
+       "slug": "needle-free-ivf-how-it-works",
+       "path": "/blog/needle-free-ivf-how-it-works",
+       "title": "Needle-Free IVF: how it works and who it is right for",
+       "date": "2026-09-12T10:00:00+00:00",
+       "excerpt": "Afraid of daily injections? {{doctor.name}} explains gentler IVF protocols, what the process involves, the trade-offs and who may benefit most.",
+       "category": {
+        "id": 7,
+        "name": "IVF",
+        "slug": "ivf"
+       },
+       "image": {
+        "id": 731,
+        "filename": "needle-free-ivf-how-it-works.jpg",
+        "url": "/images/blog/needle-free-ivf-how-it-works.jpg",
+        "alt": "Couple holding ultrasound scan photos",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 1600
+       },
+       "doctor": {
+        "id": 541,
+        "name": "{{doctor.name}}",
+        "path": "/doctors/{{doctor.slug}}"
+       },
+       "read_time": "6 min read"
+      },
+      {
+       "id": 711,
+       "slug": "can-you-get-pregnant-with-pcos",
+       "path": "/blog/can-you-get-pregnant-with-pcos",
+       "title": "Can you get pregnant with PCOS? A doctor explains",
+       "date": "2026-08-28T10:00:00+00:00",
+       "excerpt": "PCOS is one of the most common causes of irregular ovulation — and most women with PCOS can conceive with the right care.",
+       "category": {
+        "id": 13,
+        "name": "PCOS",
+        "slug": "pcos"
+       },
+       "image": {
+        "id": 732,
+        "filename": "can-you-get-pregnant-with-pcos.jpg",
+        "url": "/images/blog/can-you-get-pregnant-with-pcos.jpg",
+        "alt": "Couple with hands on a pregnant belly",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 800
+       },
+       "doctor": {
+        "id": 541,
+        "name": "{{doctor.name}}",
+        "path": "/doctors/{{doctor.slug}}"
+       },
+       "read_time": "5 min read"
+      },
+      {
+       "id": 712,
+       "slug": "low-sperm-count-causes-tests-treatment",
+       "path": "/blog/low-sperm-count-causes-tests-treatment",
+       "title": "Low sperm count: causes, tests and treatment",
+       "date": "2026-08-14T10:00:00+00:00",
+       "excerpt": "Male factors contribute to many cases of infertility. Learn what a semen analysis shows and the options available.",
+       "category": {
+        "id": 14,
+        "name": "Male Fertility",
+        "slug": "male-fertility"
+       },
+       "image": {
+        "id": 733,
+        "filename": "low-sperm-count-causes-tests-treatment.jpg",
+        "url": "/images/blog/low-sperm-count-causes-tests-treatment.jpg",
+        "alt": "Doctor discussing test results with a male patient",
+        "mime_type": "image/jpeg",
+        "width": 1200,
+        "height": 675
+       },
+       "doctor": {
+        "id": 541,
+        "name": "{{doctor.name}}",
+        "path": "/doctors/{{doctor.slug}}"
+       },
+       "read_time": "4 min read"
+      }
+     ]
+    },
+    {
+     "acf_fc_layout": "faq",
+     "badge": "FAQs",
+     "title": "Your questions, *answered*",
+     "description": "Straight answers to what couples ask us most often.",
+     "help_title": "Still have a question? Our counsellor is a call away.",
+     "help_text": "Speak privately with our team — in {{languages}}.",
+     "call_text": "Call us",
+     "whatsapp_text": "WhatsApp",
+     "items": [
+      {
+       "question": "When should we see a fertility specialist?",
+       "answer": "If you have been trying for 12 months without success — or 6 months if the woman is over 35 — it is a good time to consult. See a specialist sooner for irregular periods, PCOS, known tubal or sperm problems, or previous miscarriages."
+      },
+      {
+       "question": "What is Needle-Free IVF and am I eligible?",
+       "answer": "It is an approach that reduces or replaces daily hormone injections with gentler alternatives where medically suitable. Eligibility depends on your age, reports and ovarian reserve — {{doctor.name}} will advise after evaluation."
+      },
+      {
+       "question": "IUI or IVF — which one do I need?",
+       "answer": "IUI is often tried first for mild issues, with open tubes and good sperm parameters. IVF or ICSI is advised for blocked tubes, severe male-factor infertility, advanced age or after failed IUI cycles."
+      },
+      {
+       "question": "How many visits does an IVF cycle need?",
+       "answer": "Typically 6–8 visits over about 4–6 weeks: consultation, monitoring scans during stimulation, egg retrieval, embryo transfer and the pregnancy test."
+      },
+      {
+       "question": "How much does IVF cost?",
+       "answer": "[Add your cost policy — e.g. costs depend on the treatment plan; a transparent written estimate is shared after consultation, with EMI options available.]"
+      },
+      {
+       "question": "Do you offer male infertility treatment?",
+       "answer": "Yes. We offer semen analysis, counselling and treatment, including ICSI for low sperm count or poor motility."
+      },
+      {
+       "question": "Is my information kept confidential?",
+       "answer": "Yes. Consultations, medical records and donor details are kept strictly private, in line with the ART (Regulation) Act and medical ethics."
+      }
+     ]
+    },
+    {
+     "acf_fc_layout": "contact",
+     "badge": "Book an Appointment",
+     "title": "Take the first step. *We’ll take care of the rest.*",
+     "description": "Share a few details and our team will call you to confirm a convenient time with {{doctor.name}}.",
+     "address_label": "Address",
+     "phone_label": "Call / WhatsApp",
+     "email_label": "Email",
+     "hours_label": "OPD timings",
+     "form_title": "Request an appointment",
+     "form_subtitle": "We usually call back within working hours.",
+     "form": {
+      "id": 503,
+      "title": "Request an Appointment",
+      "fields": [
+       {
+        "name": "your-name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name",
+        "autocomplete": "name",
+        "label": ""
+       },
+       {
+        "name": "your-phone",
+        "type": "tel",
+        "required": true,
+        "placeholder": "Mobile number",
+        "autocomplete": "tel",
+        "label": ""
+       },
+       {
+        "name": "your-email",
+        "type": "email",
+        "required": false,
+        "placeholder": "Email (optional)",
+        "autocomplete": "email",
+        "label": ""
+       },
+       {
+        "name": "preferred-date",
+        "type": "date",
+        "required": false,
+        "placeholder": "Preferred date",
+        "autocomplete": "",
+        "label": ""
+       },
+       {
+        "name": "treatment",
+        "type": "select",
+        "required": false,
+        "placeholder": "Treatment of interest",
+        "autocomplete": "",
+        "options": [
+         "IVF / ICSI",
+         "Needle-Free IVF",
+         "IUI",
+         "Fertility testing",
+         "Egg / embryo freezing",
+         "PCOS / PCOD",
+         "Pregnancy care",
+         "Gynecological consultation"
+        ],
+        "label": ""
+       },
+       {
+        "name": "your-message",
+        "type": "textarea",
+        "required": false,
+        "placeholder": "Message (optional)",
+        "autocomplete": "",
+        "label": ""
+       },
+       {
+        "name": "consent",
+        "type": "acceptance",
+        "required": true,
+        "placeholder": "",
+        "autocomplete": "",
+        "label": "I agree to be contacted by {{name}}. My details stay confidential."
+       }
+      ],
+      "submit_label": "Confirm Request",
+      "submit_url": "/wp-json/contact-form-7/v1/contact-forms/503/feedback",
+      "hidden": {
+       "_wpcf7": 503,
+       "_wpcf7_version": "6.1.7",
+       "_wpcf7_locale": "en_US",
+       "_wpcf7_unit_tag": "wpcf7-f503-p132-o1",
+       "_wpcf7_container_post": 132
+      }
+     },
+     "breadcrumb": "",
+     "whatsapp_label": "",
+     "whatsapp_button_text": "",
+     "form_note": ""
+    }
+   ]
+  },
+  "yoast_head_json": {
+   "title": "{{name}} | IVF & Fertility Centre in {{city}} – {{doctor.name}}",
+   "description": "{{name}}, {{city}} – IVF, ICSI, IUI, Needle-Free IVF, fertility testing and gynaecology care by {{doctor.name}}, Gynecologist & Fertility Specialist.",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "{{name}} | IVF & Fertility Centre in {{city}} – {{doctor.name}}",
+   "og_description": "{{name}}, {{city}} – IVF, ICSI, IUI, Needle-Free IVF, fertility testing and gynaecology care by {{doctor.name}}, Gynecologist & Fertility Specialist.",
+   "og_url": "{{siteUrl}}/",
+   "og_site_name": "IVF API",
+   "article_modified_time": "2026-10-01T12:13:46+00:00",
+   "twitter_card": "summary_large_image",
+   "twitter_title": "{{name}} | IVF & Fertility Centre in {{city}} – {{doctor.name}}",
+   "twitter_description": "{{name}}, {{city}} – IVF, ICSI, IUI, Needle-Free IVF, fertility testing and gynaecology care by {{doctor.name}}, Gynecologist & Fertility Specialist."
+  },
+  "schema": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "WebPage",
+     "@id": "{{siteUrl}}/#webpage",
+     "url": "{{siteUrl}}/",
+     "name": "{{name}} | IVF & Fertility Centre in {{city}} – {{doctor.name}}",
+     "description": "{{name}}, {{city}} – IVF, ICSI, IUI, Needle-Free IVF, fertility testing and gynaecology care by {{doctor.name}}, Gynecologist & Fertility Specialist.",
+     "inLanguage": "en-IN",
+     "isPartOf": {
+      "@id": "{{siteUrl}}/#website"
+     },
+     "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "url": "{{doctor.photo}}"
+     },
+     "about": {
+      "@id": "{{siteUrl}}/#organization"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "{{siteUrl}}/#website",
+     "url": "{{siteUrl}}/",
+     "name": "{{name}}",
+     "publisher": {
+      "@id": "{{siteUrl}}/#organization"
+     }
+    },
+    {
+     "@type": "MedicalClinic",
+     "@id": "{{siteUrl}}/#organization",
+     "name": "{{name}}",
+     "alternateName": "{{legalName}}",
+     "description": "IVF, fertility and gynaecology care in {{city}}, led by {{doctor.name}}, Gynecologist & Fertility Specialist.",
+     "url": "{{siteUrl}}/",
+     "logo": "{{logo}}",
+     "image": "/images/stock/hospital-exterior.jpg",
+     "telephone": "{{phone}}",
+     "medicalSpecialty": "Reproductive medicine",
+     "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{addressShort}}",
+      "addressLocality": "{{city}}",
+      "addressRegion": "{{region}}",
+      "postalCode": "224001",
+      "addressCountry": "IN"
+     },
+     "hasMap": "https://www.google.com/maps/search/?api=1&query={{mapSearch}}",
+     "sameAs": [
+      "{{social.instagram}}",
+      "{{social.youtube}}",
+      "{{social.facebook}}"
+     ]
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "{{siteUrl}}/#faq",
+     "isPartOf": {
+      "@id": "{{siteUrl}}/#webpage"
+     },
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "When should we see a fertility specialist?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If you have been trying for 12 months without success — or 6 months if the woman is over 35 — it is a good time to consult. See a specialist sooner for irregular periods, PCOS, known tubal or sperm problems, or previous miscarriages."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What is Needle-Free IVF and am I eligible?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is an approach that reduces or replaces daily hormone injections with gentler alternatives where medically suitable. Eligibility depends on your age, reports and ovarian reserve — {{doctor.name}} will advise after evaluation."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "IUI or IVF — which one do I need?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "IUI is often tried first for mild issues, with open tubes and good sperm parameters. IVF or ICSI is advised for blocked tubes, severe male-factor infertility, advanced age or after failed IUI cycles."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How many visits does an IVF cycle need?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Typically 6–8 visits over about 4–6 weeks: consultation, monitoring scans during stimulation, egg retrieval, embryo transfer and the pregnancy test."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How much does IVF cost?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[Add your cost policy — e.g. costs depend on the treatment plan; a transparent written estimate is shared after consultation, with EMI options available.]"
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do you offer male infertility treatment?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We offer semen analysis, counselling and treatment, including ICSI for low sperm count or poor motility."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is my information kept confidential?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Consultations, medical records and donor details are kept strictly private, in line with the ART (Regulation) Act and medical ethics."
+       }
+      }
+     ]
+    },
+    {
+     "@type": "Physician",
+     "@id": "{{siteUrl}}/doctors/{{doctor.slug}}#physician",
+     "name": "{{doctor.name}}",
+     "url": "{{siteUrl}}/doctors/{{doctor.slug}}",
+     "image": "{{doctor.photo}}",
+     "description": "Known for her calm, reassuring approach, {{doctor.name}} personally guides each couple through diagnosis, treatment and pregnancy. Her focus is simple: the right treatment, explained honestly, delivered gently.",
+     "medicalSpecialty": "Gynecologist & Fertility Specialist",
+     "parentOrganization": {
+      "@id": "{{siteUrl}}/#organization"
+     }
+    }
+   ]
+  }
+ }
+]

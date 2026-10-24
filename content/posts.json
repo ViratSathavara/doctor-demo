@@ -1,0 +1,3373 @@
+[
+ {
+  "id": 710,
+  "date_gmt": "2026-09-12T10:00:00",
+  "modified_gmt": "2026-10-05T05:31:55",
+  "slug": "needle-free-ivf-how-it-works",
+  "title": {
+   "rendered": "Needle-Free IVF: how it works and who it is right for"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "excerpt": {
+   "rendered": "<p>Afraid of daily injections? {{doctor.name}} explains gentler IVF protocols, what the process involves, the trade-offs and who may benefit most.</p>\n",
+   "protected": false
+  },
+  "categories": [
+   7
+  ],
+  "acf": {
+   "author_doctor": 541,
+   "read_time": "6 min read"
+  },
+  "yoast_head_json": {
+   "title": "Needle-Free IVF: how it works and who it is right for - IVF API",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Needle-Free IVF: how it works and who it is right for - IVF API",
+   "og_description": "Afraid of daily injections? {{doctor.name}} explains gentler IVF protocols, what the process involves, the trade-offs and who may benefit most.",
+   "og_url": "{{siteUrl}}/blog/needle-free-ivf-how-it-works",
+   "og_site_name": "IVF API",
+   "article_published_time": "2026-09-12T10:00:00+00:00",
+   "article_modified_time": "2026-10-05T05:31:55+00:00",
+   "og_image": [
+    {
+     "width": 1200,
+     "height": 1600,
+     "url": "/images/blog/needle-free-ivf-how-it-works.jpg",
+     "type": "image/jpeg"
+    }
+   ],
+   "author": "admin",
+   "twitter_card": "summary_large_image",
+   "twitter_misc": {
+    "Written by": "admin"
+   }
+  },
+  "schema": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BlogPosting",
+     "@id": "{{siteUrl}}/blog/needle-free-ivf-how-it-works#article",
+     "mainEntityOfPage": "{{siteUrl}}/blog/needle-free-ivf-how-it-works",
+     "url": "{{siteUrl}}/blog/needle-free-ivf-how-it-works",
+     "headline": "Needle-Free IVF: how it works and who it is right for",
+     "description": "Afraid of daily injections? {{doctor.name}} explains gentler IVF protocols, what the process involves, the trade-offs and who may benefit most.",
+     "image": "/images/blog/needle-free-ivf-how-it-works.jpg",
+     "datePublished": "2026-09-12T10:00:00+00:00",
+     "articleSection": "IVF",
+     "inLanguage": "en-IN",
+     "author": {
+      "@type": "Physician",
+      "@id": "{{siteUrl}}/doctors/{{doctor.slug}}#physician",
+      "name": "{{doctor.name}}",
+      "url": "{{siteUrl}}/doctors/{{doctor.slug}}"
+     },
+     "publisher": {
+      "@id": "{{siteUrl}}/#organization"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "{{siteUrl}}/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Health Blog",
+       "item": "{{siteUrl}}/blogs"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Needle-Free IVF: how it works and who it is right for",
+       "item": "{{siteUrl}}/blog/needle-free-ivf-how-it-works"
+      }
+     ]
+    },
+    {
+     "@type": "MedicalClinic",
+     "@id": "{{siteUrl}}/#organization",
+     "name": "{{name}}",
+     "url": "{{siteUrl}}/",
+     "logo": "{{logo}}",
+     "telephone": "{{phone}}"
+    }
+   ]
+  },
+  "doctor": {
+   "id": 541,
+   "name": "{{doctor.name}}",
+   "path": "/doctors/{{doctor.slug}}"
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "/wp-json/wp/v2/posts/710",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "/wp-json/wp/v2/posts"
+    }
+   ],
+   "about": [
+    {
+     "href": "/wp-json/wp/v2/types/post"
+    }
+   ],
+   "author": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/users/1"
+    }
+   ],
+   "replies": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/comments?post=710"
+    }
+   ],
+   "version-history": [
+    {
+     "count": 1,
+     "href": "/wp-json/wp/v2/posts/710/revisions"
+    }
+   ],
+   "predecessor-version": [
+    {
+     "id": 933,
+     "href": "/wp-json/wp/v2/posts/710/revisions/933"
+    }
+   ],
+   "acf:post": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/doctors/541"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/media/731"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "/wp-json/wp/v2/media?parent=710"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "category",
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/categories?post=710"
+    },
+    {
+     "taxonomy": "post_tag",
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/tags?post=710"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  },
+  "_embedded": {
+   "wp:featuredmedia": [
+    {
+     "id": 731,
+     "date": "2026-10-01T12:13:44",
+     "slug": "couple-holding-ultrasound-scan-photos",
+     "type": "attachment",
+     "link": "/couple-holding-ultrasound-scan-photos",
+     "title": {
+      "rendered": "Couple holding ultrasound scan photos"
+     },
+     "author": 1,
+     "featured_media": 0,
+     "acf": [],
+     "caption": {
+      "rendered": ""
+     },
+     "alt_text": "Couple holding ultrasound scan photos",
+     "media_type": "image",
+     "mime_type": "image/jpeg",
+     "media_details": {
+      "width": 1200,
+      "height": 1600,
+      "file": "2026/10/needle-free-ivf-how-it-works.jpg",
+      "filesize": 250236,
+      "image_meta": {
+       "aperture": "0",
+       "credit": "",
+       "camera": "",
+       "caption": "",
+       "created_timestamp": "0",
+       "copyright": "",
+       "focal_length": "0",
+       "iso": "0",
+       "shutter_speed": "0",
+       "title": "",
+       "orientation": "0",
+       "keywords": [],
+       "alt": ""
+      }
+     },
+     "source_url": "/images/blog/needle-free-ivf-how-it-works.jpg",
+     "_links": {
+      "self": [
+       {
+        "href": "/wp-json/wp/v2/media/731",
+        "targetHints": {
+         "allow": [
+          "GET"
+         ]
+        }
+       }
+      ],
+      "collection": [
+       {
+        "href": "/wp-json/wp/v2/media"
+       }
+      ],
+      "about": [
+       {
+        "href": "/wp-json/wp/v2/types/attachment"
+       }
+      ],
+      "author": [
+       {
+        "embeddable": true,
+        "href": "/wp-json/wp/v2/users/1"
+       }
+      ],
+      "replies": [
+       {
+        "embeddable": true,
+        "href": "/wp-json/wp/v2/comments?post=731"
+       }
+      ]
+     }
+    }
+   ],
+   "wp:term": [
+    [
+     {
+      "id": 7,
+      "link": "/blog/category/ivf",
+      "name": "IVF",
+      "slug": "ivf",
+      "taxonomy": "category",
+      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>IVF Archives - IVF API</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"IVF Archives - IVF API\" />\n<meta property=\"og:url\" content=\"/blog/category/ivf\" />\n<meta property=\"og:site_name\" content=\"IVF API\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<!-- / Yoast SEO plugin. -->",
+      "yoast_head_json": {
+       "title": "IVF Archives - IVF API",
+       "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+       },
+       "og_locale": "en_US",
+       "og_type": "article",
+       "og_title": "IVF Archives - IVF API",
+       "og_url": "{{siteUrl}}/blog/category/ivf",
+       "og_site_name": "IVF API",
+       "twitter_card": "summary_large_image"
+      },
+      "acf": [],
+      "_links": {
+       "self": [
+        {
+         "href": "/wp-json/wp/v2/categories/7",
+         "targetHints": {
+          "allow": [
+           "GET"
+          ]
+         }
+        }
+       ],
+       "collection": [
+        {
+         "href": "/wp-json/wp/v2/categories"
+        }
+       ],
+       "about": [
+        {
+         "href": "/wp-json/wp/v2/taxonomies/category"
+        }
+       ],
+       "wp:post_type": [
+        {
+         "href": "/wp-json/wp/v2/posts?categories=7"
+        }
+       ],
+       "curies": [
+        {
+         "name": "wp",
+         "href": "https://api.w.org/{rel}",
+         "templated": true
+        }
+       ]
+      }
+     }
+    ],
+    []
+   ]
+  }
+ },
+ {
+  "id": 711,
+  "date_gmt": "2026-08-28T10:00:00",
+  "modified_gmt": "2026-10-05T05:31:55",
+  "slug": "can-you-get-pregnant-with-pcos",
+  "title": {
+   "rendered": "Can you get pregnant with PCOS? A doctor explains"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "excerpt": {
+   "rendered": "<p>PCOS is one of the most common causes of irregular ovulation — and most women with PCOS can conceive with the right care.</p>\n",
+   "protected": false
+  },
+  "categories": [
+   13
+  ],
+  "acf": {
+   "author_doctor": 541,
+   "read_time": "5 min read"
+  },
+  "yoast_head_json": {
+   "title": "Can you get pregnant with PCOS? A doctor explains - IVF API",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Can you get pregnant with PCOS? A doctor explains - IVF API",
+   "og_description": "PCOS is one of the most common causes of irregular ovulation — and most women with PCOS can conceive with the right care.",
+   "og_url": "{{siteUrl}}/blog/can-you-get-pregnant-with-pcos",
+   "og_site_name": "IVF API",
+   "article_published_time": "2026-08-28T10:00:00+00:00",
+   "article_modified_time": "2026-10-05T05:31:55+00:00",
+   "og_image": [
+    {
+     "width": 1200,
+     "height": 800,
+     "url": "/images/blog/can-you-get-pregnant-with-pcos.jpg",
+     "type": "image/jpeg"
+    }
+   ],
+   "author": "admin",
+   "twitter_card": "summary_large_image",
+   "twitter_misc": {
+    "Written by": "admin"
+   }
+  },
+  "schema": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BlogPosting",
+     "@id": "{{siteUrl}}/blog/can-you-get-pregnant-with-pcos#article",
+     "mainEntityOfPage": "{{siteUrl}}/blog/can-you-get-pregnant-with-pcos",
+     "url": "{{siteUrl}}/blog/can-you-get-pregnant-with-pcos",
+     "headline": "Can you get pregnant with PCOS? A doctor explains",
+     "description": "PCOS is one of the most common causes of irregular ovulation — and most women with PCOS can conceive with the right care.",
+     "image": "/images/blog/can-you-get-pregnant-with-pcos.jpg",
+     "datePublished": "2026-08-28T10:00:00+00:00",
+     "articleSection": "PCOS",
+     "inLanguage": "en-IN",
+     "author": {
+      "@type": "Physician",
+      "@id": "{{siteUrl}}/doctors/{{doctor.slug}}#physician",
+      "name": "{{doctor.name}}",
+      "url": "{{siteUrl}}/doctors/{{doctor.slug}}"
+     },
+     "publisher": {
+      "@id": "{{siteUrl}}/#organization"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "{{siteUrl}}/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Health Blog",
+       "item": "{{siteUrl}}/blogs"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Can you get pregnant with PCOS? A doctor explains",
+       "item": "{{siteUrl}}/blog/can-you-get-pregnant-with-pcos"
+      }
+     ]
+    },
+    {
+     "@type": "MedicalClinic",
+     "@id": "{{siteUrl}}/#organization",
+     "name": "{{name}}",
+     "url": "{{siteUrl}}/",
+     "logo": "{{logo}}",
+     "telephone": "{{phone}}"
+    }
+   ]
+  },
+  "doctor": {
+   "id": 541,
+   "name": "{{doctor.name}}",
+   "path": "/doctors/{{doctor.slug}}"
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "/wp-json/wp/v2/posts/711",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "/wp-json/wp/v2/posts"
+    }
+   ],
+   "about": [
+    {
+     "href": "/wp-json/wp/v2/types/post"
+    }
+   ],
+   "author": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/users/1"
+    }
+   ],
+   "replies": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/comments?post=711"
+    }
+   ],
+   "version-history": [
+    {
+     "count": 3,
+     "href": "/wp-json/wp/v2/posts/711/revisions"
+    }
+   ],
+   "predecessor-version": [
+    {
+     "id": 934,
+     "href": "/wp-json/wp/v2/posts/711/revisions/934"
+    }
+   ],
+   "acf:post": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/doctors/541"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/media/732"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "/wp-json/wp/v2/media?parent=711"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "category",
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/categories?post=711"
+    },
+    {
+     "taxonomy": "post_tag",
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/tags?post=711"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  },
+  "_embedded": {
+   "wp:featuredmedia": [
+    {
+     "id": 732,
+     "date": "2026-10-01T12:13:45",
+     "slug": "couple-with-hands-on-a-pregnant-belly",
+     "type": "attachment",
+     "link": "/couple-with-hands-on-a-pregnant-belly",
+     "title": {
+      "rendered": "Couple with hands on a pregnant belly"
+     },
+     "author": 1,
+     "featured_media": 0,
+     "acf": [],
+     "caption": {
+      "rendered": ""
+     },
+     "alt_text": "Couple with hands on a pregnant belly",
+     "media_type": "image",
+     "mime_type": "image/jpeg",
+     "media_details": {
+      "width": 1200,
+      "height": 800,
+      "file": "2026/10/can-you-get-pregnant-with-pcos.jpg",
+      "filesize": 138118,
+      "image_meta": {
+       "aperture": "0",
+       "credit": "",
+       "camera": "",
+       "caption": "",
+       "created_timestamp": "0",
+       "copyright": "",
+       "focal_length": "0",
+       "iso": "0",
+       "shutter_speed": "0",
+       "title": "",
+       "orientation": "0",
+       "keywords": [],
+       "alt": ""
+      }
+     },
+     "source_url": "/images/blog/can-you-get-pregnant-with-pcos.jpg",
+     "_links": {
+      "self": [
+       {
+        "href": "/wp-json/wp/v2/media/732",
+        "targetHints": {
+         "allow": [
+          "GET"
+         ]
+        }
+       }
+      ],
+      "collection": [
+       {
+        "href": "/wp-json/wp/v2/media"
+       }
+      ],
+      "about": [
+       {
+        "href": "/wp-json/wp/v2/types/attachment"
+       }
+      ],
+      "author": [
+       {
+        "embeddable": true,
+        "href": "/wp-json/wp/v2/users/1"
+       }
+      ],
+      "replies": [
+       {
+        "embeddable": true,
+        "href": "/wp-json/wp/v2/comments?post=732"
+       }
+      ]
+     }
+    }
+   ],
+   "wp:term": [
+    [
+     {
+      "id": 13,
+      "link": "/blog/category/pcos",
+      "name": "PCOS",
+      "slug": "pcos",
+      "taxonomy": "category",
+      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>PCOS Archives - IVF API</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"PCOS Archives - IVF API\" />\n<meta property=\"og:url\" content=\"/blog/category/pcos\" />\n<meta property=\"og:site_name\" content=\"IVF API\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<!-- / Yoast SEO plugin. -->",
+      "yoast_head_json": {
+       "title": "PCOS Archives - IVF API",
+       "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+       },
+       "og_locale": "en_US",
+       "og_type": "article",
+       "og_title": "PCOS Archives - IVF API",
+       "og_url": "{{siteUrl}}/blog/category/pcos",
+       "og_site_name": "IVF API",
+       "twitter_card": "summary_large_image"
+      },
+      "acf": [],
+      "_links": {
+       "self": [
+        {
+         "href": "/wp-json/wp/v2/categories/13",
+         "targetHints": {
+          "allow": [
+           "GET"
+          ]
+         }
+        }
+       ],
+       "collection": [
+        {
+         "href": "/wp-json/wp/v2/categories"
+        }
+       ],
+       "about": [
+        {
+         "href": "/wp-json/wp/v2/taxonomies/category"
+        }
+       ],
+       "wp:post_type": [
+        {
+         "href": "/wp-json/wp/v2/posts?categories=13"
+        }
+       ],
+       "curies": [
+        {
+         "name": "wp",
+         "href": "https://api.w.org/{rel}",
+         "templated": true
+        }
+       ]
+      }
+     }
+    ],
+    []
+   ]
+  }
+ },
+ {
+  "id": 712,
+  "date_gmt": "2026-08-14T10:00:00",
+  "modified_gmt": "2026-10-05T05:31:55",
+  "slug": "low-sperm-count-causes-tests-treatment",
+  "title": {
+   "rendered": "Low sperm count: causes, tests and treatment"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "excerpt": {
+   "rendered": "<p>Male factors contribute to many cases of infertility. Learn what a semen analysis shows and the options available.</p>\n",
+   "protected": false
+  },
+  "categories": [
+   14
+  ],
+  "acf": {
+   "author_doctor": 541,
+   "read_time": "4 min read"
+  },
+  "yoast_head_json": {
+   "title": "Low sperm count: causes, tests and treatment - IVF API",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Low sperm count: causes, tests and treatment - IVF API",
+   "og_description": "Male factors contribute to many cases of infertility. Learn what a semen analysis shows and the options available.",
+   "og_url": "{{siteUrl}}/blog/low-sperm-count-causes-tests-treatment",
+   "og_site_name": "IVF API",
+   "article_published_time": "2026-08-14T10:00:00+00:00",
+   "article_modified_time": "2026-10-05T05:31:55+00:00",
+   "og_image": [
+    {
+     "width": 1200,
+     "height": 675,
+     "url": "/images/blog/low-sperm-count-causes-tests-treatment.jpg",
+     "type": "image/jpeg"
+    }
+   ],
+   "author": "admin",
+   "twitter_card": "summary_large_image",
+   "twitter_misc": {
+    "Written by": "admin"
+   }
+  },
+  "schema": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BlogPosting",
+     "@id": "{{siteUrl}}/blog/low-sperm-count-causes-tests-treatment#article",
+     "mainEntityOfPage": "{{siteUrl}}/blog/low-sperm-count-causes-tests-treatment",
+     "url": "{{siteUrl}}/blog/low-sperm-count-causes-tests-treatment",
+     "headline": "Low sperm count: causes, tests and treatment",
+     "description": "Male factors contribute to many cases of infertility. Learn what a semen analysis shows and the options available.",
+     "image": "/images/blog/low-sperm-count-causes-tests-treatment.jpg",
+     "datePublished": "2026-08-14T10:00:00+00:00",
+     "articleSection": "Male Fertility",
+     "inLanguage": "en-IN",
+     "author": {
+      "@type": "Physician",
+      "@id": "{{siteUrl}}/doctors/{{doctor.slug}}#physician",
+      "name": "{{doctor.name}}",
+      "url": "{{siteUrl}}/doctors/{{doctor.slug}}"
+     },
+     "publisher": {
+      "@id": "{{siteUrl}}/#organization"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "{{siteUrl}}/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Health Blog",
+       "item": "{{siteUrl}}/blogs"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Low sperm count: causes, tests and treatment",
+       "item": "{{siteUrl}}/blog/low-sperm-count-causes-tests-treatment"
+      }
+     ]
+    },
+    {
+     "@type": "MedicalClinic",
+     "@id": "{{siteUrl}}/#organization",
+     "name": "{{name}}",
+     "url": "{{siteUrl}}/",
+     "logo": "{{logo}}",
+     "telephone": "{{phone}}"
+    }
+   ]
+  },
+  "doctor": {
+   "id": 541,
+   "name": "{{doctor.name}}",
+   "path": "/doctors/{{doctor.slug}}"
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "/wp-json/wp/v2/posts/712",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "/wp-json/wp/v2/posts"
+    }
+   ],
+   "about": [
+    {
+     "href": "/wp-json/wp/v2/types/post"
+    }
+   ],
+   "author": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/users/1"
+    }
+   ],
+   "replies": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/comments?post=712"
+    }
+   ],
+   "version-history": [
+    {
+     "count": 1,
+     "href": "/wp-json/wp/v2/posts/712/revisions"
+    }
+   ],
+   "predecessor-version": [
+    {
+     "id": 935,
+     "href": "/wp-json/wp/v2/posts/712/revisions/935"
+    }
+   ],
+   "acf:post": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/doctors/541"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/media/733"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "/wp-json/wp/v2/media?parent=712"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "category",
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/categories?post=712"
+    },
+    {
+     "taxonomy": "post_tag",
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/tags?post=712"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  },
+  "_embedded": {
+   "wp:featuredmedia": [
+    {
+     "id": 733,
+     "date": "2026-10-01T12:13:45",
+     "slug": "doctor-discussing-test-results-with-a-male-patient",
+     "type": "attachment",
+     "link": "/doctor-discussing-test-results-with-a-male-patient",
+     "title": {
+      "rendered": "Doctor discussing test results with a male patient"
+     },
+     "author": 1,
+     "featured_media": 0,
+     "acf": [],
+     "caption": {
+      "rendered": ""
+     },
+     "alt_text": "Doctor discussing test results with a male patient",
+     "media_type": "image",
+     "mime_type": "image/jpeg",
+     "media_details": {
+      "width": 1200,
+      "height": 675,
+      "file": "2026/10/low-sperm-count-causes-tests-treatment.jpg",
+      "filesize": 114957,
+      "image_meta": {
+       "aperture": "0",
+       "credit": "",
+       "camera": "",
+       "caption": "",
+       "created_timestamp": "0",
+       "copyright": "",
+       "focal_length": "0",
+       "iso": "0",
+       "shutter_speed": "0",
+       "title": "",
+       "orientation": "0",
+       "keywords": [],
+       "alt": ""
+      }
+     },
+     "source_url": "/images/blog/low-sperm-count-causes-tests-treatment.jpg",
+     "_links": {
+      "self": [
+       {
+        "href": "/wp-json/wp/v2/media/733",
+        "targetHints": {
+         "allow": [
+          "GET"
+         ]
+        }
+       }
+      ],
+      "collection": [
+       {
+        "href": "/wp-json/wp/v2/media"
+       }
+      ],
+      "about": [
+       {
+        "href": "/wp-json/wp/v2/types/attachment"
+       }
+      ],
+      "author": [
+       {
+        "embeddable": true,
+        "href": "/wp-json/wp/v2/users/1"
+       }
+      ],
+      "replies": [
+       {
+        "embeddable": true,
+        "href": "/wp-json/wp/v2/comments?post=733"
+       }
+      ]
+     }
+    }
+   ],
+   "wp:term": [
+    [
+     {
+      "id": 14,
+      "link": "/blog/category/male-fertility",
+      "name": "Male Fertility",
+      "slug": "male-fertility",
+      "taxonomy": "category",
+      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Male Fertility Archives - IVF API</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Male Fertility Archives - IVF API\" />\n<meta property=\"og:url\" content=\"/blog/category/male-fertility\" />\n<meta property=\"og:site_name\" content=\"IVF API\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<!-- / Yoast SEO plugin. -->",
+      "yoast_head_json": {
+       "title": "Male Fertility Archives - IVF API",
+       "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+       },
+       "og_locale": "en_US",
+       "og_type": "article",
+       "og_title": "Male Fertility Archives - IVF API",
+       "og_url": "{{siteUrl}}/blog/category/male-fertility",
+       "og_site_name": "IVF API",
+       "twitter_card": "summary_large_image"
+      },
+      "acf": [],
+      "_links": {
+       "self": [
+        {
+         "href": "/wp-json/wp/v2/categories/14",
+         "targetHints": {
+          "allow": [
+           "GET"
+          ]
+         }
+        }
+       ],
+       "collection": [
+        {
+         "href": "/wp-json/wp/v2/categories"
+        }
+       ],
+       "about": [
+        {
+         "href": "/wp-json/wp/v2/taxonomies/category"
+        }
+       ],
+       "wp:post_type": [
+        {
+         "href": "/wp-json/wp/v2/posts?categories=14"
+        }
+       ],
+       "curies": [
+        {
+         "name": "wp",
+         "href": "https://api.w.org/{rel}",
+         "templated": true
+        }
+       ]
+      }
+     }
+    ],
+    []
+   ]
+  }
+ },
+ {
+  "id": 936,
+  "date_gmt": "2026-07-30T10:00:00",
+  "modified_gmt": "2026-07-30T10:00:00",
+  "slug": "ivf-vs-iui-which-is-right-for-you",
+  "title": {
+   "rendered": "IVF vs IUI: which treatment is right for you?"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "excerpt": {
+   "rendered": "<p>Both help couples conceive, but they work very differently. Here is how doctors decide which to try first.</p>\n",
+   "protected": false
+  },
+  "categories": [
+   7
+  ],
+  "acf": {
+   "author_doctor": 541,
+   "read_time": "5 min read"
+  },
+  "yoast_head_json": {
+   "title": "IVF vs IUI: which treatment is right for you? - IVF API",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "IVF vs IUI: which treatment is right for you? - IVF API",
+   "og_description": "Both help couples conceive, but they work very differently. Here is how doctors decide which to try first.",
+   "og_url": "{{siteUrl}}/blog/ivf-vs-iui-which-is-right-for-you",
+   "og_site_name": "IVF API",
+   "article_published_time": "2026-07-30T10:00:00+00:00",
+   "og_image": [
+    {
+     "width": 1200,
+     "height": 675,
+     "url": "/images/blog/ivf-vs-iui-which-is-right-for-you.jpg",
+     "type": "image/jpeg"
+    }
+   ],
+   "author": "admin",
+   "twitter_card": "summary_large_image",
+   "twitter_misc": {
+    "Written by": "admin"
+   }
+  },
+  "schema": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BlogPosting",
+     "@id": "{{siteUrl}}/blog/ivf-vs-iui-which-is-right-for-you#article",
+     "mainEntityOfPage": "{{siteUrl}}/blog/ivf-vs-iui-which-is-right-for-you",
+     "url": "{{siteUrl}}/blog/ivf-vs-iui-which-is-right-for-you",
+     "headline": "IVF vs IUI: which treatment is right for you?",
+     "description": "Both help couples conceive, but they work very differently. Here is how doctors decide which to try first.",
+     "image": "/images/blog/ivf-vs-iui-which-is-right-for-you.jpg",
+     "datePublished": "2026-07-30T10:00:00+00:00",
+     "articleSection": "IVF",
+     "inLanguage": "en-IN",
+     "author": {
+      "@type": "Physician",
+      "@id": "{{siteUrl}}/doctors/{{doctor.slug}}#physician",
+      "name": "{{doctor.name}}",
+      "url": "{{siteUrl}}/doctors/{{doctor.slug}}"
+     },
+     "publisher": {
+      "@id": "{{siteUrl}}/#organization"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "{{siteUrl}}/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Health Blog",
+       "item": "{{siteUrl}}/blogs"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "IVF vs IUI: which treatment is right for you?",
+       "item": "{{siteUrl}}/blog/ivf-vs-iui-which-is-right-for-you"
+      }
+     ]
+    },
+    {
+     "@type": "MedicalClinic",
+     "@id": "{{siteUrl}}/#organization",
+     "name": "{{name}}",
+     "url": "{{siteUrl}}/",
+     "logo": "{{logo}}",
+     "telephone": "{{phone}}"
+    }
+   ]
+  },
+  "doctor": {
+   "id": 541,
+   "name": "{{doctor.name}}",
+   "path": "/doctors/{{doctor.slug}}"
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "/wp-json/wp/v2/posts/936",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "/wp-json/wp/v2/posts"
+    }
+   ],
+   "about": [
+    {
+     "href": "/wp-json/wp/v2/types/post"
+    }
+   ],
+   "author": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/users/1"
+    }
+   ],
+   "replies": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/comments?post=936"
+    }
+   ],
+   "version-history": [
+    {
+     "count": 0,
+     "href": "/wp-json/wp/v2/posts/936/revisions"
+    }
+   ],
+   "acf:post": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/doctors/541"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/media/937"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "/wp-json/wp/v2/media?parent=936"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "category",
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/categories?post=936"
+    },
+    {
+     "taxonomy": "post_tag",
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/tags?post=936"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  },
+  "_embedded": {
+   "wp:featuredmedia": [
+    {
+     "id": 937,
+     "date": "2026-10-05T05:31:55",
+     "slug": "doctor-consulting-a-patient-at-his-desk",
+     "type": "attachment",
+     "link": "/doctor-consulting-a-patient-at-his-desk",
+     "title": {
+      "rendered": "Doctor consulting a patient at his desk"
+     },
+     "author": 1,
+     "featured_media": 0,
+     "acf": [],
+     "caption": {
+      "rendered": ""
+     },
+     "alt_text": "Doctor consulting a patient at his desk",
+     "media_type": "image",
+     "mime_type": "image/jpeg",
+     "media_details": {
+      "width": 1200,
+      "height": 675,
+      "file": "2026/10/ivf-vs-iui-which-is-right-for-you.jpg",
+      "filesize": 105561,
+      "image_meta": {
+       "aperture": "0",
+       "credit": "",
+       "camera": "",
+       "caption": "",
+       "created_timestamp": "0",
+       "copyright": "",
+       "focal_length": "0",
+       "iso": "0",
+       "shutter_speed": "0",
+       "title": "",
+       "orientation": "0",
+       "keywords": [],
+       "alt": ""
+      }
+     },
+     "source_url": "/images/blog/ivf-vs-iui-which-is-right-for-you.jpg",
+     "_links": {
+      "self": [
+       {
+        "href": "/wp-json/wp/v2/media/937",
+        "targetHints": {
+         "allow": [
+          "GET"
+         ]
+        }
+       }
+      ],
+      "collection": [
+       {
+        "href": "/wp-json/wp/v2/media"
+       }
+      ],
+      "about": [
+       {
+        "href": "/wp-json/wp/v2/types/attachment"
+       }
+      ],
+      "author": [
+       {
+        "embeddable": true,
+        "href": "/wp-json/wp/v2/users/1"
+       }
+      ],
+      "replies": [
+       {
+        "embeddable": true,
+        "href": "/wp-json/wp/v2/comments?post=937"
+       }
+      ]
+     }
+    }
+   ],
+   "wp:term": [
+    [
+     {
+      "id": 7,
+      "link": "/blog/category/ivf",
+      "name": "IVF",
+      "slug": "ivf",
+      "taxonomy": "category",
+      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>IVF Archives - IVF API</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"IVF Archives - IVF API\" />\n<meta property=\"og:url\" content=\"/blog/category/ivf\" />\n<meta property=\"og:site_name\" content=\"IVF API\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<!-- / Yoast SEO plugin. -->",
+      "yoast_head_json": {
+       "title": "IVF Archives - IVF API",
+       "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+       },
+       "og_locale": "en_US",
+       "og_type": "article",
+       "og_title": "IVF Archives - IVF API",
+       "og_url": "{{siteUrl}}/blog/category/ivf",
+       "og_site_name": "IVF API",
+       "twitter_card": "summary_large_image"
+      },
+      "acf": [],
+      "_links": {
+       "self": [
+        {
+         "href": "/wp-json/wp/v2/categories/7",
+         "targetHints": {
+          "allow": [
+           "GET"
+          ]
+         }
+        }
+       ],
+       "collection": [
+        {
+         "href": "/wp-json/wp/v2/categories"
+        }
+       ],
+       "about": [
+        {
+         "href": "/wp-json/wp/v2/taxonomies/category"
+        }
+       ],
+       "wp:post_type": [
+        {
+         "href": "/wp-json/wp/v2/posts?categories=7"
+        }
+       ],
+       "curies": [
+        {
+         "name": "wp",
+         "href": "https://api.w.org/{rel}",
+         "templated": true
+        }
+       ]
+      }
+     }
+    ],
+    []
+   ]
+  }
+ },
+ {
+  "id": 938,
+  "date_gmt": "2026-07-16T10:00:00",
+  "modified_gmt": "2026-07-16T10:00:00",
+  "slug": "egg-freezing-right-age",
+  "title": {
+   "rendered": "Egg freezing: the right age and what to expect"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "excerpt": {
+   "rendered": "<p>Thinking of preserving your fertility? What the process involves, how long eggs last and when to start.</p>\n",
+   "protected": false
+  },
+  "categories": [
+   15
+  ],
+  "acf": {
+   "author_doctor": 541,
+   "read_time": "6 min read"
+  },
+  "yoast_head_json": {
+   "title": "Egg freezing: the right age and what to expect - IVF API",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Egg freezing: the right age and what to expect - IVF API",
+   "og_description": "Thinking of preserving your fertility? What the process involves, how long eggs last and when to start.",
+   "og_url": "{{siteUrl}}/blog/egg-freezing-right-age",
+   "og_site_name": "IVF API",
+   "article_published_time": "2026-07-16T10:00:00+00:00",
+   "og_image": [
+    {
+     "width": 1200,
+     "height": 800,
+     "url": "/images/blog/egg-freezing-right-age.jpg",
+     "type": "image/jpeg"
+    }
+   ],
+   "author": "admin",
+   "twitter_card": "summary_large_image",
+   "twitter_misc": {
+    "Written by": "admin"
+   }
+  },
+  "schema": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BlogPosting",
+     "@id": "{{siteUrl}}/blog/egg-freezing-right-age#article",
+     "mainEntityOfPage": "{{siteUrl}}/blog/egg-freezing-right-age",
+     "url": "{{siteUrl}}/blog/egg-freezing-right-age",
+     "headline": "Egg freezing: the right age and what to expect",
+     "description": "Thinking of preserving your fertility? What the process involves, how long eggs last and when to start.",
+     "image": "/images/blog/egg-freezing-right-age.jpg",
+     "datePublished": "2026-07-16T10:00:00+00:00",
+     "articleSection": "Egg Freezing",
+     "inLanguage": "en-IN",
+     "author": {
+      "@type": "Physician",
+      "@id": "{{siteUrl}}/doctors/{{doctor.slug}}#physician",
+      "name": "{{doctor.name}}",
+      "url": "{{siteUrl}}/doctors/{{doctor.slug}}"
+     },
+     "publisher": {
+      "@id": "{{siteUrl}}/#organization"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "{{siteUrl}}/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Health Blog",
+       "item": "{{siteUrl}}/blogs"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Egg freezing: the right age and what to expect",
+       "item": "{{siteUrl}}/blog/egg-freezing-right-age"
+      }
+     ]
+    },
+    {
+     "@type": "MedicalClinic",
+     "@id": "{{siteUrl}}/#organization",
+     "name": "{{name}}",
+     "url": "{{siteUrl}}/",
+     "logo": "{{logo}}",
+     "telephone": "{{phone}}"
+    }
+   ]
+  },
+  "doctor": {
+   "id": 541,
+   "name": "{{doctor.name}}",
+   "path": "/doctors/{{doctor.slug}}"
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "/wp-json/wp/v2/posts/938",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "/wp-json/wp/v2/posts"
+    }
+   ],
+   "about": [
+    {
+     "href": "/wp-json/wp/v2/types/post"
+    }
+   ],
+   "author": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/users/1"
+    }
+   ],
+   "replies": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/comments?post=938"
+    }
+   ],
+   "version-history": [
+    {
+     "count": 0,
+     "href": "/wp-json/wp/v2/posts/938/revisions"
+    }
+   ],
+   "acf:post": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/doctors/541"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/media/939"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "/wp-json/wp/v2/media?parent=938"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "category",
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/categories?post=938"
+    },
+    {
+     "taxonomy": "post_tag",
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/tags?post=938"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  },
+  "_embedded": {
+   "wp:featuredmedia": [
+    {
+     "id": 939,
+     "date": "2026-10-05T05:31:56",
+     "slug": "pipette-filling-sample-tubes-in-a-laboratory",
+     "type": "attachment",
+     "link": "/pipette-filling-sample-tubes-in-a-laboratory",
+     "title": {
+      "rendered": "Pipette filling sample tubes in a laboratory"
+     },
+     "author": 1,
+     "featured_media": 0,
+     "acf": [],
+     "caption": {
+      "rendered": ""
+     },
+     "alt_text": "Pipette filling sample tubes in a laboratory",
+     "media_type": "image",
+     "mime_type": "image/jpeg",
+     "media_details": {
+      "width": 1200,
+      "height": 800,
+      "file": "2026/10/egg-freezing-right-age.jpg",
+      "filesize": 170159,
+      "image_meta": {
+       "aperture": "0",
+       "credit": "",
+       "camera": "",
+       "caption": "",
+       "created_timestamp": "0",
+       "copyright": "",
+       "focal_length": "0",
+       "iso": "0",
+       "shutter_speed": "0",
+       "title": "",
+       "orientation": "0",
+       "keywords": [],
+       "alt": ""
+      }
+     },
+     "source_url": "/images/blog/egg-freezing-right-age.jpg",
+     "_links": {
+      "self": [
+       {
+        "href": "/wp-json/wp/v2/media/939",
+        "targetHints": {
+         "allow": [
+          "GET"
+         ]
+        }
+       }
+      ],
+      "collection": [
+       {
+        "href": "/wp-json/wp/v2/media"
+       }
+      ],
+      "about": [
+       {
+        "href": "/wp-json/wp/v2/types/attachment"
+       }
+      ],
+      "author": [
+       {
+        "embeddable": true,
+        "href": "/wp-json/wp/v2/users/1"
+       }
+      ],
+      "replies": [
+       {
+        "embeddable": true,
+        "href": "/wp-json/wp/v2/comments?post=939"
+       }
+      ]
+     }
+    }
+   ],
+   "wp:term": [
+    [
+     {
+      "id": 15,
+      "link": "/blog/category/egg-freezing",
+      "name": "Egg Freezing",
+      "slug": "egg-freezing",
+      "taxonomy": "category",
+      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Egg Freezing Archives - IVF API</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Egg Freezing Archives - IVF API\" />\n<meta property=\"og:url\" content=\"/blog/category/egg-freezing\" />\n<meta property=\"og:site_name\" content=\"IVF API\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<!-- / Yoast SEO plugin. -->",
+      "yoast_head_json": {
+       "title": "Egg Freezing Archives - IVF API",
+       "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+       },
+       "og_locale": "en_US",
+       "og_type": "article",
+       "og_title": "Egg Freezing Archives - IVF API",
+       "og_url": "{{siteUrl}}/blog/category/egg-freezing",
+       "og_site_name": "IVF API",
+       "twitter_card": "summary_large_image"
+      },
+      "acf": [],
+      "_links": {
+       "self": [
+        {
+         "href": "/wp-json/wp/v2/categories/15",
+         "targetHints": {
+          "allow": [
+           "GET"
+          ]
+         }
+        }
+       ],
+       "collection": [
+        {
+         "href": "/wp-json/wp/v2/categories"
+        }
+       ],
+       "about": [
+        {
+         "href": "/wp-json/wp/v2/taxonomies/category"
+        }
+       ],
+       "wp:post_type": [
+        {
+         "href": "/wp-json/wp/v2/posts?categories=15"
+        }
+       ],
+       "curies": [
+        {
+         "name": "wp",
+         "href": "https://api.w.org/{rel}",
+         "templated": true
+        }
+       ]
+      }
+     }
+    ],
+    []
+   ]
+  }
+ },
+ {
+  "id": 940,
+  "date_gmt": "2026-07-02T10:00:00",
+  "modified_gmt": "2026-07-02T10:00:00",
+  "slug": "amh-test-explained",
+  "title": {
+   "rendered": "AMH test explained: what your ovarian reserve means"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "excerpt": {
+   "rendered": "<p>A simple blood test that estimates egg reserve — and why a low number is not the end of the road.</p>\n",
+   "protected": false
+  },
+  "categories": [
+   16
+  ],
+  "acf": {
+   "author_doctor": 541,
+   "read_time": "4 min read"
+  },
+  "yoast_head_json": {
+   "title": "AMH test explained: what your ovarian reserve means - IVF API",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "AMH test explained: what your ovarian reserve means - IVF API",
+   "og_description": "A simple blood test that estimates egg reserve — and why a low number is not the end of the road.",
+   "og_url": "{{siteUrl}}/blog/amh-test-explained",
+   "og_site_name": "IVF API",
+   "article_published_time": "2026-07-02T10:00:00+00:00",
+   "og_image": [
+    {
+     "width": 1200,
+     "height": 800,
+     "url": "/images/blog/amh-test-explained.jpg",
+     "type": "image/jpeg"
+    }
+   ],
+   "author": "admin",
+   "twitter_card": "summary_large_image",
+   "twitter_misc": {
+    "Written by": "admin"
+   }
+  },
+  "schema": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BlogPosting",
+     "@id": "{{siteUrl}}/blog/amh-test-explained#article",
+     "mainEntityOfPage": "{{siteUrl}}/blog/amh-test-explained",
+     "url": "{{siteUrl}}/blog/amh-test-explained",
+     "headline": "AMH test explained: what your ovarian reserve means",
+     "description": "A simple blood test that estimates egg reserve — and why a low number is not the end of the road.",
+     "image": "/images/blog/amh-test-explained.jpg",
+     "datePublished": "2026-07-02T10:00:00+00:00",
+     "articleSection": "Fertility Tests",
+     "inLanguage": "en-IN",
+     "author": {
+      "@type": "Physician",
+      "@id": "{{siteUrl}}/doctors/{{doctor.slug}}#physician",
+      "name": "{{doctor.name}}",
+      "url": "{{siteUrl}}/doctors/{{doctor.slug}}"
+     },
+     "publisher": {
+      "@id": "{{siteUrl}}/#organization"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "{{siteUrl}}/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Health Blog",
+       "item": "{{siteUrl}}/blogs"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "AMH test explained: what your ovarian reserve means",
+       "item": "{{siteUrl}}/blog/amh-test-explained"
+      }
+     ]
+    },
+    {
+     "@type": "MedicalClinic",
+     "@id": "{{siteUrl}}/#organization",
+     "name": "{{name}}",
+     "url": "{{siteUrl}}/",
+     "logo": "{{logo}}",
+     "telephone": "{{phone}}"
+    }
+   ]
+  },
+  "doctor": {
+   "id": 541,
+   "name": "{{doctor.name}}",
+   "path": "/doctors/{{doctor.slug}}"
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "/wp-json/wp/v2/posts/940",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "/wp-json/wp/v2/posts"
+    }
+   ],
+   "about": [
+    {
+     "href": "/wp-json/wp/v2/types/post"
+    }
+   ],
+   "author": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/users/1"
+    }
+   ],
+   "replies": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/comments?post=940"
+    }
+   ],
+   "version-history": [
+    {
+     "count": 0,
+     "href": "/wp-json/wp/v2/posts/940/revisions"
+    }
+   ],
+   "acf:post": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/doctors/541"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/media/941"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "/wp-json/wp/v2/media?parent=940"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "category",
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/categories?post=940"
+    },
+    {
+     "taxonomy": "post_tag",
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/tags?post=940"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  },
+  "_embedded": {
+   "wp:featuredmedia": [
+    {
+     "id": 941,
+     "date": "2026-10-05T05:31:56",
+     "slug": "gloved-hand-holding-a-blood-sample-tube",
+     "type": "attachment",
+     "link": "/gloved-hand-holding-a-blood-sample-tube",
+     "title": {
+      "rendered": "Gloved hand holding a blood sample tube"
+     },
+     "author": 1,
+     "featured_media": 0,
+     "acf": [],
+     "caption": {
+      "rendered": ""
+     },
+     "alt_text": "Gloved hand holding a blood sample tube",
+     "media_type": "image",
+     "mime_type": "image/jpeg",
+     "media_details": {
+      "width": 1200,
+      "height": 800,
+      "file": "2026/10/amh-test-explained.jpg",
+      "filesize": 101023,
+      "image_meta": {
+       "aperture": "0",
+       "credit": "",
+       "camera": "",
+       "caption": "",
+       "created_timestamp": "0",
+       "copyright": "",
+       "focal_length": "0",
+       "iso": "0",
+       "shutter_speed": "0",
+       "title": "",
+       "orientation": "0",
+       "keywords": [],
+       "alt": ""
+      }
+     },
+     "source_url": "/images/blog/amh-test-explained.jpg",
+     "_links": {
+      "self": [
+       {
+        "href": "/wp-json/wp/v2/media/941",
+        "targetHints": {
+         "allow": [
+          "GET"
+         ]
+        }
+       }
+      ],
+      "collection": [
+       {
+        "href": "/wp-json/wp/v2/media"
+       }
+      ],
+      "about": [
+       {
+        "href": "/wp-json/wp/v2/types/attachment"
+       }
+      ],
+      "author": [
+       {
+        "embeddable": true,
+        "href": "/wp-json/wp/v2/users/1"
+       }
+      ],
+      "replies": [
+       {
+        "embeddable": true,
+        "href": "/wp-json/wp/v2/comments?post=941"
+       }
+      ]
+     }
+    }
+   ],
+   "wp:term": [
+    [
+     {
+      "id": 16,
+      "link": "/blog/category/fertility-tests",
+      "name": "Fertility Tests",
+      "slug": "fertility-tests",
+      "taxonomy": "category",
+      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Fertility Tests Archives - IVF API</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Fertility Tests Archives - IVF API\" />\n<meta property=\"og:url\" content=\"/blog/category/fertility-tests\" />\n<meta property=\"og:site_name\" content=\"IVF API\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<!-- / Yoast SEO plugin. -->",
+      "yoast_head_json": {
+       "title": "Fertility Tests Archives - IVF API",
+       "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+       },
+       "og_locale": "en_US",
+       "og_type": "article",
+       "og_title": "Fertility Tests Archives - IVF API",
+       "og_url": "{{siteUrl}}/blog/category/fertility-tests",
+       "og_site_name": "IVF API",
+       "twitter_card": "summary_large_image"
+      },
+      "acf": [],
+      "_links": {
+       "self": [
+        {
+         "href": "/wp-json/wp/v2/categories/16",
+         "targetHints": {
+          "allow": [
+           "GET"
+          ]
+         }
+        }
+       ],
+       "collection": [
+        {
+         "href": "/wp-json/wp/v2/categories"
+        }
+       ],
+       "about": [
+        {
+         "href": "/wp-json/wp/v2/taxonomies/category"
+        }
+       ],
+       "wp:post_type": [
+        {
+         "href": "/wp-json/wp/v2/posts?categories=16"
+        }
+       ],
+       "curies": [
+        {
+         "name": "wp",
+         "href": "https://api.w.org/{rel}",
+         "templated": true
+        }
+       ]
+      }
+     }
+    ],
+    []
+   ]
+  }
+ },
+ {
+  "id": 942,
+  "date_gmt": "2026-06-18T10:00:00",
+  "modified_gmt": "2026-06-18T10:00:00",
+  "slug": "first-trimester-care",
+  "title": {
+   "rendered": "First trimester care: what to do and what to avoid"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "excerpt": {
+   "rendered": "<p>Scans, supplements, diet and warning signs — a practical guide to the first 12 weeks of pregnancy.</p>\n",
+   "protected": false
+  },
+  "categories": [
+   17
+  ],
+  "acf": {
+   "author_doctor": 541,
+   "read_time": "7 min read"
+  },
+  "yoast_head_json": {
+   "title": "First trimester care: what to do and what to avoid - IVF API",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "First trimester care: what to do and what to avoid - IVF API",
+   "og_description": "Scans, supplements, diet and warning signs — a practical guide to the first 12 weeks of pregnancy.",
+   "og_url": "{{siteUrl}}/blog/first-trimester-care",
+   "og_site_name": "IVF API",
+   "article_published_time": "2026-06-18T10:00:00+00:00",
+   "og_image": [
+    {
+     "width": 1200,
+     "height": 1800,
+     "url": "/images/blog/first-trimester-care.jpg",
+     "type": "image/jpeg"
+    }
+   ],
+   "author": "admin",
+   "twitter_card": "summary_large_image",
+   "twitter_misc": {
+    "Written by": "admin"
+   }
+  },
+  "schema": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BlogPosting",
+     "@id": "{{siteUrl}}/blog/first-trimester-care#article",
+     "mainEntityOfPage": "{{siteUrl}}/blog/first-trimester-care",
+     "url": "{{siteUrl}}/blog/first-trimester-care",
+     "headline": "First trimester care: what to do and what to avoid",
+     "description": "Scans, supplements, diet and warning signs — a practical guide to the first 12 weeks of pregnancy.",
+     "image": "/images/blog/first-trimester-care.jpg",
+     "datePublished": "2026-06-18T10:00:00+00:00",
+     "articleSection": "Pregnancy",
+     "inLanguage": "en-IN",
+     "author": {
+      "@type": "Physician",
+      "@id": "{{siteUrl}}/doctors/{{doctor.slug}}#physician",
+      "name": "{{doctor.name}}",
+      "url": "{{siteUrl}}/doctors/{{doctor.slug}}"
+     },
+     "publisher": {
+      "@id": "{{siteUrl}}/#organization"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "{{siteUrl}}/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Health Blog",
+       "item": "{{siteUrl}}/blogs"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "First trimester care: what to do and what to avoid",
+       "item": "{{siteUrl}}/blog/first-trimester-care"
+      }
+     ]
+    },
+    {
+     "@type": "MedicalClinic",
+     "@id": "{{siteUrl}}/#organization",
+     "name": "{{name}}",
+     "url": "{{siteUrl}}/",
+     "logo": "{{logo}}",
+     "telephone": "{{phone}}"
+    }
+   ]
+  },
+  "doctor": {
+   "id": 541,
+   "name": "{{doctor.name}}",
+   "path": "/doctors/{{doctor.slug}}"
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "/wp-json/wp/v2/posts/942",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "/wp-json/wp/v2/posts"
+    }
+   ],
+   "about": [
+    {
+     "href": "/wp-json/wp/v2/types/post"
+    }
+   ],
+   "author": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/users/1"
+    }
+   ],
+   "replies": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/comments?post=942"
+    }
+   ],
+   "version-history": [
+    {
+     "count": 0,
+     "href": "/wp-json/wp/v2/posts/942/revisions"
+    }
+   ],
+   "acf:post": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/doctors/541"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/media/943"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "/wp-json/wp/v2/media?parent=942"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "category",
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/categories?post=942"
+    },
+    {
+     "taxonomy": "post_tag",
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/tags?post=942"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  },
+  "_embedded": {
+   "wp:featuredmedia": [
+    {
+     "id": 943,
+     "date": "2026-10-05T05:31:57",
+     "slug": "pregnant-woman-holding-ultrasound-photos",
+     "type": "attachment",
+     "link": "/pregnant-woman-holding-ultrasound-photos",
+     "title": {
+      "rendered": "Pregnant woman holding ultrasound photos"
+     },
+     "author": 1,
+     "featured_media": 0,
+     "acf": [],
+     "caption": {
+      "rendered": ""
+     },
+     "alt_text": "Pregnant woman holding ultrasound photos",
+     "media_type": "image",
+     "mime_type": "image/jpeg",
+     "media_details": {
+      "width": 1200,
+      "height": 1800,
+      "file": "2026/10/first-trimester-care.jpg",
+      "filesize": 578992,
+      "image_meta": {
+       "aperture": "0",
+       "credit": "",
+       "camera": "",
+       "caption": "",
+       "created_timestamp": "0",
+       "copyright": "",
+       "focal_length": "0",
+       "iso": "0",
+       "shutter_speed": "0",
+       "title": "",
+       "orientation": "0",
+       "keywords": [],
+       "alt": ""
+      }
+     },
+     "source_url": "/images/blog/first-trimester-care.jpg",
+     "_links": {
+      "self": [
+       {
+        "href": "/wp-json/wp/v2/media/943",
+        "targetHints": {
+         "allow": [
+          "GET"
+         ]
+        }
+       }
+      ],
+      "collection": [
+       {
+        "href": "/wp-json/wp/v2/media"
+       }
+      ],
+      "about": [
+       {
+        "href": "/wp-json/wp/v2/types/attachment"
+       }
+      ],
+      "author": [
+       {
+        "embeddable": true,
+        "href": "/wp-json/wp/v2/users/1"
+       }
+      ],
+      "replies": [
+       {
+        "embeddable": true,
+        "href": "/wp-json/wp/v2/comments?post=943"
+       }
+      ]
+     }
+    }
+   ],
+   "wp:term": [
+    [
+     {
+      "id": 17,
+      "link": "/blog/category/pregnancy",
+      "name": "Pregnancy",
+      "slug": "pregnancy",
+      "taxonomy": "category",
+      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Pregnancy Archives - IVF API</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Pregnancy Archives - IVF API\" />\n<meta property=\"og:url\" content=\"/blog/category/pregnancy\" />\n<meta property=\"og:site_name\" content=\"IVF API\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<!-- / Yoast SEO plugin. -->",
+      "yoast_head_json": {
+       "title": "Pregnancy Archives - IVF API",
+       "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+       },
+       "og_locale": "en_US",
+       "og_type": "article",
+       "og_title": "Pregnancy Archives - IVF API",
+       "og_url": "{{siteUrl}}/blog/category/pregnancy",
+       "og_site_name": "IVF API",
+       "twitter_card": "summary_large_image"
+      },
+      "acf": [],
+      "_links": {
+       "self": [
+        {
+         "href": "/wp-json/wp/v2/categories/17",
+         "targetHints": {
+          "allow": [
+           "GET"
+          ]
+         }
+        }
+       ],
+       "collection": [
+        {
+         "href": "/wp-json/wp/v2/categories"
+        }
+       ],
+       "about": [
+        {
+         "href": "/wp-json/wp/v2/taxonomies/category"
+        }
+       ],
+       "wp:post_type": [
+        {
+         "href": "/wp-json/wp/v2/posts?categories=17"
+        }
+       ],
+       "curies": [
+        {
+         "name": "wp",
+         "href": "https://api.w.org/{rel}",
+         "templated": true
+        }
+       ]
+      }
+     }
+    ],
+    []
+   ]
+  }
+ },
+ {
+  "id": 944,
+  "date_gmt": "2026-06-04T10:00:00",
+  "modified_gmt": "2026-06-04T10:00:00",
+  "slug": "irregular-periods-when-to-see-a-gynecologist",
+  "title": {
+   "rendered": "Irregular periods: when should you see a gynecologist?"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "excerpt": {
+   "rendered": "<p>Occasional changes are common, but some patterns need a check-up. Here is when to book a visit.</p>\n",
+   "protected": false
+  },
+  "categories": [
+   18
+  ],
+  "acf": {
+   "author_doctor": 541,
+   "read_time": "4 min read"
+  },
+  "yoast_head_json": {
+   "title": "Irregular periods: when should you see a gynecologist? - IVF API",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Irregular periods: when should you see a gynecologist? - IVF API",
+   "og_description": "Occasional changes are common, but some patterns need a check-up. Here is when to book a visit.",
+   "og_url": "{{siteUrl}}/blog/irregular-periods-when-to-see-a-gynecologist",
+   "og_site_name": "IVF API",
+   "article_published_time": "2026-06-04T10:00:00+00:00",
+   "og_image": [
+    {
+     "width": 1200,
+     "height": 1800,
+     "url": "/images/blog/irregular-periods-when-to-see-a-gynecologist.jpg",
+     "type": "image/jpeg"
+    }
+   ],
+   "author": "admin",
+   "twitter_card": "summary_large_image",
+   "twitter_misc": {
+    "Written by": "admin"
+   }
+  },
+  "schema": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BlogPosting",
+     "@id": "{{siteUrl}}/blog/irregular-periods-when-to-see-a-gynecologist#article",
+     "mainEntityOfPage": "{{siteUrl}}/blog/irregular-periods-when-to-see-a-gynecologist",
+     "url": "{{siteUrl}}/blog/irregular-periods-when-to-see-a-gynecologist",
+     "headline": "Irregular periods: when should you see a gynecologist?",
+     "description": "Occasional changes are common, but some patterns need a check-up. Here is when to book a visit.",
+     "image": "/images/blog/irregular-periods-when-to-see-a-gynecologist.jpg",
+     "datePublished": "2026-06-04T10:00:00+00:00",
+     "articleSection": "Women’s Health",
+     "inLanguage": "en-IN",
+     "author": {
+      "@type": "Physician",
+      "@id": "{{siteUrl}}/doctors/{{doctor.slug}}#physician",
+      "name": "{{doctor.name}}",
+      "url": "{{siteUrl}}/doctors/{{doctor.slug}}"
+     },
+     "publisher": {
+      "@id": "{{siteUrl}}/#organization"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "{{siteUrl}}/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Health Blog",
+       "item": "{{siteUrl}}/blogs"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Irregular periods: when should you see a gynecologist?",
+       "item": "{{siteUrl}}/blog/irregular-periods-when-to-see-a-gynecologist"
+      }
+     ]
+    },
+    {
+     "@type": "MedicalClinic",
+     "@id": "{{siteUrl}}/#organization",
+     "name": "{{name}}",
+     "url": "{{siteUrl}}/",
+     "logo": "{{logo}}",
+     "telephone": "{{phone}}"
+    }
+   ]
+  },
+  "doctor": {
+   "id": 541,
+   "name": "{{doctor.name}}",
+   "path": "/doctors/{{doctor.slug}}"
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "/wp-json/wp/v2/posts/944",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "/wp-json/wp/v2/posts"
+    }
+   ],
+   "about": [
+    {
+     "href": "/wp-json/wp/v2/types/post"
+    }
+   ],
+   "author": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/users/1"
+    }
+   ],
+   "replies": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/comments?post=944"
+    }
+   ],
+   "version-history": [
+    {
+     "count": 0,
+     "href": "/wp-json/wp/v2/posts/944/revisions"
+    }
+   ],
+   "acf:post": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/doctors/541"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/media/945"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "/wp-json/wp/v2/media?parent=944"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "category",
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/categories?post=944"
+    },
+    {
+     "taxonomy": "post_tag",
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/tags?post=944"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  },
+  "_embedded": {
+   "wp:featuredmedia": [
+    {
+     "id": 945,
+     "date": "2026-10-05T05:31:57",
+     "slug": "two-people-holding-hands-across-a-table-for-comfort",
+     "type": "attachment",
+     "link": "/two-people-holding-hands-across-a-table-for-comfort",
+     "title": {
+      "rendered": "Two people holding hands across a table for comfort"
+     },
+     "author": 1,
+     "featured_media": 0,
+     "acf": [],
+     "caption": {
+      "rendered": ""
+     },
+     "alt_text": "Two people holding hands across a table for comfort",
+     "media_type": "image",
+     "mime_type": "image/jpeg",
+     "media_details": {
+      "width": 1200,
+      "height": 1800,
+      "file": "2026/10/irregular-periods-when-to-see-a-gynecologist.jpg",
+      "filesize": 154982,
+      "image_meta": {
+       "aperture": "0",
+       "credit": "",
+       "camera": "",
+       "caption": "",
+       "created_timestamp": "0",
+       "copyright": "",
+       "focal_length": "0",
+       "iso": "0",
+       "shutter_speed": "0",
+       "title": "",
+       "orientation": "0",
+       "keywords": [],
+       "alt": ""
+      }
+     },
+     "source_url": "/images/blog/irregular-periods-when-to-see-a-gynecologist.jpg",
+     "_links": {
+      "self": [
+       {
+        "href": "/wp-json/wp/v2/media/945",
+        "targetHints": {
+         "allow": [
+          "GET"
+         ]
+        }
+       }
+      ],
+      "collection": [
+       {
+        "href": "/wp-json/wp/v2/media"
+       }
+      ],
+      "about": [
+       {
+        "href": "/wp-json/wp/v2/types/attachment"
+       }
+      ],
+      "author": [
+       {
+        "embeddable": true,
+        "href": "/wp-json/wp/v2/users/1"
+       }
+      ],
+      "replies": [
+       {
+        "embeddable": true,
+        "href": "/wp-json/wp/v2/comments?post=945"
+       }
+      ]
+     }
+    }
+   ],
+   "wp:term": [
+    [
+     {
+      "id": 18,
+      "link": "/blog/category/womens-health",
+      "name": "Women’s Health",
+      "slug": "womens-health",
+      "taxonomy": "category",
+      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Women’s Health Archives - IVF API</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Women’s Health Archives - IVF API\" />\n<meta property=\"og:url\" content=\"/blog/category/womens-health\" />\n<meta property=\"og:site_name\" content=\"IVF API\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<!-- / Yoast SEO plugin. -->",
+      "yoast_head_json": {
+       "title": "Women’s Health Archives - IVF API",
+       "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+       },
+       "og_locale": "en_US",
+       "og_type": "article",
+       "og_title": "Women’s Health Archives - IVF API",
+       "og_url": "{{siteUrl}}/blog/category/womens-health",
+       "og_site_name": "IVF API",
+       "twitter_card": "summary_large_image"
+      },
+      "acf": [],
+      "_links": {
+       "self": [
+        {
+         "href": "/wp-json/wp/v2/categories/18",
+         "targetHints": {
+          "allow": [
+           "GET"
+          ]
+         }
+        }
+       ],
+       "collection": [
+        {
+         "href": "/wp-json/wp/v2/categories"
+        }
+       ],
+       "about": [
+        {
+         "href": "/wp-json/wp/v2/taxonomies/category"
+        }
+       ],
+       "wp:post_type": [
+        {
+         "href": "/wp-json/wp/v2/posts?categories=18"
+        }
+       ],
+       "curies": [
+        {
+         "name": "wp",
+         "href": "https://api.w.org/{rel}",
+         "templated": true
+        }
+       ]
+      }
+     }
+    ],
+    []
+   ]
+  }
+ },
+ {
+  "id": 946,
+  "date_gmt": "2026-05-21T10:00:00",
+  "modified_gmt": "2026-05-21T10:00:00",
+  "slug": "diet-and-lifestyle-for-fertility",
+  "title": {
+   "rendered": "Diet and lifestyle changes that support fertility"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "excerpt": {
+   "rendered": "<p>Weight, sleep, stress and nutrition all play a role. Small, practical changes for both partners.</p>\n",
+   "protected": false
+  },
+  "categories": [
+   19
+  ],
+  "acf": {
+   "author_doctor": 541,
+   "read_time": "5 min read"
+  },
+  "yoast_head_json": {
+   "title": "Diet and lifestyle changes that support fertility - IVF API",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Diet and lifestyle changes that support fertility - IVF API",
+   "og_description": "Weight, sleep, stress and nutrition all play a role. Small, practical changes for both partners.",
+   "og_url": "{{siteUrl}}/blog/diet-and-lifestyle-for-fertility",
+   "og_site_name": "IVF API",
+   "article_published_time": "2026-05-21T10:00:00+00:00",
+   "og_image": [
+    {
+     "width": 1200,
+     "height": 800,
+     "url": "/images/blog/diet-and-lifestyle-for-fertility.jpg",
+     "type": "image/jpeg"
+    }
+   ],
+   "author": "admin",
+   "twitter_card": "summary_large_image",
+   "twitter_misc": {
+    "Written by": "admin"
+   }
+  },
+  "schema": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BlogPosting",
+     "@id": "{{siteUrl}}/blog/diet-and-lifestyle-for-fertility#article",
+     "mainEntityOfPage": "{{siteUrl}}/blog/diet-and-lifestyle-for-fertility",
+     "url": "{{siteUrl}}/blog/diet-and-lifestyle-for-fertility",
+     "headline": "Diet and lifestyle changes that support fertility",
+     "description": "Weight, sleep, stress and nutrition all play a role. Small, practical changes for both partners.",
+     "image": "/images/blog/diet-and-lifestyle-for-fertility.jpg",
+     "datePublished": "2026-05-21T10:00:00+00:00",
+     "articleSection": "Fertility Tips",
+     "inLanguage": "en-IN",
+     "author": {
+      "@type": "Physician",
+      "@id": "{{siteUrl}}/doctors/{{doctor.slug}}#physician",
+      "name": "{{doctor.name}}",
+      "url": "{{siteUrl}}/doctors/{{doctor.slug}}"
+     },
+     "publisher": {
+      "@id": "{{siteUrl}}/#organization"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "{{siteUrl}}/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Health Blog",
+       "item": "{{siteUrl}}/blogs"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Diet and lifestyle changes that support fertility",
+       "item": "{{siteUrl}}/blog/diet-and-lifestyle-for-fertility"
+      }
+     ]
+    },
+    {
+     "@type": "MedicalClinic",
+     "@id": "{{siteUrl}}/#organization",
+     "name": "{{name}}",
+     "url": "{{siteUrl}}/",
+     "logo": "{{logo}}",
+     "telephone": "{{phone}}"
+    }
+   ]
+  },
+  "doctor": {
+   "id": 541,
+   "name": "{{doctor.name}}",
+   "path": "/doctors/{{doctor.slug}}"
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "/wp-json/wp/v2/posts/946",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "/wp-json/wp/v2/posts"
+    }
+   ],
+   "about": [
+    {
+     "href": "/wp-json/wp/v2/types/post"
+    }
+   ],
+   "author": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/users/1"
+    }
+   ],
+   "replies": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/comments?post=946"
+    }
+   ],
+   "version-history": [
+    {
+     "count": 0,
+     "href": "/wp-json/wp/v2/posts/946/revisions"
+    }
+   ],
+   "acf:post": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/doctors/541"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/media/947"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "/wp-json/wp/v2/media?parent=946"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "category",
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/categories?post=946"
+    },
+    {
+     "taxonomy": "post_tag",
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/tags?post=946"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  },
+  "_embedded": {
+   "wp:featuredmedia": [
+    {
+     "id": 947,
+     "date": "2026-10-05T05:31:58",
+     "slug": "bowl-of-fresh-vegetable-salad",
+     "type": "attachment",
+     "link": "/bowl-of-fresh-vegetable-salad",
+     "title": {
+      "rendered": "Bowl of fresh vegetable salad"
+     },
+     "author": 1,
+     "featured_media": 0,
+     "acf": [],
+     "caption": {
+      "rendered": ""
+     },
+     "alt_text": "Bowl of fresh vegetable salad",
+     "media_type": "image",
+     "mime_type": "image/jpeg",
+     "media_details": {
+      "width": 1200,
+      "height": 800,
+      "file": "2026/10/diet-and-lifestyle-for-fertility.jpg",
+      "filesize": 244367,
+      "image_meta": {
+       "aperture": "0",
+       "credit": "",
+       "camera": "",
+       "caption": "",
+       "created_timestamp": "0",
+       "copyright": "",
+       "focal_length": "0",
+       "iso": "0",
+       "shutter_speed": "0",
+       "title": "",
+       "orientation": "0",
+       "keywords": [],
+       "alt": ""
+      }
+     },
+     "source_url": "/images/blog/diet-and-lifestyle-for-fertility.jpg",
+     "_links": {
+      "self": [
+       {
+        "href": "/wp-json/wp/v2/media/947",
+        "targetHints": {
+         "allow": [
+          "GET"
+         ]
+        }
+       }
+      ],
+      "collection": [
+       {
+        "href": "/wp-json/wp/v2/media"
+       }
+      ],
+      "about": [
+       {
+        "href": "/wp-json/wp/v2/types/attachment"
+       }
+      ],
+      "author": [
+       {
+        "embeddable": true,
+        "href": "/wp-json/wp/v2/users/1"
+       }
+      ],
+      "replies": [
+       {
+        "embeddable": true,
+        "href": "/wp-json/wp/v2/comments?post=947"
+       }
+      ]
+     }
+    }
+   ],
+   "wp:term": [
+    [
+     {
+      "id": 19,
+      "link": "/blog/category/fertility-tips",
+      "name": "Fertility Tips",
+      "slug": "fertility-tips",
+      "taxonomy": "category",
+      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Fertility Tips Archives - IVF API</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Fertility Tips Archives - IVF API\" />\n<meta property=\"og:url\" content=\"/blog/category/fertility-tips\" />\n<meta property=\"og:site_name\" content=\"IVF API\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<!-- / Yoast SEO plugin. -->",
+      "yoast_head_json": {
+       "title": "Fertility Tips Archives - IVF API",
+       "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+       },
+       "og_locale": "en_US",
+       "og_type": "article",
+       "og_title": "Fertility Tips Archives - IVF API",
+       "og_url": "{{siteUrl}}/blog/category/fertility-tips",
+       "og_site_name": "IVF API",
+       "twitter_card": "summary_large_image"
+      },
+      "acf": [],
+      "_links": {
+       "self": [
+        {
+         "href": "/wp-json/wp/v2/categories/19",
+         "targetHints": {
+          "allow": [
+           "GET"
+          ]
+         }
+        }
+       ],
+       "collection": [
+        {
+         "href": "/wp-json/wp/v2/categories"
+        }
+       ],
+       "about": [
+        {
+         "href": "/wp-json/wp/v2/taxonomies/category"
+        }
+       ],
+       "wp:post_type": [
+        {
+         "href": "/wp-json/wp/v2/posts?categories=19"
+        }
+       ],
+       "curies": [
+        {
+         "name": "wp",
+         "href": "https://api.w.org/{rel}",
+         "templated": true
+        }
+       ]
+      }
+     }
+    ],
+    []
+   ]
+  }
+ },
+ {
+  "id": 948,
+  "date_gmt": "2026-05-07T10:00:00",
+  "modified_gmt": "2026-05-07T10:00:00",
+  "slug": "high-risk-pregnancy-signs-causes-care",
+  "title": {
+   "rendered": "High-risk pregnancy: signs, causes and care"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "excerpt": {
+   "rendered": "<p>Age, diabetes, blood pressure or IVF conception can raise risk. How close monitoring keeps mother and baby safe.</p>\n",
+   "protected": false
+  },
+  "categories": [
+   17
+  ],
+  "acf": {
+   "author_doctor": 541,
+   "read_time": "6 min read"
+  },
+  "yoast_head_json": {
+   "title": "High-risk pregnancy: signs, causes and care - IVF API",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "High-risk pregnancy: signs, causes and care - IVF API",
+   "og_description": "Age, diabetes, blood pressure or IVF conception can raise risk. How close monitoring keeps mother and baby safe.",
+   "og_url": "{{siteUrl}}/blog/high-risk-pregnancy-signs-causes-care",
+   "og_site_name": "IVF API",
+   "article_published_time": "2026-05-07T10:00:00+00:00",
+   "og_image": [
+    {
+     "width": 1200,
+     "height": 1396,
+     "url": "/images/blog/high-risk-pregnancy-signs-causes-care.jpg",
+     "type": "image/jpeg"
+    }
+   ],
+   "author": "admin",
+   "twitter_card": "summary_large_image",
+   "twitter_misc": {
+    "Written by": "admin"
+   }
+  },
+  "schema": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BlogPosting",
+     "@id": "{{siteUrl}}/blog/high-risk-pregnancy-signs-causes-care#article",
+     "mainEntityOfPage": "{{siteUrl}}/blog/high-risk-pregnancy-signs-causes-care",
+     "url": "{{siteUrl}}/blog/high-risk-pregnancy-signs-causes-care",
+     "headline": "High-risk pregnancy: signs, causes and care",
+     "description": "Age, diabetes, blood pressure or IVF conception can raise risk. How close monitoring keeps mother and baby safe.",
+     "image": "/images/blog/high-risk-pregnancy-signs-causes-care.jpg",
+     "datePublished": "2026-05-07T10:00:00+00:00",
+     "articleSection": "Pregnancy",
+     "inLanguage": "en-IN",
+     "author": {
+      "@type": "Physician",
+      "@id": "{{siteUrl}}/doctors/{{doctor.slug}}#physician",
+      "name": "{{doctor.name}}",
+      "url": "{{siteUrl}}/doctors/{{doctor.slug}}"
+     },
+     "publisher": {
+      "@id": "{{siteUrl}}/#organization"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "{{siteUrl}}/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Health Blog",
+       "item": "{{siteUrl}}/blogs"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "High-risk pregnancy: signs, causes and care",
+       "item": "{{siteUrl}}/blog/high-risk-pregnancy-signs-causes-care"
+      }
+     ]
+    },
+    {
+     "@type": "MedicalClinic",
+     "@id": "{{siteUrl}}/#organization",
+     "name": "{{name}}",
+     "url": "{{siteUrl}}/",
+     "logo": "{{logo}}",
+     "telephone": "{{phone}}"
+    }
+   ]
+  },
+  "doctor": {
+   "id": 541,
+   "name": "{{doctor.name}}",
+   "path": "/doctors/{{doctor.slug}}"
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "/wp-json/wp/v2/posts/948",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "/wp-json/wp/v2/posts"
+    }
+   ],
+   "about": [
+    {
+     "href": "/wp-json/wp/v2/types/post"
+    }
+   ],
+   "author": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/users/1"
+    }
+   ],
+   "replies": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/comments?post=948"
+    }
+   ],
+   "version-history": [
+    {
+     "count": 0,
+     "href": "/wp-json/wp/v2/posts/948/revisions"
+    }
+   ],
+   "acf:post": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/doctors/541"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/media/949"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "/wp-json/wp/v2/media?parent=948"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "category",
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/categories?post=948"
+    },
+    {
+     "taxonomy": "post_tag",
+     "embeddable": true,
+     "href": "/wp-json/wp/v2/tags?post=948"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  },
+  "_embedded": {
+   "wp:featuredmedia": [
+    {
+     "id": 949,
+     "date": "2026-10-05T05:31:59",
+     "slug": "silhouette-of-a-pregnant-woman",
+     "type": "attachment",
+     "link": "/silhouette-of-a-pregnant-woman",
+     "title": {
+      "rendered": "Silhouette of a pregnant woman"
+     },
+     "author": 1,
+     "featured_media": 0,
+     "acf": [],
+     "caption": {
+      "rendered": ""
+     },
+     "alt_text": "Silhouette of a pregnant woman",
+     "media_type": "image",
+     "mime_type": "image/jpeg",
+     "media_details": {
+      "width": 1200,
+      "height": 1396,
+      "file": "2026/10/high-risk-pregnancy-signs-causes-care.jpg",
+      "filesize": 96066,
+      "image_meta": {
+       "aperture": "0",
+       "credit": "",
+       "camera": "",
+       "caption": "",
+       "created_timestamp": "0",
+       "copyright": "",
+       "focal_length": "0",
+       "iso": "0",
+       "shutter_speed": "0",
+       "title": "",
+       "orientation": "0",
+       "keywords": [],
+       "alt": ""
+      }
+     },
+     "source_url": "/images/blog/high-risk-pregnancy-signs-causes-care.jpg",
+     "_links": {
+      "self": [
+       {
+        "href": "/wp-json/wp/v2/media/949",
+        "targetHints": {
+         "allow": [
+          "GET"
+         ]
+        }
+       }
+      ],
+      "collection": [
+       {
+        "href": "/wp-json/wp/v2/media"
+       }
+      ],
+      "about": [
+       {
+        "href": "/wp-json/wp/v2/types/attachment"
+       }
+      ],
+      "author": [
+       {
+        "embeddable": true,
+        "href": "/wp-json/wp/v2/users/1"
+       }
+      ],
+      "replies": [
+       {
+        "embeddable": true,
+        "href": "/wp-json/wp/v2/comments?post=949"
+       }
+      ]
+     }
+    }
+   ],
+   "wp:term": [
+    [
+     {
+      "id": 17,
+      "link": "/blog/category/pregnancy",
+      "name": "Pregnancy",
+      "slug": "pregnancy",
+      "taxonomy": "category",
+      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Pregnancy Archives - IVF API</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Pregnancy Archives - IVF API\" />\n<meta property=\"og:url\" content=\"/blog/category/pregnancy\" />\n<meta property=\"og:site_name\" content=\"IVF API\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<!-- / Yoast SEO plugin. -->",
+      "yoast_head_json": {
+       "title": "Pregnancy Archives - IVF API",
+       "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+       },
+       "og_locale": "en_US",
+       "og_type": "article",
+       "og_title": "Pregnancy Archives - IVF API",
+       "og_url": "{{siteUrl}}/blog/category/pregnancy",
+       "og_site_name": "IVF API",
+       "twitter_card": "summary_large_image"
+      },
+      "acf": [],
+      "_links": {
+       "self": [
+        {
+         "href": "/wp-json/wp/v2/categories/17",
+         "targetHints": {
+          "allow": [
+           "GET"
+          ]
+         }
+        }
+       ],
+       "collection": [
+        {
+         "href": "/wp-json/wp/v2/categories"
+        }
+       ],
+       "about": [
+        {
+         "href": "/wp-json/wp/v2/taxonomies/category"
+        }
+       ],
+       "wp:post_type": [
+        {
+         "href": "/wp-json/wp/v2/posts?categories=17"
+        }
+       ],
+       "curies": [
+        {
+         "name": "wp",
+         "href": "https://api.w.org/{rel}",
+         "templated": true
+        }
+       ]
+      }
+     }
+    ],
+    []
+   ]
+  }
+ }
+]

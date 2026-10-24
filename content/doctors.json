@@ -1,0 +1,482 @@
+[
+ {
+  "id": 541,
+  "slug": "{{doctor.slug}}",
+  "title": {
+   "rendered": "{{doctor.name}}"
+  },
+  "acf": {
+   "photo": {
+    "id": 501,
+    "filename": "{{doctor.slug}}.jpg",
+    "url": "{{doctor.photo}}",
+    "alt": "{{doctor.name}}",
+    "mime_type": "image/jpeg",
+    "width": 670,
+    "height": 720
+   },
+   "role": "Gynecologist & Fertility Specialist",
+   "qualifications": "{{doctor.qualifications}}",
+   "short_intro": "Known for her calm, reassuring approach, {{doctor.name}} personally guides each couple through diagnosis, treatment and pregnancy. Her focus is simple: the right treatment, explained honestly, delivered gently.",
+   "page_photo": {
+    "id": 820,
+    "filename": "{{doctor.slug}}-desk.jpg",
+    "url": "{{doctor.photoDesk}}",
+    "alt": "{{doctor.name}}, Senior IVF and Infertility Specialist at {{hospitalName}}",
+    "mime_type": "image/jpeg",
+    "width": 640,
+    "height": 800
+   },
+   "photo_badge": "Consulting at {{hospitalName}}",
+   "page_role": "Senior IVF & Infertility Specialist",
+   "highlights": [
+    {
+     "text": "5+ years in IVF & infertility"
+    },
+    {
+     "text": "{{languages}}"
+    },
+    {
+     "text": "{{hospitalName}}, {{city}}"
+    }
+   ],
+   "rating_value": "4.9",
+   "rating_text": "from 120+ Google reviews",
+   "registration": "{{doctor.registration}}",
+   "facts": [
+    {
+     "label": "Experience",
+     "value": "5+ years"
+    },
+    {
+     "label": "Speciality",
+     "value": "IVF & Infertility"
+    },
+    {
+     "label": "Languages",
+     "value": "{{languages}}"
+    },
+    {
+     "label": "Consults at",
+     "value": "{{addressShort}}"
+    }
+   ],
+   "book_text": "Book Appointment",
+   "book_link": "#book",
+   "call_text": "Call now",
+   "whatsapp_text": "WhatsApp",
+   "about": "<p>{{doctor.name}} is a Senior IVF &amp; Infertility Specialist at {{hospitalName}}, {{city}}. She leads the hospital&#8217;s fertility programme and personally plans treatment for couples who have been trying to conceive.</p>\n<p>Patients describe her as positive and encouraging, a doctor who explains every report patiently and helps couples decide with confidence.</p>\n<p>Her work focuses on personalised IVF and ICSI, PCOS, low ovarian reserve, male-factor infertility and couples who have had unsuccessful treatment elsewhere. She believes in recommending only what a couple truly needs, and in being honest about their chances.</p>\n",
+   "expertise_title": "Areas of expertise",
+   "expertise_text": "Conditions and treatments {{doctor.name}} specialises in.",
+   "expertise": [
+    {
+     "title": "IVF treatment",
+     "text": "Personalised IVF cycles planned around your reports.",
+     "link": ""
+    },
+    {
+     "title": "ICSI",
+     "text": "For low sperm count or past fertilisation failure.",
+     "link": ""
+    },
+    {
+     "title": "IUI",
+     "text": "A simpler first step for suitable couples.",
+     "link": ""
+    },
+    {
+     "title": "PCOS & ovulation problems",
+     "text": "Irregular periods and difficulty ovulating.",
+     "link": ""
+    },
+    {
+     "title": "Low AMH / ovarian reserve",
+     "text": "Making the most of every cycle when time matters.",
+     "link": ""
+    },
+    {
+     "title": "Male infertility",
+     "text": "Diagnosis and treatment for male-factor issues.",
+     "link": ""
+    },
+    {
+     "title": "Repeated IVF failure",
+     "text": "Careful review and a fresh, personalised plan.",
+     "link": ""
+    },
+    {
+     "title": "Unexplained infertility",
+     "text": "When all tests are normal but pregnancy hasn't happened.",
+     "link": ""
+    },
+    {
+     "title": "High-risk pregnancy care",
+     "text": "Close care after IVF and for complex pregnancies.",
+     "link": ""
+    }
+   ],
+   "education_title": "Education & training",
+   "education": [
+    {
+     "year": "2010",
+     "title": "MBBS",
+     "place": "Sample Medical College, {{city}}"
+    },
+    {
+     "year": "2010",
+     "title": "MS / DGO, Obstetrics & Gynaecology",
+     "place": "Sample Institute of Reproductive Medicine"
+    },
+    {
+     "year": "2010",
+     "title": "Fellowship in Reproductive Medicine / IVF",
+     "place": "Sample Institute of Reproductive Medicine"
+    }
+   ],
+   "career_title": "Experience",
+   "career": [
+    {
+     "period": "2018 – Present",
+     "title": "Senior IVF & Infertility Specialist",
+     "place": "{{hospitalName}}, {{city}}"
+    },
+    {
+     "period": "2012 – 2018",
+     "title": "Consultant, Obstetrics & Gynaecology",
+     "place": "Sample Multispeciality Hospital"
+    }
+   ],
+   "awards_title": "Certificates, awards & memberships",
+   "awards": [
+    {
+     "image": {
+      "id": 828,
+      "filename": "certificate-diploma.jpg",
+      "url": "/images/stock/certificate-diploma.jpg",
+      "alt": "Annual conference certificate",
+      "mime_type": "image/jpeg",
+      "width": 490,
+      "height": 415
+     },
+     "image_tag": "",
+     "title": "Annual conference 2017",
+     "details": "Conference certificate · Conference certificate"
+    },
+    {
+     "image": {
+      "id": 831,
+      "filename": "award-trophies.jpg",
+      "url": "/images/stock/award-trophies.jpg",
+      "alt": "Award trophies (representative image)",
+      "mime_type": "image/jpeg",
+      "width": 1000,
+      "height": 667
+     },
+     "image_tag": "Representative image",
+     "title": "Excellence in Fertility Care",
+     "details": "Sample entry · add issuer and year"
+    },
+    {
+     "image": {
+      "id": 830,
+      "filename": "certificate-diploma.jpg",
+      "url": "/images/stock/certificate-diploma.jpg",
+      "alt": "Certificate (representative image)",
+      "mime_type": "image/jpeg",
+      "width": 1000,
+      "height": 667
+     },
+     "image_tag": "Representative image",
+     "title": "FOGSI membership",
+     "details": "Sample entry · add member-since year"
+    },
+    {
+     "image": {
+      "id": 830,
+      "filename": "certificate-diploma.jpg",
+      "url": "/images/stock/certificate-diploma.jpg",
+      "alt": "Certificate (representative image)",
+      "mime_type": "image/jpeg",
+      "width": 1000,
+      "height": 667
+     },
+     "image_tag": "Representative image",
+     "title": "ISAR membership",
+     "details": "Sample entry · add member-since year"
+    }
+   ],
+   "booking_title": "Book an appointment",
+   "booking_text": "with {{doctor.name}} at {{hospitalName}}",
+   "working_hours": [
+    {
+     "day": "Monday – Saturday",
+     "hours": "10:00 AM – 2:00 PM"
+    },
+    {
+     "day": "Evening OPD",
+     "hours": "5:00 PM – 7:00 PM"
+    },
+    {
+     "day": "Sunday",
+     "hours": "By appointment"
+    }
+   ],
+   "fee_label": "Consultation fee",
+   "fee": "₹800",
+   "booking_call_text": "Call {{phone}}",
+   "booking_whatsapp_text": "WhatsApp us",
+   "map_link_text": "View on map",
+   "phone": "",
+   "email": "",
+   "social_links": false,
+   "home_sections": [
+    {
+     "acf_fc_layout": "reviews",
+     "badge": "Google reviews",
+     "title": "What our patients say",
+     "description": "What patients and families say about their care with {{doctor.name}}, from the {{hospitalName}} Google profile.",
+     "read_text": "Read all reviews",
+     "read_link": "https://www.google.com/maps/search/?api=1&query={{mapSearch}}",
+     "write_text": "Write a review",
+     "write_link": "https://www.google.com/maps/search/?api=1&query={{mapSearch}}",
+     "rating_value": "4.9",
+     "rating_text": "out of 5 · Google",
+     "reviews": [
+      {
+       "name": "Patient",
+       "time": "2 weeks ago",
+       "rating": "5",
+       "text": "Caring, honest and professional. The whole team made us feel at ease throughout our treatment."
+      },
+      {
+       "name": "Patient",
+       "time": "1 month ago",
+       "rating": "5",
+       "text": "Caring, honest and professional. The whole team made us feel at ease throughout our treatment."
+      },
+      {
+       "name": "Patient",
+       "time": "1 month ago",
+       "rating": "5",
+       "text": "Caring, honest and professional. The whole team made us feel at ease throughout our treatment."
+      },
+      {
+       "name": "Patient",
+       "time": "2 months ago",
+       "rating": "5",
+       "text": "Caring, honest and professional. The whole team made us feel at ease throughout our treatment."
+      },
+      {
+       "name": "Patient",
+       "time": "3 months ago",
+       "rating": "5",
+       "text": "Caring, honest and professional. The whole team made us feel at ease throughout our treatment."
+      },
+      {
+       "name": "Patient",
+       "time": "3 months ago",
+       "rating": "5",
+       "text": "Caring, honest and professional. The whole team made us feel at ease throughout our treatment."
+      },
+      {
+       "name": "Patient",
+       "time": "2 weeks ago",
+       "rating": "5",
+       "text": "Caring, honest and professional. The whole team made us feel at ease throughout our treatment."
+      },
+      {
+       "name": "Patient",
+       "time": "1 month ago",
+       "rating": "5",
+       "text": "Caring, honest and professional. The whole team made us feel at ease throughout our treatment."
+      },
+      {
+       "name": "Patient",
+       "time": "1 month ago",
+       "rating": "5",
+       "text": "Caring, honest and professional. The whole team made us feel at ease throughout our treatment."
+      },
+      {
+       "name": "Patient",
+       "time": "2 months ago",
+       "rating": "5",
+       "text": "Caring, honest and professional. The whole team made us feel at ease throughout our treatment."
+      },
+      {
+       "name": "Patient",
+       "time": "3 months ago",
+       "rating": "5",
+       "text": "Caring, honest and professional. The whole team made us feel at ease throughout our treatment."
+      },
+      {
+       "name": "Patient",
+       "time": "3 months ago",
+       "rating": "5",
+       "text": "Caring, honest and professional. The whole team made us feel at ease throughout our treatment."
+      }
+     ]
+    },
+    {
+     "acf_fc_layout": "location",
+     "badge": "Our location",
+     "title": "Find us in {{city}}",
+     "areas_title": "Areas we serve",
+     "areas": [
+      {
+       "text": "{{city}}"
+      },
+      {
+       "text": "{{city}}"
+      },
+      {
+       "text": "{{nearbyTown}}"
+      },
+      {
+       "text": "Ambedkar Nagar"
+      },
+      {
+       "text": "{{nearbyTown2}}"
+      },
+      {
+       "text": "Gonda"
+      },
+      {
+       "text": "Barabanki"
+      },
+      {
+       "text": "Amethi"
+      }
+     ],
+     "features": [
+      {
+       "title": "Easy Access",
+       "text": "{{landmarkLine}}"
+      },
+      {
+       "title": "Lift Available",
+       "text": "Inside the hospital"
+      },
+      {
+       "title": "Parking",
+       "text": "Free patient parking"
+      }
+     ],
+     "points": [
+      {
+       "text": "{{landmarkLine}}"
+      },
+      {
+       "text": "Lift access inside the hospital"
+      },
+      {
+       "text": "Free patient parking available"
+      }
+     ],
+     "directions_text": "Get directions",
+     "image": {
+      "id": 724,
+      "filename": "hospital-exterior.jpg",
+      "url": "/images/stock/hospital-exterior.jpg",
+      "alt": "{{name}} building exterior, {{area}}, {{city}}",
+      "mime_type": "image/jpeg",
+      "width": 1200,
+      "height": 800
+     }
+    },
+    {
+     "acf_fc_layout": "cta",
+     "title": "Ready to talk to *{{doctor.name}}?*",
+     "description": "Book your consultation and get a clear, personal plan for your fertility journey.",
+     "primary_text": "Book Consultation",
+     "primary_link": "#book",
+     "call_text": "Call Now:",
+     "whatsapp_text": "WhatsApp Us"
+    }
+   ]
+  },
+  "yoast_head_json": {
+   "title": "{{doctor.name}} | Senior IVF & Infertility Specialist in {{city}} | {{hospitalName}}",
+   "description": "Book an appointment with {{doctor.name}}, Senior IVF & Infertility Specialist at {{hospitalName}}, {{addressShort}}. Expertise, OPD timings, reviews and FAQs.",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "{{doctor.name}} | Senior IVF & Infertility Specialist in {{city}} | {{hospitalName}}",
+   "og_description": "Book an appointment with {{doctor.name}}, Senior IVF & Infertility Specialist at {{hospitalName}}, {{addressShort}}. Expertise, OPD timings, reviews and FAQs.",
+   "og_url": "{{siteUrl}}/doctors/{{doctor.slug}}",
+   "og_site_name": "IVF API",
+   "article_modified_time": "2026-10-06T04:28:54+00:00",
+   "og_image": [
+    {
+     "width": 670,
+     "height": 720,
+     "url": "{{doctor.photo}}",
+     "type": "image/jpeg"
+    }
+   ],
+   "twitter_card": "summary_large_image"
+  },
+  "schema": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "Physician",
+     "@id": "{{siteUrl}}/doctors/{{doctor.slug}}#physician",
+     "name": "{{doctor.name}}",
+     "url": "{{siteUrl}}/doctors/{{doctor.slug}}",
+     "image": "{{doctor.photo}}",
+     "description": "Known for her calm, reassuring approach, {{doctor.name}} personally guides each couple through diagnosis, treatment and pregnancy. Her focus is simple: the right treatment, explained honestly, delivered gently.",
+     "medicalSpecialty": "Reproductive medicine",
+     "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{addressShort}}",
+      "addressLocality": "{{city}}",
+      "addressRegion": "{{region}}",
+      "postalCode": "224001",
+      "addressCountry": "IN"
+     },
+     "telephone": "{{phone}}",
+     "parentOrganization": {
+      "@id": "{{siteUrl}}/#organization"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "{{siteUrl}}/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Doctors",
+       "item": "{{siteUrl}}/doctor"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "{{doctor.name}}",
+       "item": "{{siteUrl}}/doctors/{{doctor.slug}}"
+      }
+     ]
+    },
+    {
+     "@type": "MedicalClinic",
+     "@id": "{{siteUrl}}/#organization",
+     "name": "{{name}}",
+     "url": "{{siteUrl}}/",
+     "logo": "{{logo}}",
+     "telephone": "{{phone}}"
+    }
+   ]
+  }
+ }
+]

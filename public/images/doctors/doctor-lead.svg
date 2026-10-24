@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 670 720" role="img" aria-label="Illustration of a doctor">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e3ecf7"/><stop offset="1" stop-color="#c3d6ee"/></linearGradient>
+<linearGradient id="coat" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e8eef6"/></linearGradient>
+</defs>
+<rect width="670" height="720" fill="url(#bg)"/>
+<circle cx="549.4" cy="129.6" r="147.4" fill="#fff" opacity=".35"/>
+<circle cx="67.0" cy="540.0" r="201.0" fill="#fff" opacity=".25"/>
+<path d="M67.0 720 C67.0 446.40000000000003 187.60000000000002 374.40000000000003 335.0 374.40000000000003 C482.4 374.40000000000003 603.0 446.40000000000003 603.0 720 Z" fill="url(#coat)"/>
+<path d="M221.1 378.00000000000006 L335.0 518.4000000000001 L448.9 378.00000000000006 L402.0 367.20000000000005 L335.0 417.6 L268.0 367.20000000000005 Z" fill="#cfdbea"/>
+<path d="M268.0 381.6 L335.0 518.4000000000001 L402.0 381.6 L335.0 424.80000000000007 Z" fill="#1d4e89"/>
+<path d="M247.89999999999998 396.00000000000006 C241.2 532.8000000000001 321.6 561.6 335.0 518.4000000000001" fill="none" stroke="#33415c" stroke-width="8.040000000000001" stroke-linecap="round"/>
+<circle cx="321.6" cy="529.2" r="14.739999999999998" fill="#33415c"/>
+<rect x="308.2" y="325.20000000000005" width="53.6" height="72.0" rx="20.099999999999998" fill="#e9b999"/>
+<path d="M216.41000000000003 285.0 C204.35 84.0 465.65 84.0 453.59 315.15 C455.6 405.6 425.45 455.85 405.35 455.85 L264.65 455.85 C244.55 455.85 214.4 385.5 216.41000000000003 285.0 Z" fill="#2a1d1a"/>
+<ellipse cx="335.0" cy="269.925" rx="92.46000000000001" ry="110.55000000000001" fill="#f1c9a8"/>
+<path d="M239.525 234.75 C284.75 134.25 375.2 124.20000000000002 430.475 234.75 C385.25 189.525 294.8 194.55 239.525 234.75 Z" fill="#2a1d1a"/>
+<circle cx="298.82" cy="272.94" r="7.035000000000001" fill="#2a1d1a"/>
+<circle cx="371.18" cy="272.94" r="7.035000000000001" fill="#2a1d1a"/>
+<path d="M302.84 317.16 Q335.0 343.29 367.16 317.16" fill="none" stroke="#b5654f" stroke-width="7.035000000000001" stroke-linecap="round"/>
+
+</svg>

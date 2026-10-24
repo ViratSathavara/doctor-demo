@@ -1,0 +1,29 @@
+{
+  "article": {
+    "written_by": "Written by",
+    "reviewed_label": "Medically reviewed",
+    "updated_label": "Updated",
+    "toc_title": "In this article",
+    "faq_title": "Frequently asked questions",
+    "feedback_question": "Was this article helpful?",
+    "feedback_thanks": "Thank you for your feedback.",
+    "related_treatments_title": "Related treatments",
+    "related": {
+      "eyebrow": "Keep reading",
+      "title": "Related articles",
+      "link": {
+        "title": "All articles",
+        "url": "/blogs",
+        "target": ""
+      }
+    }
+  },
+  "author": {
+    "eyebrow": "About the author",
+    "profile": {
+      "title": "View full profile",
+      "url": "",
+      "target": ""
+    }
+  }
+}
