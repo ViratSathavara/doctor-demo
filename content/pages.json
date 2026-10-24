@@ -1123,8 +1123,81 @@
      "videos_tab_text": "Videos",
      "playlist_text": "Playlist",
      "all_videos_text": "All",
-     "video_groups": [],
-     "videos_credit": "",
+     "video_groups": [
+      {
+       "name": "IVF explained",
+       "tag": "IVF",
+       "videos": [
+        {
+         "video_url": "https://www.youtube.com/watch?v=fnYBLYfFx2Y",
+         "title": "How IVF works, step by step",
+         "description": "A clear walkthrough of an IVF cycle, from stimulation to embryo transfer. Cleveland Clinic.",
+         "duration": "4:34"
+        },
+        {
+         "video_url": "https://www.youtube.com/watch?v=NUaH5mFBi2A",
+         "title": "IVF in 75 seconds (3D animation)",
+         "description": "A short animation of fertilisation and embryo transfer. Dr. Paulien Moyaert.",
+         "duration": "1:15"
+        },
+        {
+         "video_url": "https://www.youtube.com/watch?v=YWrgyHn0VSY",
+         "title": "The story of fertility and IVF",
+         "description": "How IVF changed fertility care, in plain language. BBC Earth Science.",
+         "duration": "4:02"
+        }
+       ]
+      },
+      {
+       "name": "Fertility education",
+       "tag": "Education",
+       "videos": [
+        {
+         "video_url": "https://www.youtube.com/watch?v=IvbjjJdKWTg",
+         "title": "Understanding PCOS",
+         "description": "What PCOS is and how it affects periods and ovulation (3D animation). Dr. Paulien Moyaert.",
+         "duration": "3:41"
+        },
+        {
+         "video_url": "https://www.youtube.com/watch?v=HPF9arIyvLU",
+         "title": "Getting pregnant with PCOS",
+         "description": "A fertility doctor explains treatment options. Shady Grove Fertility.",
+         "duration": "3:23"
+        },
+        {
+         "video_url": "https://www.youtube.com/watch?v=i8Kjfemc7zA",
+         "title": "IUI vs IVF: what is the difference?",
+         "description": "A quick guide to choosing between the two treatments. Morgan Fertility.",
+         "duration": "2:00"
+        },
+        {
+         "video_url": "https://www.youtube.com/watch?v=ygAo8J2WzYA",
+         "title": "Understanding male infertility",
+         "description": "Causes, tests and treatment options explained. Houston Methodist.",
+         "duration": "1:50"
+        }
+       ]
+      },
+      {
+       "name": "Inside a fertility clinic",
+       "tag": "Clinic tour",
+       "videos": [
+        {
+         "video_url": "https://www.youtube.com/watch?v=MGeYLTNcZ2A",
+         "title": "Take a tour of an IVF laboratory",
+         "description": "See where eggs, sperm and embryos are cared for. Eden Centers for Advanced Fertility.",
+         "duration": "4:58"
+        },
+        {
+         "video_url": "https://www.youtube.com/watch?v=pGeIYV1HoP4",
+         "title": "What happens during embryo transfer",
+         "description": "A short look at the embryo transfer procedure. New Hope Fertility Center.",
+         "duration": "0:57"
+        }
+       ]
+      }
+     ],
+     "videos_credit": "Educational videos from the public YouTube channels named (demo content)",
      "channel_text": "More videos on YouTube",
      "channel_link": "{{social.youtube}}"
     },
@@ -1301,12 +1374,25 @@
      "title": "Who we are",
      "lead": "We started with one belief: families in {{city}} should not have to travel to a big city to get good fertility care.",
      "text": "{{legalName}} was founded in {{city}} in {{foundedYear}} to bring specialist fertility, pregnancy and women's health care close to home. Today, couples come to us from across {{region}} for IVF, ICSI, IUI and PCOS treatment.\r\n\r\nConsultations, ultrasound and lab tests, the fertility laboratory and pregnancy care are all in one building. That means fewer trips, faster answers and one team that knows your whole story.\r\n\r\nWe take time to explain, tell you honestly what your chances are, and never recommend treatment you don't need.",
-     "video_url": "",
-     "video_length": "",
-     "video_title": "",
-     "video_text": "",
-     "video_points": [],
-     "video_button_text": ""
+     "video_url": "https://www.youtube.com/watch?v=MGeYLTNcZ2A",
+     "video_length": "4:58",
+     "video_title": "Take a tour of an IVF laboratory",
+     "video_text": "Walk through a modern IVF laboratory before your first visit, so you know what to expect. Sample video; replace with your own hospital tour.",
+     "video_points": [
+      {
+       "text": "Embryology laboratory"
+      },
+      {
+       "text": "Egg and sperm handling"
+      },
+      {
+       "text": "Embryo culture"
+      },
+      {
+       "text": "Safe storage"
+      }
+     ],
+     "video_button_text": "Watch on YouTube"
     },
     {
      "acf_fc_layout": "values",
@@ -2603,6 +2689,52 @@
        "representative": true
       }
      ]
+    },
+    {
+     "acf_fc_layout": "news",
+     "badge": "Learn & Watch",
+     "title": "Understand your treatment, *before you visit*",
+     "description": "Short, trusted explainers on IVF, PCOS, IUI and male fertility. Sample videos from public medical channels. Replace them with your own hospital videos.",
+     "youtube_text": "More on YouTube",
+     "youtube_link": "{{social.youtube}}",
+     "videos": [
+      {
+       "video_url": "https://www.youtube.com/watch?v=fnYBLYfFx2Y",
+       "title": "How IVF works, step by step",
+       "channel": "Cleveland Clinic",
+       "type": "Explainer",
+       "category": "IVF"
+      },
+      {
+       "video_url": "https://www.youtube.com/watch?v=IvbjjJdKWTg",
+       "title": "Understanding PCOS",
+       "channel": "Dr. Paulien Moyaert",
+       "type": "Explainer",
+       "category": "PCOS"
+      },
+      {
+       "video_url": "https://www.youtube.com/watch?v=i8Kjfemc7zA",
+       "title": "IUI vs IVF: what is the difference?",
+       "channel": "Morgan Fertility",
+       "type": "Explainer",
+       "category": "IUI"
+      },
+      {
+       "video_url": "https://www.youtube.com/watch?v=MGeYLTNcZ2A",
+       "title": "Take a tour of an IVF laboratory",
+       "channel": "Eden Centers for Advanced Fertility",
+       "type": "Lab tour",
+       "category": "Lab"
+      },
+      {
+       "video_url": "https://www.youtube.com/watch?v=ygAo8J2WzYA",
+       "title": "Understanding male infertility",
+       "channel": "Houston Methodist",
+       "type": "Explainer",
+       "category": "Male fertility"
+      }
+     ],
+     "note": "Sample educational videos from public YouTube channels, shown for demonstration. Individual results vary from person to person."
     },
     {
      "acf_fc_layout": "reviews",

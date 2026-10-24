@@ -22,7 +22,7 @@ npm run build && npm start
 - `public/images/about|facilities|gallery/*.svg` generic illustrations છે; `about/*.svg` માં હોસ્પિટલનું નામ લખેલું છે, તે બદલો અથવા અસલી ફોટા મૂકો.
 - `stock/` અને `blog/` ના ફોટા demo stock છે; live કરતા પહેલાં તમારા અસલી ફોટા કે licensed ફોટા મૂકો.
 - Reviews, awards, registration numbers, ડૉક્ટરની વિગતો **sample** છે. ખોટા દાવા ન થાય તે માટે live કરતા પહેલાં અસલી માહિતી ભરો.
-- News videos ના section કાઢી નાખ્યા છે (મૂળ સાઇટના અસલી વીડિયો હતા). પોતાના YouTube વીડિયો `content/pages.json` માં `news` section અને gallery `video_groups` માં ઉમેરી શકો.
+- Videos: demo માટે public medical YouTube channels (Cleveland Clinic, BBC Earth, Shady Grove, Houston Methodist વગેરે) ના educational વીડિયો embed કર્યા છે. પોતાના હોસ્પિટલના વીડિયો માટે `content/pages.json` માં `news` section, gallery `video_groups` અને about `story` ના `video_url` બદલો.
 
 ## Optional: WordPress CMS
 
