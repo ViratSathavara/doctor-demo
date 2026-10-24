@@ -188,8 +188,8 @@
       "url": "{{doctor.photoDesk}}",
       "alt": "{{doctor.name}}, Senior IVF and Infertility Specialist at {{hospitalName}}",
       "mime_type": "image/jpeg",
-      "width": 640,
-      "height": 800
+      "width": 1600,
+      "height": 900
      },
      "title": "Coming for your *first consultation?*",
      "description": "{{doctor.name}} recommends both partners attend. Please bring:",
@@ -265,7 +265,9 @@
      },
      "primaryImageOfPage": {
       "@type": "ImageObject",
-      "url": "{{doctor.photoDesk}}"
+      "url": "{{doctor.photoDesk}}",
+      "width": 1600,
+      "height": 900
      },
      "breadcrumb": {
       "@id": "{{siteUrl}}/contact-us#breadcrumb"
@@ -364,8 +366,8 @@
       "url": "{{doctor.photo}}",
       "alt": "{{doctor.name}}",
       "mime_type": "image/jpeg",
-      "width": 670,
-      "height": 720
+      "width": 1600,
+      "height": 1067
      }
     },
     {
@@ -388,8 +390,8 @@
        "url": "/images/blog/needle-free-ivf-how-it-works.jpg",
        "alt": "Couple holding ultrasound scan photos",
        "mime_type": "image/jpeg",
-       "width": 1200,
-       "height": 1600
+       "width": 1600,
+       "height": 1067
       },
       "doctor": {
        "id": 541,
@@ -416,8 +418,8 @@
        "url": "{{doctor.photo}}",
        "alt": "{{doctor.name}}",
        "mime_type": "image/jpeg",
-       "width": 670,
-       "height": 720
+       "width": 1600,
+       "height": 1067
       }
      },
      "ask_title": "Have a question for Dr. {{doctor.first}}?",
@@ -446,8 +448,8 @@
         "url": "/images/blog/needle-free-ivf-how-it-works.jpg",
         "alt": "Couple holding ultrasound scan photos",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 1600
+        "width": 1600,
+        "height": 1067
        },
        "doctor": {
         "id": 541,
@@ -474,8 +476,8 @@
         "url": "/images/blog/can-you-get-pregnant-with-pcos.jpg",
         "alt": "Couple with hands on a pregnant belly",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 800
+        "width": 1600,
+        "height": 1067
        },
        "doctor": {
         "id": 541,
@@ -502,8 +504,8 @@
         "url": "/images/blog/ivf-vs-iui-which-is-right-for-you.jpg",
         "alt": "Doctor consulting a patient at his desk",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 675
+        "width": 1600,
+        "height": 900
        },
        "doctor": {
         "id": 541,
@@ -530,8 +532,8 @@
         "url": "/images/blog/amh-test-explained.jpg",
         "alt": "Gloved hand holding a blood sample tube",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 800
+        "width": 1600,
+        "height": 1067
        },
        "doctor": {
         "id": 541,
@@ -605,8 +607,8 @@
         "url": "/images/blog/can-you-get-pregnant-with-pcos.jpg",
         "alt": "Couple with hands on a pregnant belly",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 800
+        "width": 1600,
+        "height": 1067
        },
        "doctor": {
         "id": 541,
@@ -633,8 +635,8 @@
         "url": "/images/blog/low-sperm-count-causes-tests-treatment.jpg",
         "alt": "Doctor discussing test results with a male patient",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 675
+        "width": 1600,
+        "height": 1043
        },
        "doctor": {
         "id": 541,
@@ -661,8 +663,8 @@
         "url": "/images/blog/ivf-vs-iui-which-is-right-for-you.jpg",
         "alt": "Doctor consulting a patient at his desk",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 675
+        "width": 1600,
+        "height": 900
        },
        "doctor": {
         "id": 541,
@@ -689,8 +691,8 @@
         "url": "/images/blog/egg-freezing-right-age.jpg",
         "alt": "Pipette filling sample tubes in a laboratory",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 800
+        "width": 1600,
+        "height": 1067
        },
        "doctor": {
         "id": 541,
@@ -717,8 +719,8 @@
         "url": "/images/blog/amh-test-explained.jpg",
         "alt": "Gloved hand holding a blood sample tube",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 800
+        "width": 1600,
+        "height": 1067
        },
        "doctor": {
         "id": 541,
@@ -745,8 +747,8 @@
         "url": "/images/blog/first-trimester-care.jpg",
         "alt": "Pregnant woman holding ultrasound photos",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 1800
+        "width": 1600,
+        "height": 1067
        },
        "doctor": {
         "id": 541,
@@ -773,8 +775,8 @@
         "url": "/images/blog/irregular-periods-when-to-see-a-gynecologist.jpg",
         "alt": "Two people holding hands across a table for comfort",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 1800
+        "width": 1600,
+        "height": 1043
        },
        "doctor": {
         "id": 541,
@@ -801,8 +803,8 @@
         "url": "/images/blog/diet-and-lifestyle-for-fertility.jpg",
         "alt": "Bowl of fresh vegetable salad",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 800
+        "width": 1600,
+        "height": 1067
        },
        "doctor": {
         "id": 541,
@@ -829,8 +831,8 @@
         "url": "/images/blog/high-risk-pregnancy-signs-causes-care.jpg",
         "alt": "Silhouette of a pregnant woman",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 1396
+        "width": 1600,
+        "height": 1067
        },
        "doctor": {
         "id": 541,
@@ -987,11 +989,11 @@
      "image": {
       "id": 725,
       "filename": "reception-welcome.jpg",
-      "url": "/images/about/reception-lounge.svg",
+      "url": "/images/about/reception-welcome.jpg",
       "alt": "Reception and waiting lounge at {{name}}",
       "mime_type": "image/jpeg",
-      "width": 1400,
-      "height": 1050
+      "width": 1600,
+      "height": 2400
      },
      "image_title": "Led by {{doctor.name}}",
      "image_text": "",
@@ -1017,8 +1019,8 @@
        "url": "{{doctor.photoDesk}}",
        "alt": "{{doctor.name}}, Senior IVF and Infertility Specialist at {{hospitalName}}",
        "mime_type": "image/jpeg",
-       "width": 640,
-       "height": 800
+       "width": 1600,
+       "height": 900
       },
       {
        "id": 501,
@@ -1026,8 +1028,8 @@
        "url": "{{doctor.photo}}",
        "alt": "{{doctor.name}}",
        "mime_type": "image/jpeg",
-       "width": 670,
-       "height": 720
+       "width": 1600,
+       "height": 1067
       }
      ],
      "search_placeholder": "",
@@ -1048,11 +1050,11 @@
          "image": {
           "id": 725,
           "filename": "reception-welcome.jpg",
-          "url": "/images/about/reception-lounge.svg",
+          "url": "/images/about/reception-welcome.jpg",
           "alt": "Reception and waiting lounge at {{name}}",
           "mime_type": "image/jpeg",
-          "width": 1400,
-          "height": 1050
+          "width": 1600,
+          "height": 2400
          },
          "title": "Reception & waiting lounge",
          "note": "{{addressShort}}",
@@ -1070,8 +1072,8 @@
           "url": "{{doctor.photoDesk}}",
           "alt": "{{doctor.name}}, Senior IVF and Infertility Specialist at {{hospitalName}}",
           "mime_type": "image/jpeg",
-          "width": 640,
-          "height": 800
+          "width": 1600,
+          "height": 900
          },
          "title": "{{doctor.name}}",
          "note": "Gynecologist & Fertility Specialist",
@@ -1084,8 +1086,8 @@
           "url": "{{doctor.photo}}",
           "alt": "{{doctor.name}}",
           "mime_type": "image/jpeg",
-          "width": 670,
-          "height": 720
+          "width": 1600,
+          "height": 1067
          },
          "title": "Consultation with {{doctor.name}}",
          "note": "Unhurried, one-to-one consultations",
@@ -1103,8 +1105,8 @@
           "url": "/images/stock/certificate-diploma.jpg",
           "alt": "Annual conference certificate",
           "mime_type": "image/jpeg",
-          "width": 490,
-          "height": 415
+          "width": 1600,
+          "height": 1067
          },
          "title": "Annual conference certificate",
          "note": "Awarded to {{doctor.name}}",
@@ -1190,7 +1192,9 @@
      },
      "primaryImageOfPage": {
       "@type": "ImageObject",
-      "url": "/images/about/reception-lounge.svg"
+      "url": "/images/about/reception-welcome.jpg",
+      "width": 1600,
+      "height": 2400
      },
      "breadcrumb": {
       "@id": "{{siteUrl}}/success-stories#breadcrumb"
@@ -1255,11 +1259,11 @@
      "image": {
       "id": 725,
       "filename": "reception-welcome.jpg",
-      "url": "/images/about/reception-lounge.svg",
+      "url": "/images/about/reception-welcome.jpg",
       "alt": "Reception and waiting lounge at {{name}}",
       "mime_type": "image/jpeg",
-      "width": 1400,
-      "height": 1050
+      "width": 1600,
+      "height": 2400
      },
      "image_title": "You trust, we care",
      "image_text": "{{addressShort}}",
@@ -1357,8 +1361,8 @@
        "url": "{{doctor.photo}}",
        "alt": "{{doctor.name}}",
        "mime_type": "image/jpeg",
-       "width": 670,
-       "height": 720
+       "width": 1600,
+       "height": 1067
       }
      },
      "photo": {
@@ -1367,8 +1371,8 @@
       "url": "{{doctor.photoDesk}}",
       "alt": "{{doctor.name}}, Senior IVF and Infertility Specialist at {{hospitalName}}",
       "mime_type": "image/jpeg",
-      "width": 640,
-      "height": 800
+      "width": 1600,
+      "height": 900
      },
      "role": "Senior IVF & Infertility Specialist",
      "description": "{{doctor.name}} leads fertility care at {{hospitalName}}. Patients describe her as positive and encouraging, a doctor who explains every report in simple language and helps couples make confident decisions.",
@@ -1398,8 +1402,8 @@
         "url": "/images/stock/team-embryologist.jpg",
         "alt": "Clinical Embryologist (representative image)",
         "mime_type": "image/jpeg",
-        "width": 1000,
-        "height": 667
+        "width": 1600,
+        "height": 1068
        },
        "representative": true,
        "role": "Clinical Embryologist",
@@ -1424,8 +1428,8 @@
         "url": "/images/stock/team-anaesthesiologist.jpg",
         "alt": "Anaesthesiologist (representative image)",
         "mime_type": "image/jpeg",
-        "width": 1000,
-        "height": 667
+        "width": 1600,
+        "height": 1200
        },
        "representative": true,
        "role": "Anaesthesiologist",
@@ -1450,8 +1454,8 @@
         "url": "/images/stock/team-medical-officer.jpg",
         "alt": "Medical Officer (representative image)",
         "mime_type": "image/jpeg",
-        "width": 1000,
-        "height": 563
+        "width": 1600,
+        "height": 1067
        },
        "representative": true,
        "role": "Medical Officer",
@@ -1483,11 +1487,11 @@
        "image": {
         "id": 725,
         "filename": "reception-welcome.jpg",
-        "url": "/images/about/reception-lounge.svg",
+        "url": "/images/about/reception-welcome.jpg",
         "alt": "Reception and waiting lounge at {{name}}",
         "mime_type": "image/jpeg",
-        "width": 1400,
-        "height": 1050
+        "width": 1600,
+        "height": 2400
        },
        "title": "Reception & Waiting Lounge",
        "description": "A calm, welcoming space for patients and families",
@@ -1500,8 +1504,8 @@
         "url": "/images/stock/embryology-lab.jpg",
         "alt": "IVF and embryology laboratory (representative image)",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 1644
+        "width": 1600,
+        "height": 2400
        },
        "title": "IVF & Embryology Laboratory",
        "description": "Controlled conditions for fertilisation and embryo culture",
@@ -1514,8 +1518,8 @@
         "url": "/images/stock/andrology-lab.jpg",
         "alt": "Andrology Lab (representative image)",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 1800
+        "width": 1600,
+        "height": 1004
        },
        "title": "Andrology Laboratory",
        "description": "Semen analysis and sperm preparation",
@@ -1528,8 +1532,8 @@
         "url": "/images/stock/operation-theatre.jpg",
         "alt": "Procedure Theatre (representative image)",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 800
+        "width": 1600,
+        "height": 1067
        },
        "title": "Operation Theatre",
        "description": "For egg retrieval and gynaecological procedures",
@@ -1542,8 +1546,8 @@
         "url": "/images/stock/ultrasound.jpg",
         "alt": "Ultrasound & Diagnostic Centre (representative image)",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 800
+        "width": 1600,
+        "height": 1067
        },
        "title": "Ultrasound & Diagnostic Centre",
        "description": "Follicle scans, pregnancy scans and more",
@@ -1556,8 +1560,8 @@
         "url": "/images/stock/pathology-lab.jpg",
         "alt": "Pathology Laboratory (representative image)",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 753
+        "width": 1600,
+        "height": 1067
        },
        "title": "Pathology Laboratory",
        "description": "Hormone and blood tests in-house",
@@ -1570,8 +1574,8 @@
         "url": "/images/stock/consultation-room.jpg",
         "alt": "Consultation Suites (representative image)",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 675
+        "width": 1600,
+        "height": 900
        },
        "title": "Consultation Rooms",
        "description": "Private space to talk with your doctor",
@@ -1584,8 +1588,8 @@
         "url": "/images/stock/patient-rooms.jpg",
         "alt": "Patient Rooms & Recovery (representative image)",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 800
+        "width": 1600,
+        "height": 1200
        },
        "title": "Patient Rooms & Recovery",
        "description": "Comfortable rest after procedures",
@@ -1598,8 +1602,8 @@
         "url": "/images/stock/embryo-freezing.jpg",
         "alt": "Embryo Freezing & Storage (representative image)",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 800
+        "width": 1600,
+        "height": 1200
        },
        "title": "Embryo Freezing & Storage",
        "description": "Safe long-term storage of embryos",
@@ -1623,8 +1627,8 @@
         "url": "/images/stock/certificate-diploma.jpg",
         "alt": "Annual conference certificate",
         "mime_type": "image/jpeg",
-        "width": 490,
-        "height": 415
+        "width": 1600,
+        "height": 1067
        },
        "representative": false,
        "tab": "certificates",
@@ -1639,8 +1643,8 @@
         "url": "/images/stock/registration-certificate.jpg",
         "alt": "Registration certificate (representative image)",
         "mime_type": "image/jpeg",
-        "width": 1000,
-        "height": 1500
+        "width": 1600,
+        "height": 2395
        },
        "representative": true,
        "tab": "registrations",
@@ -1655,8 +1659,8 @@
         "url": "/images/stock/registration-certificate.jpg",
         "alt": "Registration certificate (representative image)",
         "mime_type": "image/jpeg",
-        "width": 1000,
-        "height": 1500
+        "width": 1600,
+        "height": 2395
        },
        "representative": true,
        "tab": "registrations",
@@ -1671,8 +1675,8 @@
         "url": "/images/stock/certificate-diploma.jpg",
         "alt": "Certificate (representative image)",
         "mime_type": "image/jpeg",
-        "width": 1000,
-        "height": 667
+        "width": 1600,
+        "height": 1067
        },
        "representative": true,
        "tab": "registrations",
@@ -1687,8 +1691,8 @@
         "url": "/images/stock/award-trophies.jpg",
         "alt": "Award trophies (representative image)",
         "mime_type": "image/jpeg",
-        "width": 1000,
-        "height": 667
+        "width": 1600,
+        "height": 1067
        },
        "representative": true,
        "tab": "awards",
@@ -1703,8 +1707,8 @@
         "url": "/images/stock/award-trophy.jpg",
         "alt": "Award trophy (representative image)",
         "mime_type": "image/jpeg",
-        "width": 1000,
-        "height": 1777
+        "width": 1600,
+        "height": 1067
        },
        "representative": true,
        "tab": "awards",
@@ -1719,8 +1723,8 @@
         "url": "/images/stock/certificate-diploma.jpg",
         "alt": "Certificate (representative image)",
         "mime_type": "image/jpeg",
-        "width": 1000,
-        "height": 667
+        "width": 1600,
+        "height": 1067
        },
        "representative": true,
        "tab": "certificates",
@@ -1735,8 +1739,8 @@
         "url": "/images/stock/certificate-diploma.jpg",
         "alt": "Certificate (representative image)",
         "mime_type": "image/jpeg",
-        "width": 1000,
-        "height": 667
+        "width": 1600,
+        "height": 1067
        },
        "representative": true,
        "tab": "certificates",
@@ -1853,8 +1857,8 @@
       "url": "/images/stock/hospital-exterior.jpg",
       "alt": "{{name}} building exterior, {{area}}, {{city}}",
       "mime_type": "image/jpeg",
-      "width": 1200,
-      "height": 800
+      "width": 1600,
+      "height": 1067
      }
     },
     {
@@ -1902,7 +1906,9 @@
      },
      "primaryImageOfPage": {
       "@type": "ImageObject",
-      "url": "/images/about/reception-lounge.svg"
+      "url": "/images/about/reception-welcome.jpg",
+      "width": 1600,
+      "height": 2400
      },
      "breadcrumb": {
       "@id": "{{siteUrl}}/about#breadcrumb"
@@ -2020,8 +2026,8 @@
       "url": "{{doctor.photo}}",
       "alt": "{{doctor.name}}",
       "mime_type": "image/jpeg",
-      "width": 670,
-      "height": 720
+      "width": 1600,
+      "height": 1067
      },
      "feature_card": {
       "icon": "drop",
@@ -2046,8 +2052,8 @@
        "url": "{{doctor.photo}}",
        "alt": "{{doctor.name}}",
        "mime_type": "image/jpeg",
-       "width": 670,
-       "height": 720
+       "width": 1600,
+       "height": 1067
       }
      },
      "quick_actions": [
@@ -2281,8 +2287,8 @@
         "url": "/images/stock/hospital-exterior.jpg",
         "alt": "{{name}} building exterior, {{area}}, {{city}}",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 800
+        "width": 1600,
+        "height": 1067
        },
        "caption": "Hospital exterior",
        "representative": true
@@ -2291,11 +2297,11 @@
        "image": {
         "id": 725,
         "filename": "reception-welcome.jpg",
-        "url": "/images/about/reception-lounge.svg",
+        "url": "/images/about/reception-welcome.jpg",
         "alt": "Reception and waiting lounge at {{name}}",
         "mime_type": "image/jpeg",
-        "width": 1400,
-        "height": 1050
+        "width": 1600,
+        "height": 2400
        },
        "caption": "Reception & lounge",
        "representative": false
@@ -2336,8 +2342,8 @@
        "url": "{{doctor.photo}}",
        "alt": "{{doctor.name}}",
        "mime_type": "image/jpeg",
-       "width": 670,
-       "height": 720
+       "width": 1600,
+       "height": 1067
       }
      },
      "stats": [
@@ -2533,8 +2539,8 @@
         "url": "/images/stock/embryology-lab.jpg",
         "alt": "IVF and embryology laboratory (representative image)",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 1644
+        "width": 1600,
+        "height": 2400
        },
        "title": "IVF & Embryology Lab",
        "description": "Controlled conditions for eggs, sperm and embryos.",
@@ -2547,8 +2553,8 @@
         "url": "/images/stock/andrology-lab.jpg",
         "alt": "Andrology Lab (representative image)",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 1800
+        "width": 1600,
+        "height": 1004
        },
        "title": "Andrology Lab",
        "description": "",
@@ -2561,8 +2567,8 @@
         "url": "/images/stock/operation-theatre.jpg",
         "alt": "Procedure Theatre (representative image)",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 800
+        "width": 1600,
+        "height": 1067
        },
        "title": "Procedure Theatre",
        "description": "",
@@ -2575,8 +2581,8 @@
         "url": "/images/stock/consultation-room.jpg",
         "alt": "Consultation Suites (representative image)",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 675
+        "width": 1600,
+        "height": 900
        },
        "title": "Consultation Suites",
        "description": "",
@@ -2589,8 +2595,8 @@
         "url": "/images/stock/recovery-room.jpg",
         "alt": "Recovery Rooms (representative image)",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 900
+        "width": 1600,
+        "height": 2406
        },
        "title": "Recovery Rooms",
        "description": "",
@@ -2673,8 +2679,8 @@
         "url": "/images/blog/needle-free-ivf-how-it-works.jpg",
         "alt": "Couple holding ultrasound scan photos",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 1600
+        "width": 1600,
+        "height": 1067
        },
        "doctor": {
         "id": 541,
@@ -2701,8 +2707,8 @@
         "url": "/images/blog/can-you-get-pregnant-with-pcos.jpg",
         "alt": "Couple with hands on a pregnant belly",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 800
+        "width": 1600,
+        "height": 1067
        },
        "doctor": {
         "id": 541,
@@ -2729,8 +2735,8 @@
         "url": "/images/blog/low-sperm-count-causes-tests-treatment.jpg",
         "alt": "Doctor discussing test results with a male patient",
         "mime_type": "image/jpeg",
-        "width": 1200,
-        "height": 675
+        "width": 1600,
+        "height": 1043
        },
        "doctor": {
         "id": 541,
@@ -2916,7 +2922,9 @@
      },
      "primaryImageOfPage": {
       "@type": "ImageObject",
-      "url": "{{doctor.photo}}"
+      "url": "{{doctor.photo}}",
+      "width": 1600,
+      "height": 1067
      },
      "about": {
       "@id": "{{siteUrl}}/#organization"

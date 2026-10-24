@@ -241,8 +241,8 @@
      "url": "{{doctor.photo}}",
      "alt": "{{doctor.name}}",
      "mime_type": "image/jpeg",
-     "width": 670,
-     "height": 720
+     "width": 1600,
+     "height": 1067
     }
    },
    "chips": [

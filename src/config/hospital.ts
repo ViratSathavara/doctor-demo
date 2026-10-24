@@ -63,8 +63,8 @@ export const hospital = {
     slug: "dr-ananya-mehta",
     qualifications: "MBBS, MS (Obstetrics & Gynaecology), Fellowship in Reproductive Medicine",
     registration: "Gujarat Medical Council Reg. No. G-00000",
-    photo: "/images/doctors/doctor-lead.svg",
-    photoDesk: "/images/doctors/doctor-lead-desk.svg",
+    photo: "/images/doctors/doctor-lead.jpg",
+    photoDesk: "/images/doctors/doctor-lead-desk.jpg",
   },
   /** Sample team (shown on the About page) */
   team: {

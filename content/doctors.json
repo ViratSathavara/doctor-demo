@@ -12,8 +12,8 @@
     "url": "{{doctor.photo}}",
     "alt": "{{doctor.name}}",
     "mime_type": "image/jpeg",
-    "width": 670,
-    "height": 720
+    "width": 1600,
+    "height": 1067
    },
    "role": "Gynecologist & Fertility Specialist",
    "qualifications": "{{doctor.qualifications}}",
@@ -24,8 +24,8 @@
     "url": "{{doctor.photoDesk}}",
     "alt": "{{doctor.name}}, Senior IVF and Infertility Specialist at {{hospitalName}}",
     "mime_type": "image/jpeg",
-    "width": 640,
-    "height": 800
+    "width": 1600,
+    "height": 900
    },
    "photo_badge": "Consulting at {{hospitalName}}",
    "page_role": "Senior IVF & Infertility Specialist",
@@ -155,8 +155,8 @@
       "url": "/images/stock/certificate-diploma.jpg",
       "alt": "Annual conference certificate",
       "mime_type": "image/jpeg",
-      "width": 490,
-      "height": 415
+      "width": 1600,
+      "height": 1067
      },
      "image_tag": "",
      "title": "Annual conference 2017",
@@ -169,8 +169,8 @@
       "url": "/images/stock/award-trophies.jpg",
       "alt": "Award trophies (representative image)",
       "mime_type": "image/jpeg",
-      "width": 1000,
-      "height": 667
+      "width": 1600,
+      "height": 1067
      },
      "image_tag": "Representative image",
      "title": "Excellence in Fertility Care",
@@ -183,8 +183,8 @@
       "url": "/images/stock/certificate-diploma.jpg",
       "alt": "Certificate (representative image)",
       "mime_type": "image/jpeg",
-      "width": 1000,
-      "height": 667
+      "width": 1600,
+      "height": 1067
      },
      "image_tag": "Representative image",
      "title": "FOGSI membership",
@@ -197,8 +197,8 @@
       "url": "/images/stock/certificate-diploma.jpg",
       "alt": "Certificate (representative image)",
       "mime_type": "image/jpeg",
-      "width": 1000,
-      "height": 667
+      "width": 1600,
+      "height": 1067
      },
      "image_tag": "Representative image",
      "title": "ISAR membership",
@@ -379,8 +379,8 @@
       "url": "/images/stock/hospital-exterior.jpg",
       "alt": "{{name}} building exterior, {{area}}, {{city}}",
       "mime_type": "image/jpeg",
-      "width": 1200,
-      "height": 800
+      "width": 1600,
+      "height": 1067
      }
     },
     {
@@ -413,8 +413,8 @@
    "article_modified_time": "2026-10-06T04:28:54+00:00",
    "og_image": [
     {
-     "width": 670,
-     "height": 720,
+     "width": 1600,
+     "height": 1067,
      "url": "{{doctor.photo}}",
      "type": "image/jpeg"
     }
